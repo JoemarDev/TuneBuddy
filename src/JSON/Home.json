@@ -1,0 +1,899 @@
+{
+    "status": true,
+    "genres": [
+      {
+        "type": "genre",
+        "id": "programming-local-strategic-playlists",
+        "name": "Editor's Picks",
+        "shareUrl": "https://open.spotify.com/genre/programming-local-strategic-playlists",
+        "contents": {
+          "totalCount": 17,
+          "items": [
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX9tPFwDMOaN1",
+              "name": "K-Pop ON! (온)",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX9tPFwDMOaN1",
+              "description": "Let's turn ON the movement! Cover: (G)I-DLE",
+              "trackCount": 50,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002e0eeb180fbc18d42ef34562a",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX0iFfuXuP4Pm",
+              "name": "Tatak Pinoy",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX0iFfuXuP4Pm",
+              "description": "Mga nangunguna sa mundo ng OPM. \nCover: mrld",
+              "trackCount": 60,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f000000029908058dbf0b8d4a95f165ff",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DXcZQSjptOQtk",
+              "name": "Hot Hits Philippines",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DXcZQSjptOQtk",
+              "description": "Best tracks from the world of OPM and pop. Cover: Taylor Swift",
+              "trackCount": 53,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002db0a60d98645d9de5bf0f056",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX4cx0q5Jn2vp",
+              "name": "Kilig Pa More",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4cx0q5Jn2vp",
+              "description": "Nakakakilig!",
+              "trackCount": 40,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002a3e6ae167fe352302affdec0",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DXbvIwPsyNnKl",
+              "name": "Kalye Hip-Hop",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DXbvIwPsyNnKl",
+              "description": "The place for the very best of Pinoy hip-hop. Kalye Natin 'To. Cover: Nik Makino",
+              "trackCount": 60,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002e0fc4e92634eba91627459f3",
+                    "width": null
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "genre",
+        "id": "charts-home-apac-latam",
+        "name": "Charts",
+        "shareUrl": "https://open.spotify.com/genre/charts-home-apac-latam",
+        "contents": {
+          "totalCount": 3,
+          "items": [
+            {
+              "type": "playlist",
+              "id": "37i9dQZEVXbNBz9cRCSFkY",
+              "name": "Top 50 - Philippines",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZEVXbNBz9cRCSFkY",
+              "description": "Your daily update of the most played tracks right now - Philippines.",
+              "trackCount": 50,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://charts-images.scdn.co/assets/locale_en/regional/daily/region_ph_default.jpg",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZEVXbMDoHDwVN2tF",
+              "name": "Top 50 - Global",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF",
+              "description": "Your daily update of the most played tracks right now - Global.",
+              "trackCount": 50,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DXcZQSjptOQtk",
+              "name": "Hot Hits Philippines",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DXcZQSjptOQtk",
+              "description": "Best tracks from the world of OPM and pop. Cover: Taylor Swift",
+              "trackCount": 53,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002db0a60d98645d9de5bf0f056",
+                    "width": null
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "genre",
+        "id": "focus-home-shelf",
+        "name": "Focus",
+        "shareUrl": "https://open.spotify.com/genre/focus-home-shelf",
+        "contents": {
+          "totalCount": 64,
+          "items": [
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX4sWSpwq3LiO",
+              "name": "Peaceful Piano",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4sWSpwq3LiO",
+              "description": "Relax and indulge with beautiful piano pieces",
+              "trackCount": 286,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWZeKCadgRdKQ",
+              "name": "Deep Focus",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ",
+              "description": "Keep calm and focus with ambient and post-rock music.",
+              "trackCount": 192,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f000000025551996f500ba876bda73fa5",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX0jgyAiPl8Af",
+              "name": "Peaceful Guitar",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX0jgyAiPl8Af",
+              "description": "Unwind to these calm classical guitar pieces.",
+              "trackCount": 237,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002c1811d50fbd4df02ea3b06a3",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX7K31D69s4M1",
+              "name": "Piano in the Background",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX7K31D69s4M1",
+              "description": "A calm piano soundtrack to all activities.",
+              "trackCount": 399,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002a461b85872ea87bb0de00128",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWWQRwui0ExPn",
+              "name": "lofi beats",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn",
+              "description": "The chillest beats to help you relax, study, code, and focus.",
+              "trackCount": 1000,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002abaf6c3c6a4b29f8a4565a86",
+                    "width": null
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "genre",
+        "id": "mood-home-wrapper",
+        "name": "Mood",
+        "shareUrl": "https://open.spotify.com/genre/mood-home-wrapper",
+        "contents": {
+          "totalCount": 81,
+          "items": [
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX12Zn55QZM3w",
+              "name": "Hugot",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX12Zn55QZM3w",
+              "description": "Pinagtagpo ngunit hindi tinadhana...",
+              "trackCount": 50,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002faa2b1b50d1d222053ade1c2",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWX79NXMEFYhh",
+              "name": "Sappy and Senti",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWX79NXMEFYhh",
+              "description": "If you’re sappy and you know it, listen to these cheesy tunes.",
+              "trackCount": 64,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002a4f65b5540d82964369d8abc",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX4cx0q5Jn2vp",
+              "name": "Kilig Pa More",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4cx0q5Jn2vp",
+              "description": "Nakakakilig!",
+              "trackCount": 40,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002a3e6ae167fe352302affdec0",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX3rxVfibe1L0",
+              "name": "Mood Booster",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0",
+              "description": "Get happy with today's dose of feel-good songs!",
+              "trackCount": 75,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002bd0e19e810bb4b55ab164a95",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWYLh1QshvLyo",
+              "name": "pov: u",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWYLh1QshvLyo",
+              "description": "ikaw ang bida",
+              "trackCount": 50,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002f60a0f3c8492d87caf541623",
+                    "width": null
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "genre",
+        "id": "NMF-PopularNewReleases",
+        "name": "Popular new releases",
+        "shareUrl": "https://open.spotify.com/genre/NMF-PopularNewReleases",
+        "contents": {
+          "totalCount": 101,
+          "items": [
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWVjrTQlvqTHF",
+              "name": "New Music Friday Philippines",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWVjrTQlvqTHF",
+              "description": "New music every Friday from your favorite international, K-Pop, and OPM artists. Cover: Taylor Swift",
+              "trackCount": 115,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f000000021b953e0ecd17028615a3ea7e",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "album",
+              "id": "0UA86CES1HFsAwEY5AXlLK",
+              "name": "Element",
+              "shareUrl": "https://open.spotify.com/album/0UA86CES1HFsAwEY5AXlLK",
+              "date": "2022-10-21",
+              "artists": [
+                {
+                  "type": "artist",
+                  "id": "1Cs0zKBU1kc0i8ypK3B9ai",
+                  "name": "David Guetta",
+                  "shareUrl": "https://open.spotify.com/artist/1Cs0zKBU1kc0i8ypK3B9ai"
+                },
+                {
+                  "type": "artist",
+                  "id": "19HFRWmRCl27kTk6LeqAO8",
+                  "name": "MORTEN",
+                  "shareUrl": "https://open.spotify.com/artist/19HFRWmRCl27kTk6LeqAO8"
+                }
+              ],
+              "cover": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab67616d0000b27349b5877c991ffdcb22f4b446",
+                  "width": 640
+                },
+                {
+                  "height": 300,
+                  "url": "https://i.scdn.co/image/ab67616d00001e0249b5877c991ffdcb22f4b446",
+                  "width": 300
+                },
+                {
+                  "height": 64,
+                  "url": "https://i.scdn.co/image/ab67616d0000485149b5877c991ffdcb22f4b446",
+                  "width": 64
+                }
+              ],
+              "trackCount": 1
+            },
+            {
+              "type": "album",
+              "id": "75wRhQ9XRuhG4efEaWyHQN",
+              "name": "Gone (Da Da Da)",
+              "shareUrl": "https://open.spotify.com/album/75wRhQ9XRuhG4efEaWyHQN",
+              "date": "2022-10-21",
+              "artists": [
+                {
+                  "type": "artist",
+                  "id": "5rGrDvrLOV2VV8SCFVGWlj",
+                  "name": "Imanbek",
+                  "shareUrl": "https://open.spotify.com/artist/5rGrDvrLOV2VV8SCFVGWlj"
+                },
+                {
+                  "type": "artist",
+                  "id": "4pADjHPWyrlAF0FA7joK2H",
+                  "name": "Jay Sean",
+                  "shareUrl": "https://open.spotify.com/artist/4pADjHPWyrlAF0FA7joK2H"
+                }
+              ],
+              "cover": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab67616d0000b2738aac0dfce18a20243167394c",
+                  "width": 640
+                },
+                {
+                  "height": 300,
+                  "url": "https://i.scdn.co/image/ab67616d00001e028aac0dfce18a20243167394c",
+                  "width": 300
+                },
+                {
+                  "height": 64,
+                  "url": "https://i.scdn.co/image/ab67616d000048518aac0dfce18a20243167394c",
+                  "width": 64
+                }
+              ],
+              "trackCount": 1
+            },
+            {
+              "type": "album",
+              "id": "42PJrf36sVECeasPyOxVSL",
+              "name": "The Devil You Know (feat. Micky Blue)",
+              "shareUrl": "https://open.spotify.com/album/42PJrf36sVECeasPyOxVSL",
+              "date": "2022-10-21",
+              "artists": [
+                {
+                  "type": "artist",
+                  "id": "2wX6xSig4Rig5kZU6ePlWe",
+                  "name": "KSHMR",
+                  "shareUrl": "https://open.spotify.com/artist/2wX6xSig4Rig5kZU6ePlWe"
+                },
+                {
+                  "type": "artist",
+                  "id": "74RDfhi3g8pfpmMCrQUtpF",
+                  "name": "Micky Blue",
+                  "shareUrl": "https://open.spotify.com/artist/74RDfhi3g8pfpmMCrQUtpF"
+                }
+              ],
+              "cover": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab67616d0000b2732beab1eeb9196fcc1a1afede",
+                  "width": 640
+                },
+                {
+                  "height": 300,
+                  "url": "https://i.scdn.co/image/ab67616d00001e022beab1eeb9196fcc1a1afede",
+                  "width": 300
+                },
+                {
+                  "height": 64,
+                  "url": "https://i.scdn.co/image/ab67616d000048512beab1eeb9196fcc1a1afede",
+                  "width": 64
+                }
+              ],
+              "trackCount": 1
+            },
+            {
+              "type": "album",
+              "id": "6ug6WG439KaIH5Yrl54iaH",
+              "name": "FASHION",
+              "shareUrl": "https://open.spotify.com/album/6ug6WG439KaIH5Yrl54iaH",
+              "date": "2022-10-21",
+              "artists": [
+                {
+                  "type": "artist",
+                  "id": "0AsbBukUWcA4lJT5ARtlgQ",
+                  "name": "Ramengvrl",
+                  "shareUrl": "https://open.spotify.com/artist/0AsbBukUWcA4lJT5ARtlgQ"
+                }
+              ],
+              "cover": [
+                {
+                  "height": 640,
+                  "url": "https://i.scdn.co/image/ab67616d0000b273c764235b0597bfa451cad026",
+                  "width": 640
+                },
+                {
+                  "height": 300,
+                  "url": "https://i.scdn.co/image/ab67616d00001e02c764235b0597bfa451cad026",
+                  "width": 300
+                },
+                {
+                  "height": 64,
+                  "url": "https://i.scdn.co/image/ab67616d00004851c764235b0597bfa451cad026",
+                  "width": 64
+                }
+              ],
+              "trackCount": 1
+            }
+          ]
+        }
+      },
+      {
+        "type": "genre",
+        "id": "dense-ginger-featured-playlists-no-friday",
+        "name": "Poppin' Wednesdays",
+        "shareUrl": "https://open.spotify.com/genre/dense-ginger-featured-playlists-no-friday",
+        "contents": {
+          "totalCount": 11,
+          "items": [
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DXcZQSjptOQtk",
+              "name": "Hot Hits Philippines",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DXcZQSjptOQtk",
+              "description": "Best tracks from the world of OPM and pop. Cover: Taylor Swift",
+              "trackCount": 53,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002db0a60d98645d9de5bf0f056",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWYBkvNBaUBeu",
+              "name": "Pop Rising Philippines",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWYBkvNBaUBeu",
+              "description": "Future hits in the Philippines! Cover: Ellie Goulding",
+              "trackCount": 70,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002527f4f7a7ae0b8c4be6649be",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX9tPFwDMOaN1",
+              "name": "K-Pop ON! (온)",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX9tPFwDMOaN1",
+              "description": "Let's turn ON the movement! Cover: (G)I-DLE",
+              "trackCount": 50,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002e0eeb180fbc18d42ef34562a",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DX4FcAKI5Nhzq",
+              "name": "K-Pop Rising",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DX4FcAKI5Nhzq",
+              "description": "Future K-Pop hits! Cover: Kep1er",
+              "trackCount": 53,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002b8f6b640cb0821b3b38d20c2",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWT1y71ZcMPe5",
+              "name": "It's a Hit!",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWT1y71ZcMPe5",
+              "description": "The hottest songs you need to listen to right now. Cover: Taylor Swift",
+              "trackCount": 50,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f000000022d02352cc9c3c43bfe27d49a",
+                    "width": null
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "genre",
+        "id": "at-home-playlists",
+        "name": "Soundtrack your home",
+        "shareUrl": "https://open.spotify.com/genre/at-home-playlists",
+        "contents": {
+          "totalCount": 15,
+          "items": [
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DXdUK9FmHZruQ",
+              "name": "Chillax Ka Muna!",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DXdUK9FmHZruQ",
+              "description": "Sit back, relax, and let these chill tunes calm you down.",
+              "trackCount": 55,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f00000002f477f9f16271285e60c9508a",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWSqmBTGDYngZ",
+              "name": "Songs to Sing in the Shower",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWSqmBTGDYngZ",
+              "description": "Make your shower more uplifting by singing along to these hits.",
+              "trackCount": 200,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f0000000224893f0507c0fe2855565438",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWU96w4Gh7vJe",
+              "name": "Relax Tayo",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWU96w4Gh7vJe",
+              "description": "Sit back and relax to our favorite local indie and R&B sounds.",
+              "trackCount": 50,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f000000026ff5d56803d1f6e63c2034f5",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWTLSN7iG21yC",
+              "name": "Work From Home",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWTLSN7iG21yC",
+              "description": "Clock in from the comfort of your own home and let the music carry you through the day.",
+              "trackCount": 150,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f000000029ed927af72b644ee065cc980",
+                    "width": null
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "playlist",
+              "id": "37i9dQZF1DWVp4cWdnm5ws",
+              "name": "RADAR Philippines",
+              "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DWVp4cWdnm5ws",
+              "description": "Discover new artists on the horizon.",
+              "trackCount": 48,
+              "owner": {
+                "type": "user",
+                "id": "spotify",
+                "name": "Spotify",
+                "shareUrl": "https://open.spotify.com/user/spotify"
+              },
+              "images": [
+                [
+                  {
+                    "height": null,
+                    "url": "https://i.scdn.co/image/ab67706f000000026460433f8f573078a65affc5",
+                    "width": null
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }

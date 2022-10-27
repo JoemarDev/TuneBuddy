@@ -1,0 +1,5010 @@
+{
+    "status": true,
+    "type": "chart",
+    "id": "4Uhc6a3gIDgkonGZsW6wp1",
+    "title": "Weekly Top Artists: Philippines",
+    "description": "Your weekly update of the most played artists.",
+    "date": "2022-10-20",
+    "artists": [
+      {
+        "type": "artist",
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "shareUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051745a00969a4698c3132a15fbb0",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 1,
+          "previousRank": 1,
+          "peakRank": 1,
+          "peakDate": "2021-11-11",
+          "entryRank": 2,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3Nrfpe0tUJi4K4DXYWgMUX",
+        "name": "BTS",
+        "shareUrl": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051745704a64f34fe29ff73ab56bb",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 2,
+          "previousRank": 2,
+          "peakRank": 1,
+          "peakDate": "2021-10-21",
+          "entryRank": 1,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "41MozSoPIsD1dJM0CLPjZF",
+        "name": "BLACKPINK",
+        "shareUrl": "https://open.spotify.com/artist/41MozSoPIsD1dJM0CLPjZF",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174c9690bc711d04b3d4fd4b87c",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 3,
+          "previousRank": 3,
+          "peakRank": 1,
+          "peakDate": "2022-09-22",
+          "entryRank": 17,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0rZRTXEmmPmx6gt92tBqIc",
+        "name": "Moira Dela Torre",
+        "shareUrl": "https://open.spotify.com/artist/0rZRTXEmmPmx6gt92tBqIc",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174877fb7cba1a3874cbf1b21c2",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 4,
+          "previousRank": 4,
+          "peakRank": 4,
+          "peakDate": "2022-09-08",
+          "entryRank": 16,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4DAcJXcjX0zlQAZAPAx4Zb",
+        "name": "Ben&Ben",
+        "shareUrl": "https://open.spotify.com/artist/4DAcJXcjX0zlQAZAPAx4Zb",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517465ab9e51fa77d591d612a9dc",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 5,
+          "previousRank": 5,
+          "peakRank": 3,
+          "peakDate": "2022-07-21",
+          "entryRank": 6,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+        "name": "The Weeknd",
+        "shareUrl": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174b5f9e28219c169fd4b9e8379",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 6,
+          "previousRank": 6,
+          "peakRank": 3,
+          "peakDate": "2022-08-04",
+          "entryRank": 25,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande",
+        "shareUrl": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174cdce7620dc940db079bf4952",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 7,
+          "previousRank": 7,
+          "peakRank": 4,
+          "peakDate": "2021-12-09",
+          "entryRank": 8,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1DlYnIiliftt6R21Y5NOW2",
+        "name": "Adie",
+        "shareUrl": "https://open.spotify.com/artist/1DlYnIiliftt6R21Y5NOW2",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051741e3b0bf818c5a2bd45f44694",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 8,
+          "previousRank": 8,
+          "peakRank": 6,
+          "peakDate": "2022-09-08",
+          "entryRank": 23,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "67IN4cLJ7798gUapyZlmac",
+        "name": "Zack Tabudlo",
+        "shareUrl": "https://open.spotify.com/artist/67IN4cLJ7798gUapyZlmac",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051746d19d45b94d243e0b95cbb1e",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 9,
+          "previousRank": 9,
+          "peakRank": 2,
+          "peakDate": "2022-01-13",
+          "entryRank": 15,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1uNFoZAHBGtllmzznpCI3s",
+        "name": "Justin Bieber",
+        "shareUrl": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051748ae7f2aaa9817a704a87ea36",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 10,
+          "previousRank": 10,
+          "peakRank": 3,
+          "peakDate": "2021-11-04",
+          "entryRank": 4,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7uDdl5V5AETSFY7K3muu22",
+        "name": "Arthur Nery",
+        "shareUrl": "https://open.spotify.com/artist/7uDdl5V5AETSFY7K3muu22",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174038f41387967c6b2d038bb78",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 11,
+          "previousRank": 11,
+          "peakRank": 3,
+          "peakDate": "2021-10-21",
+          "entryRank": 3,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
+        "shareUrl": "https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517412a2ef08d00dd7451a6dbed6",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 12,
+          "previousRank": 14,
+          "peakRank": 5,
+          "peakDate": "2021-11-04",
+          "entryRank": 11,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2wY79sveU1sp5g7SokKOiI",
+        "name": "Sam Smith",
+        "shareUrl": "https://open.spotify.com/artist/2wY79sveU1sp5g7SokKOiI",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517410ca40ea0b0b5082dba0ff75",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 13,
+          "previousRank": 19,
+          "peakRank": 13,
+          "peakDate": "2022-10-20",
+          "entryRank": 30,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7pbDxGE6nQSZVfiFdq9lOL",
+        "name": "Rex Orange County",
+        "shareUrl": "https://open.spotify.com/artist/7pbDxGE6nQSZVfiFdq9lOL",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174ffb90f91cb2f487d7309f7bc",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 14,
+          "previousRank": 12,
+          "peakRank": 12,
+          "peakDate": "2022-08-25",
+          "entryRank": 68,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "49tQo2QULno7gxHutgccqF",
+        "name": "LANY",
+        "shareUrl": "https://open.spotify.com/artist/49tQo2QULno7gxHutgccqF",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174046b6fbb00503d1bb72ac7ae",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 15,
+          "previousRank": 16,
+          "peakRank": 7,
+          "peakDate": "2022-06-16",
+          "entryRank": 9,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7bXgB6jMjp9ATFy66eO08Z",
+        "name": "Chris Brown",
+        "shareUrl": "https://open.spotify.com/artist/7bXgB6jMjp9ATFy66eO08Z",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174e50aa80e0f5869f84f6874d1",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 16,
+          "previousRank": 18,
+          "peakRank": 16,
+          "peakDate": "2022-09-15",
+          "entryRank": 53,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2kxP07DLgs4xlWz8YHlvfh",
+        "name": "NIKI",
+        "shareUrl": "https://open.spotify.com/artist/2kxP07DLgs4xlWz8YHlvfh",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517474855e013588fd276b25b337",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 17,
+          "previousRank": 17,
+          "peakRank": 8,
+          "peakDate": "2022-02-03",
+          "entryRank": 57,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6VuMaDnrHyPL1p4EHjYLi7",
+        "name": "Charlie Puth",
+        "shareUrl": "https://open.spotify.com/artist/6VuMaDnrHyPL1p4EHjYLi7",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051744e2e2c78de847c4d9b12d32f",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 18,
+          "previousRank": 15,
+          "peakRank": 9,
+          "peakDate": "2022-07-14",
+          "entryRank": 49,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7nqOGRxlXj7N2JYbgNEjYH",
+        "name": "SEVENTEEN",
+        "shareUrl": "https://open.spotify.com/artist/7nqOGRxlXj7N2JYbgNEjYH",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174eb77c85f6012113fcefb38da",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 19,
+          "previousRank": 13,
+          "peakRank": 8,
+          "peakDate": "2021-10-28",
+          "entryRank": 36,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
+        "shareUrl": "https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174c36dd9eb55fb0db4911f25dd",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 20,
+          "previousRank": 24,
+          "peakRank": 8,
+          "peakDate": "2021-11-18",
+          "entryRank": 18,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2G7VQ1kVhVfNagytlousgm",
+        "name": "Al James",
+        "shareUrl": "https://open.spotify.com/artist/2G7VQ1kVhVfNagytlousgm",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174a48f5d09fbea717dbbb945d3",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 21,
+          "previousRank": 22,
+          "peakRank": 14,
+          "peakDate": "2022-09-22",
+          "entryRank": 176,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7n2Ycct7Beij7Dj7meI4X0",
+        "name": "TWICE",
+        "shareUrl": "https://open.spotify.com/artist/7n2Ycct7Beij7Dj7meI4X0",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174d84fd6ae9ccfc6206ea6711e",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 22,
+          "previousRank": 20,
+          "peakRank": 4,
+          "peakDate": "2021-11-18",
+          "entryRank": 12,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5",
+        "shareUrl": "https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174288ac05481cedc5bddb5b11b",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 23,
+          "previousRank": 25,
+          "peakRank": 10,
+          "peakDate": "2022-04-21",
+          "entryRank": 20,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7374lH6kwx9uQATYQ9H3Cp",
+        "name": "Eraserheads",
+        "shareUrl": "https://open.spotify.com/artist/7374lH6kwx9uQATYQ9H3Cp",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051741495a867cca572484fd509ca",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 24,
+          "previousRank": 21,
+          "peakRank": 21,
+          "peakDate": "2022-10-06",
+          "entryRank": 38,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1McMsnEElThX1knmY4oliG",
+        "name": "Olivia Rodrigo",
+        "shareUrl": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174ee954a3b5418065c2fe253fb",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 25,
+          "previousRank": 23,
+          "peakRank": 7,
+          "peakDate": "2021-10-21",
+          "entryRank": 7,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6KImCVD70vtIoJWnq6nGn3",
+        "name": "Harry Styles",
+        "shareUrl": "https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174f7db7c8ede90a019c54590bb",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 26,
+          "previousRank": 26,
+          "peakRank": 4,
+          "peakDate": "2022-05-26",
+          "entryRank": 96,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3WGpXCj9YhhfX11TToZcXP",
+        "name": "Troye Sivan",
+        "shareUrl": "https://open.spotify.com/artist/3WGpXCj9YhhfX11TToZcXP",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174002eedc44fefe085daae10e4",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 27,
+          "previousRank": 27,
+          "peakRank": 10,
+          "peakDate": "2022-05-19",
+          "entryRank": 40,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
+        "shareUrl": "https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/45741ba38b51130bb96e00c0e24d17ba311a9293",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 28,
+          "previousRank": 28,
+          "peakRank": 24,
+          "peakDate": "2022-07-28",
+          "entryRank": 31,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3MZsBdqDrRTJihTHQrO6Dq",
+        "name": "Joji",
+        "shareUrl": "https://open.spotify.com/artist/3MZsBdqDrRTJihTHQrO6Dq",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051744111c95b5f430c3265c7304b",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 29,
+          "previousRank": 29,
+          "peakRank": 7,
+          "peakDate": "2022-06-23",
+          "entryRank": 65,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4qPhnQfRgdgcZEdXgENOnr",
+        "name": "Janine Berdin",
+        "shareUrl": "https://open.spotify.com/artist/4qPhnQfRgdgcZEdXgENOnr",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174edb92fa9be3c045299aa03d2",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 30,
+          "previousRank": 30,
+          "peakRank": 28,
+          "peakDate": "2022-09-08",
+          "entryRank": 85,
+          "entryDate": "2022-06-16",
+          "appearancesOnChart": 19,
+          "consecutiveAppearancesOnChart": 19
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2XHTklRsNMOOQT56Zm3WS4",
+        "name": "Parokya Ni Edgar",
+        "shareUrl": "https://open.spotify.com/artist/2XHTklRsNMOOQT56Zm3WS4",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517476ece97fbecb26ace087a952",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 31,
+          "previousRank": 31,
+          "peakRank": 21,
+          "peakDate": "2022-04-14",
+          "entryRank": 26,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5GVk1KCKa1tdHRev4bMw7V",
+        "name": "NOBITA",
+        "shareUrl": "https://open.spotify.com/artist/5GVk1KCKa1tdHRev4bMw7V",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051745ab9b62471fd1eae77cfc72e",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 32,
+          "previousRank": 32,
+          "peakRank": 17,
+          "peakDate": "2022-05-12",
+          "entryRank": 28,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5cj0lLjcoR7YOSnhnX0Po5",
+        "name": "Doja Cat",
+        "shareUrl": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174727a2ac15afe659be999beba",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 33,
+          "previousRank": 33,
+          "peakRank": 9,
+          "peakDate": "2021-11-04",
+          "entryRank": 14,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4qFxP3qN9GsnZDOkAE6x2m",
+        "name": "December Avenue",
+        "shareUrl": "https://open.spotify.com/artist/4qFxP3qN9GsnZDOkAE6x2m",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174f1a766bf08d01671e5eb6c37",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 34,
+          "previousRank": 34,
+          "peakRank": 15,
+          "peakDate": "2022-04-07",
+          "entryRank": 44,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3mIj9lX2MWuHmhNCA7LSCW",
+        "name": "The 1975",
+        "shareUrl": "https://open.spotify.com/artist/3mIj9lX2MWuHmhNCA7LSCW",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517489348336354096fd4e36ca73",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 35,
+          "previousRank": 77,
+          "peakRank": 35,
+          "peakDate": "2022-10-20",
+          "entryRank": 104,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+        "name": "Billie Eilish",
+        "shareUrl": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174d8b9980db67272cb4d2c3daf",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 36,
+          "previousRank": 35,
+          "peakRank": 11,
+          "peakDate": "2022-08-18",
+          "entryRank": 21,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3TVXtAsR1Inumwj472S9r4",
+        "name": "Drake",
+        "shareUrl": "https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051744293385d324db8558179afd9",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 37,
+          "previousRank": 36,
+          "peakRank": 20,
+          "peakDate": "2022-06-23",
+          "entryRank": 37,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6jJ0s89eD6GaHleKKya26X",
+        "name": "Katy Perry",
+        "shareUrl": "https://open.spotify.com/artist/6jJ0s89eD6GaHleKKya26X",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174dc9dcb7e4a97b4552e1224d6",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 38,
+          "previousRank": 38,
+          "peakRank": 36,
+          "peakDate": "2022-01-06",
+          "entryRank": 46,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "shareUrl": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174b894ef9fa437b0389c5567cc",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 39,
+          "previousRank": 37,
+          "peakRank": 18,
+          "peakDate": "2022-06-09",
+          "entryRank": 55,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
+        "shareUrl": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051740947103979e5973bca22fcdd",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 40,
+          "previousRank": 39,
+          "peakRank": 13,
+          "peakDate": "2021-10-21",
+          "entryRank": 13,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5JZ7CnR6gTvEMKX4g70Amv",
+        "name": "Lauv",
+        "shareUrl": "https://open.spotify.com/artist/5JZ7CnR6gTvEMKX4g70Amv",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051745af53f295e6c42529fbd0873",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 41,
+          "previousRank": 40,
+          "peakRank": 25,
+          "peakDate": "2022-06-02",
+          "entryRank": 27,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5pKCCKE2ajJHZ9KAiaK11H",
+        "name": "Rihanna",
+        "shareUrl": "https://open.spotify.com/artist/5pKCCKE2ajJHZ9KAiaK11H",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174019d6873a01987cbe35888cd",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 42,
+          "previousRank": 42,
+          "peakRank": 35,
+          "peakDate": "2022-06-16",
+          "entryRank": 63,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4k9wp4ipHdA1bu1T4x1ZTG",
+        "name": "IV Of Spades",
+        "shareUrl": "https://open.spotify.com/artist/4k9wp4ipHdA1bu1T4x1ZTG",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174a3f7f15e82350aaa8f760989",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 43,
+          "previousRank": 46,
+          "peakRank": 43,
+          "peakDate": "2022-10-20",
+          "entryRank": 73,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6M2wZ9GZgrQXHCFfjv46we",
+        "name": "Dua Lipa",
+        "shareUrl": "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174d42a27db3286b58553da8858",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 44,
+          "previousRank": 41,
+          "peakRank": 19,
+          "peakDate": "2022-01-06",
+          "entryRank": 24,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "29zSTMejPhY0m7kwNQ9SPI",
+        "name": "Lola Amour",
+        "shareUrl": "https://open.spotify.com/artist/29zSTMejPhY0m7kwNQ9SPI",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051743ed593a4950e96231d2bc794",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 45,
+          "previousRank": 53,
+          "peakRank": 45,
+          "peakDate": "2022-10-20",
+          "entryRank": 186,
+          "entryDate": "2022-07-07",
+          "appearancesOnChart": 16,
+          "consecutiveAppearancesOnChart": 16
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4dpARuHxo51G3z768sgnrY",
+        "name": "Adele",
+        "shareUrl": "https://open.spotify.com/artist/4dpARuHxo51G3z768sgnrY",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517468f6e5892075d7f22615bd17",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 46,
+          "previousRank": 47,
+          "peakRank": 4,
+          "peakDate": "2021-11-25",
+          "entryRank": 5,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6LuN9FCkKOj5PcnpouEgny",
+        "name": "Khalid",
+        "shareUrl": "https://open.spotify.com/artist/6LuN9FCkKOj5PcnpouEgny",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517431072db9da0311ecfabe96bf",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 47,
+          "previousRank": 44,
+          "peakRank": 34,
+          "peakDate": "2021-10-28",
+          "entryRank": 45,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7Ln80lUS6He07XvHI8qqHH",
+        "name": "Arctic Monkeys",
+        "shareUrl": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051747da39dea0a72f581535fb11f",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 48,
+          "previousRank": 50,
+          "peakRank": 48,
+          "peakDate": "2022-10-20",
+          "entryRank": 197,
+          "entryDate": "2022-03-24",
+          "appearancesOnChart": 28,
+          "consecutiveAppearancesOnChart": 26
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
+        "shareUrl": "https://open.spotify.com/artist/7n2wHs1TKAczGzO7Dd2rGr",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517446e7a06fa6dfefaed6a3f0db",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 49,
+          "previousRank": 48,
+          "peakRank": 32,
+          "peakDate": "2021-12-09",
+          "entryRank": 34,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4iHNK0tOyZPYnBU7nGAgpQ",
+        "name": "Mariah Carey",
+        "shareUrl": "https://open.spotify.com/artist/4iHNK0tOyZPYnBU7nGAgpQ",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051749a1fa03af692c41b21cd75bb",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 50,
+          "previousRank": 49,
+          "peakRank": 19,
+          "peakDate": "2021-12-30",
+          "entryRank": 42,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1dFRlDO2Z2gjAARxHlovAS",
+        "name": "Lo ki",
+        "shareUrl": "https://open.spotify.com/artist/1dFRlDO2Z2gjAARxHlovAS",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517428b49ae7481ac1f6e6d44087",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 51,
+          "previousRank": 43,
+          "peakRank": 38,
+          "peakDate": "2022-06-16",
+          "entryRank": 186,
+          "entryDate": "2022-04-28",
+          "appearancesOnChart": 26,
+          "consecutiveAppearancesOnChart": 26
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6vWDO969PvNqNYHIOW5v0m",
+        "name": "Beyoncé",
+        "shareUrl": "https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174676338904deb80cffb568216",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 52,
+          "previousRank": 51,
+          "peakRank": 24,
+          "peakDate": "2022-08-04",
+          "entryRank": 102,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0hCNtLu0JehylgoiP8L4Gh",
+        "name": "Nicki Minaj",
+        "shareUrl": "https://open.spotify.com/artist/0hCNtLu0JehylgoiP8L4Gh",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051746a8e5e8752d1dc2dafa63f20",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 53,
+          "previousRank": 45,
+          "peakRank": 36,
+          "peakDate": "2022-09-15",
+          "entryRank": 128,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4xXCRXOfQKQ2gjWxNhNzYW",
+        "name": "Air Supply",
+        "shareUrl": "https://open.spotify.com/artist/4xXCRXOfQKQ2gjWxNhNzYW",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517479bedf7da0a906b84128f3af",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 54,
+          "previousRank": 60,
+          "peakRank": 32,
+          "peakDate": "2022-03-17",
+          "entryRank": 60,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3SgHzT552wy2W8pNLaLk24",
+        "name": "Hillsong Worship",
+        "shareUrl": "https://open.spotify.com/artist/3SgHzT552wy2W8pNLaLk24",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051743fa351bcd2f7a8f06a7bc3ba",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 55,
+          "previousRank": 57,
+          "peakRank": 37,
+          "peakDate": "2022-04-21",
+          "entryRank": 43,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5t5FqBwTcgKTaWmfEbwQY9",
+        "name": "ENHYPEN",
+        "shareUrl": "https://open.spotify.com/artist/5t5FqBwTcgKTaWmfEbwQY9",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174c5443c5abc130f03b6014845",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 56,
+          "previousRank": 54,
+          "peakRank": 10,
+          "peakDate": "2021-10-21",
+          "entryRank": 10,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6Ww3OMFzCaO33ulKh1LBFN",
+        "name": "Hale",
+        "shareUrl": "https://open.spotify.com/artist/6Ww3OMFzCaO33ulKh1LBFN",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517442db0c86075ec3fd160d301c",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 57,
+          "previousRank": 58,
+          "peakRank": 49,
+          "peakDate": "2022-06-09",
+          "entryRank": 67,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6HvZYsbFfjnjFrWF950C9d",
+        "name": "NewJeans",
+        "shareUrl": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517499b5a1b1b95a279176ded0e1",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 58,
+          "previousRank": 52,
+          "peakRank": 28,
+          "peakDate": "2022-09-01",
+          "entryRank": 79,
+          "entryDate": "2022-08-11",
+          "appearancesOnChart": 11,
+          "consecutiveAppearancesOnChart": 11
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4Uc8Dsxct0oMqx0P6i60ea",
+        "name": "Conan Gray",
+        "shareUrl": "https://open.spotify.com/artist/4Uc8Dsxct0oMqx0P6i60ea",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174d3a1193ab04e0fb2b297e619",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 59,
+          "previousRank": 64,
+          "peakRank": 37,
+          "peakDate": "2022-06-30",
+          "entryRank": 93,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "31fsDbpNPKe346urriO4ma",
+        "name": "mrld",
+        "shareUrl": "https://open.spotify.com/artist/31fsDbpNPKe346urriO4ma",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051740e6f5a58a23de0c6605fc4c6",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 60,
+          "previousRank": 67,
+          "peakRank": 57,
+          "peakDate": "2022-05-26",
+          "entryRank": 181,
+          "entryDate": "2021-12-16",
+          "appearancesOnChart": 45,
+          "consecutiveAppearancesOnChart": 45
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1HY2Jd0NmPuamShAr6KMms",
+        "name": "Lady Gaga",
+        "shareUrl": "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174c8d3d98a1bccbe71393dbfbf",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 61,
+          "previousRank": 61,
+          "peakRank": 57,
+          "peakDate": "2022-06-23",
+          "entryRank": 66,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3pc0bOVB5whxmD50W79wwO",
+        "name": "keshi",
+        "shareUrl": "https://open.spotify.com/artist/3pc0bOVB5whxmD50W79wwO",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174d969cf117d0b0d4424bebdc5",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 62,
+          "previousRank": 73,
+          "peakRank": 46,
+          "peakDate": "2022-03-31",
+          "entryRank": 82,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3lFMRWaEWZlfXdBig97kks",
+        "name": "Nik Makino",
+        "shareUrl": "https://open.spotify.com/artist/3lFMRWaEWZlfXdBig97kks",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051746c90ccb69fa82ba803b639bb",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 63,
+          "previousRank": 56,
+          "peakRank": 42,
+          "peakDate": "2022-08-11",
+          "entryRank": 174,
+          "entryDate": "2022-06-09",
+          "appearancesOnChart": 20,
+          "consecutiveAppearancesOnChart": 20
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6ogIjp0fsbUxlqy9q2rvrT",
+        "name": "Shanti Dope",
+        "shareUrl": "https://open.spotify.com/artist/6ogIjp0fsbUxlqy9q2rvrT",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174f572d047a5d7e1885da6ecc6",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 64,
+          "previousRank": 63,
+          "peakRank": 63,
+          "peakDate": "2022-10-13",
+          "entryRank": 183,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "117XFtbZPnCI1EYKjYZWJc",
+        "name": "Skusta Clee",
+        "shareUrl": "https://open.spotify.com/artist/117XFtbZPnCI1EYKjYZWJc",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174e3bed8cfdbf475c7c7396729",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 65,
+          "previousRank": 62,
+          "peakRank": 18,
+          "peakDate": "2021-11-25",
+          "entryRank": 22,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3f0X043zSojego7Qn4Yi6U",
+        "name": "Ace Banzuelo",
+        "shareUrl": "https://open.spotify.com/artist/3f0X043zSojego7Qn4Yi6U",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174712967d1e4e69202f50d4504",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 66,
+          "previousRank": 59,
+          "peakRank": 29,
+          "peakDate": "2022-06-02",
+          "entryRank": 132,
+          "entryDate": "2022-05-19",
+          "appearancesOnChart": 23,
+          "consecutiveAppearancesOnChart": 23
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4SpbR6yFEvexJuaBpgAU5p",
+        "name": "LE SSERAFIM",
+        "shareUrl": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174fb6c0b7b6918dca92be0ed75",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 67,
+          "previousRank": -1,
+          "peakRank": 67,
+          "peakDate": "2022-10-20",
+          "entryRank": 167,
+          "entryDate": "2022-05-05",
+          "appearancesOnChart": 24,
+          "consecutiveAppearancesOnChart": 1
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7tYKF4w9nC0nq9CsPZTHyP",
+        "name": "SZA",
+        "shareUrl": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174529f2198b3e9e77c0d5a665b",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 68,
+          "previousRank": 70,
+          "peakRank": 18,
+          "peakDate": "2021-12-09",
+          "entryRank": 64,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5XKFrudbV4IiuE5WuTPRmT",
+        "name": "Stephen Sanchez",
+        "shareUrl": "https://open.spotify.com/artist/5XKFrudbV4IiuE5WuTPRmT",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517485ee5a7c90ec6151c497869d",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 69,
+          "previousRank": 72,
+          "peakRank": 42,
+          "peakDate": "2022-08-04",
+          "entryRank": 183,
+          "entryDate": "2022-05-12",
+          "appearancesOnChart": 24,
+          "consecutiveAppearancesOnChart": 24
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3PDFGpPl4ienSn5Vwisfrh",
+        "name": "Flow G",
+        "shareUrl": "https://open.spotify.com/artist/3PDFGpPl4ienSn5Vwisfrh",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174c3509b8472d6f4141b96fff9",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 70,
+          "previousRank": 69,
+          "peakRank": 43,
+          "peakDate": "2022-05-05",
+          "entryRank": 77,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3Xt3RrJMFv5SZkCfUE8C1J",
+        "name": "Kim Petras",
+        "shareUrl": "https://open.spotify.com/artist/3Xt3RrJMFv5SZkCfUE8C1J",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051744427cfe93e6870af2a81fd41",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 71,
+          "previousRank": 84,
+          "peakRank": 71,
+          "peakDate": "2022-10-20",
+          "entryRank": 87,
+          "entryDate": "2022-09-29",
+          "appearancesOnChart": 4,
+          "consecutiveAppearancesOnChart": 4
+        }
+      },
+      {
+        "type": "artist",
+        "id": "21E3waRsmPlU7jZsS13rcj",
+        "name": "Ne-Yo",
+        "shareUrl": "https://open.spotify.com/artist/21E3waRsmPlU7jZsS13rcj",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174ca118e3822061f7b7f6bc537",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 72,
+          "previousRank": 66,
+          "peakRank": 66,
+          "peakDate": "2022-10-13",
+          "entryRank": 97,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "64KEffDW9EtZ1y2vBYgq8T",
+        "name": "Marshmello",
+        "shareUrl": "https://open.spotify.com/artist/64KEffDW9EtZ1y2vBYgq8T",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517441e4a3b8c1d45a9e49b6de21",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 73,
+          "previousRank": 83,
+          "peakRank": 66,
+          "peakDate": "2022-08-18",
+          "entryRank": 89,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6HaGTQPmzraVmaVxvz6EUc",
+        "name": "Jung Kook",
+        "shareUrl": "https://open.spotify.com/artist/6HaGTQPmzraVmaVxvz6EUc",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174bda88c5ee506aa67c8835d30",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 74,
+          "previousRank": 65,
+          "peakRank": 21,
+          "peakDate": "2022-07-07",
+          "entryRank": 127,
+          "entryDate": "2022-02-17",
+          "appearancesOnChart": 18,
+          "consecutiveAppearancesOnChart": 17
+        }
+      },
+      {
+        "type": "artist",
+        "id": "20wkVLutqVOYrc0kxFs7rA",
+        "name": "Daniel Caesar",
+        "shareUrl": "https://open.spotify.com/artist/20wkVLutqVOYrc0kxFs7rA",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174bd09edfd2babfc9fd2ba748e",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 75,
+          "previousRank": 75,
+          "peakRank": 47,
+          "peakDate": "2021-10-21",
+          "entryRank": 47,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "74XFHRwlV6OrjEM0A2NCMF",
+        "name": "Paramore",
+        "shareUrl": "https://open.spotify.com/artist/74XFHRwlV6OrjEM0A2NCMF",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 76,
+          "previousRank": 68,
+          "peakRank": 56,
+          "peakDate": "2022-10-06",
+          "entryRank": 72,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "00FQb4jTyendYWaN8pK0wa",
+        "name": "Lana Del Rey",
+        "shareUrl": "https://open.spotify.com/artist/00FQb4jTyendYWaN8pK0wa",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174c5903678d3db18e271e42be0",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 77,
+          "previousRank": 71,
+          "peakRank": 71,
+          "peakDate": "2022-08-04",
+          "entryRank": 190,
+          "entryDate": "2021-10-28",
+          "appearancesOnChart": 31,
+          "consecutiveAppearancesOnChart": 29
+        }
+      },
+      {
+        "type": "artist",
+        "id": "53XhwfbYqKCa1cC15pYq2q",
+        "name": "Imagine Dragons",
+        "shareUrl": "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174920dc1f617550de8388f368e",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 78,
+          "previousRank": 74,
+          "peakRank": 37,
+          "peakDate": "2022-01-06",
+          "entryRank": 155,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2Ev7vtPI38BE2kQvwmH4ce",
+        "name": "Arthur Miguel",
+        "shareUrl": "https://open.spotify.com/artist/2Ev7vtPI38BE2kQvwmH4ce",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174ad12c302cc5aa4c9e5b155ba",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 79,
+          "previousRank": 76,
+          "peakRank": 38,
+          "peakDate": "2022-05-19",
+          "entryRank": 171,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 47,
+          "consecutiveAppearancesOnChart": 42
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+        "name": "Kendrick Lamar",
+        "shareUrl": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174437b9e2a82505b3d93ff1022",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 80,
+          "previousRank": 80,
+          "peakRank": 14,
+          "peakDate": "2022-05-19",
+          "entryRank": 198,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 52,
+          "consecutiveAppearancesOnChart": 49
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0n4a5imdLBN24fIrBWoqrv",
+        "name": "Because",
+        "shareUrl": "https://open.spotify.com/artist/0n4a5imdLBN24fIrBWoqrv",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517496a25370be756eb04844638e",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 81,
+          "previousRank": 78,
+          "peakRank": 20,
+          "peakDate": "2021-11-25",
+          "entryRank": 86,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3AQRLZ9PuTAozP28Skbq8V",
+        "name": "The Script",
+        "shareUrl": "https://open.spotify.com/artist/3AQRLZ9PuTAozP28Skbq8V",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174f01bf904b446e4a043acb867",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 82,
+          "previousRank": 79,
+          "peakRank": 46,
+          "peakDate": "2022-09-29",
+          "entryRank": 105,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2dIgFjalVxs4ThymZ67YCE",
+        "name": "Stray Kids",
+        "shareUrl": "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174c855bded4ab1bd99ef62214a",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 83,
+          "previousRank": 55,
+          "peakRank": 26,
+          "peakDate": "2022-03-24",
+          "entryRank": 75,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "57vWImR43h4CaDao012Ofp",
+        "name": "Steve Lacy",
+        "shareUrl": "https://open.spotify.com/artist/57vWImR43h4CaDao012Ofp",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517409ac9d040c168d4e4f58eb42",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 84,
+          "previousRank": 85,
+          "peakRank": 82,
+          "peakDate": "2022-09-29",
+          "entryRank": 148,
+          "entryDate": "2022-07-21",
+          "appearancesOnChart": 14,
+          "consecutiveAppearancesOnChart": 14
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3gIRvgZssIb9aiirIg0nI3",
+        "name": "Jeremy Zucker",
+        "shareUrl": "https://open.spotify.com/artist/3gIRvgZssIb9aiirIg0nI3",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051747770a579b8bfc3d57714fe79",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 85,
+          "previousRank": 87,
+          "peakRank": 48,
+          "peakDate": "2021-10-21",
+          "entryRank": 48,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6RHTUrRF63xao58xh9FXYJ",
+        "name": "IVE",
+        "shareUrl": "https://open.spotify.com/artist/6RHTUrRF63xao58xh9FXYJ",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051745b1a291b0a6a689091d54d8b",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 86,
+          "previousRank": 82,
+          "peakRank": 39,
+          "peakDate": "2022-09-01",
+          "entryRank": 119,
+          "entryDate": "2021-12-09",
+          "appearancesOnChart": 36,
+          "consecutiveAppearancesOnChart": 9
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0C8ZW7ezQVs4URX5aX7Kqx",
+        "name": "Selena Gomez",
+        "shareUrl": "https://open.spotify.com/artist/0C8ZW7ezQVs4URX5aX7Kqx",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174a5205abffd84341e5bace828",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 87,
+          "previousRank": 96,
+          "peakRank": 56,
+          "peakDate": "2021-11-04",
+          "entryRank": 61,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5cYJYBMg1n71v7cvthr1SO",
+        "name": "The Itchyworms",
+        "shareUrl": "https://open.spotify.com/artist/5cYJYBMg1n71v7cvthr1SO",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174b883a75965bfadc66ef20d67",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 88,
+          "previousRank": 91,
+          "peakRank": 88,
+          "peakDate": "2022-10-20",
+          "entryRank": 197,
+          "entryDate": "2021-12-23",
+          "appearancesOnChart": 38,
+          "consecutiveAppearancesOnChart": 36
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1QAJqy2dA3ihHBFIHRphZj",
+        "name": "Cigarettes After Sex",
+        "shareUrl": "https://open.spotify.com/artist/1QAJqy2dA3ihHBFIHRphZj",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174184c693111b41bc7f101ce8a",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 89,
+          "previousRank": 88,
+          "peakRank": 87,
+          "peakDate": "2022-10-06",
+          "entryRank": 167,
+          "entryDate": "2021-12-16",
+          "appearancesOnChart": 44,
+          "consecutiveAppearancesOnChart": 42
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5Pwc4xIPtQLFEnJriah9YJ",
+        "name": "OneRepublic",
+        "shareUrl": "https://open.spotify.com/artist/5Pwc4xIPtQLFEnJriah9YJ",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517477bf00f67e21f514dc44c485",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 90,
+          "previousRank": 86,
+          "peakRank": 79,
+          "peakDate": "2022-09-15",
+          "entryRank": 182,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5Z1CCuBsyhEHngq3U5IraY",
+        "name": "Westlife",
+        "shareUrl": "https://open.spotify.com/artist/5Z1CCuBsyhEHngq3U5IraY",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174ceead049d538f0b5087041dd",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 91,
+          "previousRank": 92,
+          "peakRank": 62,
+          "peakDate": "2021-10-21",
+          "entryRank": 62,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4IWBUUAFIplrNtaOHcJPRM",
+        "name": "James Arthur",
+        "shareUrl": "https://open.spotify.com/artist/4IWBUUAFIplrNtaOHcJPRM",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051746867a4ce52401bd378bb5179",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 92,
+          "previousRank": 95,
+          "peakRank": 76,
+          "peakDate": "2021-10-21",
+          "entryRank": 76,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1ZTdxfZTeztyAgKUJVLxAI",
+        "name": "Rivermaya",
+        "shareUrl": "https://open.spotify.com/artist/1ZTdxfZTeztyAgKUJVLxAI",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174b8c077016b0bf7bcf101eaed",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 93,
+          "previousRank": 90,
+          "peakRank": 75,
+          "peakDate": "2022-05-12",
+          "entryRank": 113,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5elcNQkZ6FCZA3grSOMngY",
+        "name": "MYMP",
+        "shareUrl": "https://open.spotify.com/artist/5elcNQkZ6FCZA3grSOMngY",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051743374adce093b3ef52dd5bccd",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 94,
+          "previousRank": 89,
+          "peakRank": 79,
+          "peakDate": "2022-04-07",
+          "entryRank": 80,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1eEfMU2AhEo7XnKgL7c304",
+        "name": "Carpenters",
+        "shareUrl": "https://open.spotify.com/artist/1eEfMU2AhEo7XnKgL7c304",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/6d1f554e76304a29b8baa3f61213a88702c0f599",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 95,
+          "previousRank": 94,
+          "peakRank": 78,
+          "peakDate": "2021-10-21",
+          "entryRank": 78,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4GBFKKuwmZUnAJt6nBal7A",
+        "name": "Kamikazee",
+        "shareUrl": "https://open.spotify.com/artist/4GBFKKuwmZUnAJt6nBal7A",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051744c2067bd8b1d156f739e3560",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 96,
+          "previousRank": 93,
+          "peakRank": 62,
+          "peakDate": "2022-04-07",
+          "entryRank": 88,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7lIVjtsgz0y1oRQFBAVNzq",
+        "name": "Mayonnaise",
+        "shareUrl": "https://open.spotify.com/artist/7lIVjtsgz0y1oRQFBAVNzq",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051743ec9a984b5bff6c5bcbb72bf",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 97,
+          "previousRank": 97,
+          "peakRank": 97,
+          "peakDate": "2022-10-13",
+          "entryRank": 179,
+          "entryDate": "2022-03-24",
+          "appearancesOnChart": 31,
+          "consecutiveAppearancesOnChart": 31
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3KonOYiLsU53m4yT7gNotP",
+        "name": "TREASURE",
+        "shareUrl": "https://open.spotify.com/artist/3KonOYiLsU53m4yT7gNotP",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174fd7fef26820bce07d68bfea6",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 98,
+          "previousRank": 81,
+          "peakRank": 31,
+          "peakDate": "2022-03-17",
+          "entryRank": 73,
+          "entryDate": "2022-02-17",
+          "appearancesOnChart": 30,
+          "consecutiveAppearancesOnChart": 3
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4fxd5Ee7UefO4CUXgwJ7IP",
+        "name": "Giveon",
+        "shareUrl": "https://open.spotify.com/artist/4fxd5Ee7UefO4CUXgwJ7IP",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051740219b6643b1ec449b0951bfe",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 99,
+          "previousRank": 101,
+          "peakRank": 50,
+          "peakDate": "2021-10-28",
+          "entryRank": 51,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "26VFTg2z8YR0cCuwLzESi2",
+        "name": "Halsey",
+        "shareUrl": "https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174d707e1c5177614c4ec95a06c",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 100,
+          "previousRank": 102,
+          "peakRank": 67,
+          "peakDate": "2022-06-16",
+          "entryRank": 71,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7dGJo4pcD2V6oG8kP0tJRR",
+        "name": "Eminem",
+        "shareUrl": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 101,
+          "previousRank": 112,
+          "peakRank": 57,
+          "peakDate": "2022-02-24",
+          "entryRank": 124,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7tKpXx21KVUOR6vvDs6xtg",
+        "name": "I Belong to the Zoo",
+        "shareUrl": "https://open.spotify.com/artist/7tKpXx21KVUOR6vvDs6xtg",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517427a0778dfff798dbdac177e2",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 102,
+          "previousRank": 152,
+          "peakRank": 77,
+          "peakDate": "2022-06-09",
+          "entryRank": 142,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0ghlgldX5Dd6720Q3qFyQB",
+        "name": "TOMORROW X TOGETHER",
+        "shareUrl": "https://open.spotify.com/artist/0ghlgldX5Dd6720Q3qFyQB",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174758f3c632d4d726f1129d336",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 103,
+          "previousRank": 100,
+          "peakRank": 26,
+          "peakDate": "2022-05-19",
+          "entryRank": 56,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7CQwac16i1W5ej8YpuL3dv",
+        "name": "Boyce Avenue",
+        "shareUrl": "https://open.spotify.com/artist/7CQwac16i1W5ej8YpuL3dv",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174aa5fdba75703df74c3be99a7",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 104,
+          "previousRank": 105,
+          "peakRank": 47,
+          "peakDate": "2022-03-17",
+          "entryRank": 58,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5Rl15oVamLq7FbSb0NNBNy",
+        "name": "5 Seconds of Summer",
+        "shareUrl": "https://open.spotify.com/artist/5Rl15oVamLq7FbSb0NNBNy",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517492ce1e218cb7b48386efe3d8",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 105,
+          "previousRank": 98,
+          "peakRank": 78,
+          "peakDate": "2022-09-29",
+          "entryRank": 123,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3L1qgTsUqavkiygkIKfWJD",
+        "name": "Denise Julia",
+        "shareUrl": "https://open.spotify.com/artist/3L1qgTsUqavkiygkIKfWJD",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174208aa77b4124e2ebd76a07ef",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 106,
+          "previousRank": 110,
+          "peakRank": 64,
+          "peakDate": "2022-07-07",
+          "entryRank": 104,
+          "entryDate": "2022-05-19",
+          "appearancesOnChart": 23,
+          "consecutiveAppearancesOnChart": 23
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0AvtzKTYleNqdJXoZasQWG",
+        "name": "Stephen Speaks",
+        "shareUrl": "https://open.spotify.com/artist/0AvtzKTYleNqdJXoZasQWG",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174f65d15c641c53207c04d8622",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 107,
+          "previousRank": 104,
+          "peakRank": 81,
+          "peakDate": "2022-06-30",
+          "entryRank": 196,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 35,
+          "consecutiveAppearancesOnChart": 34
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3wbCeEPAW6po7J46netxMT",
+        "name": "Up Dharma Down",
+        "shareUrl": "https://open.spotify.com/artist/3wbCeEPAW6po7J46netxMT",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051746d7667ec060c5336939900e6",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 108,
+          "previousRank": 117,
+          "peakRank": 108,
+          "peakDate": "2022-10-20",
+          "entryRank": 190,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 22,
+          "consecutiveAppearancesOnChart": 16
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1EUmQM6xgUQLUkJVcvSdey",
+        "name": "Orange & Lemons",
+        "shareUrl": "https://open.spotify.com/artist/1EUmQM6xgUQLUkJVcvSdey",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174fbc0c3647ebc65a2b43bb004",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 109,
+          "previousRank": 109,
+          "peakRank": 109,
+          "peakDate": "2022-10-13",
+          "entryRank": 173,
+          "entryDate": "2022-03-24",
+          "appearancesOnChart": 31,
+          "consecutiveAppearancesOnChart": 31
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6bDWAcdtVR3WHz2xtiIPUi",
+        "name": "Fujii Kaze",
+        "shareUrl": "https://open.spotify.com/artist/6bDWAcdtVR3WHz2xtiIPUi",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174548445341ba5aa2ddcd35c87",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 110,
+          "previousRank": 99,
+          "peakRank": 80,
+          "peakDate": "2022-09-29",
+          "entryRank": 182,
+          "entryDate": "2022-09-08",
+          "appearancesOnChart": 7,
+          "consecutiveAppearancesOnChart": 7
+        }
+      },
+      {
+        "type": "artist",
+        "id": "69GGBxA162lTqCwzJG5jLp",
+        "name": "The Chainsmokers",
+        "shareUrl": "https://open.spotify.com/artist/69GGBxA162lTqCwzJG5jLp",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051743c02f4fb4cc9187c488afd50",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 111,
+          "previousRank": 106,
+          "peakRank": 69,
+          "peakDate": "2022-03-17",
+          "entryRank": 101,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3g7vYcdDXnqnDKYFwqXBJP",
+        "name": "SB19",
+        "shareUrl": "https://open.spotify.com/artist/3g7vYcdDXnqnDKYFwqXBJP",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517464fb4c58b8797a21c694f80d",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 112,
+          "previousRank": 103,
+          "peakRank": 50,
+          "peakDate": "2021-10-21",
+          "entryRank": 50,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0ZUvK7zGdXLd78mQr3t1Tw",
+        "name": "Ricky Montgomery",
+        "shareUrl": "https://open.spotify.com/artist/0ZUvK7zGdXLd78mQr3t1Tw",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051741b55c12df005d2a16bc1e365",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 113,
+          "previousRank": 108,
+          "peakRank": 45,
+          "peakDate": "2022-05-26",
+          "entryRank": 169,
+          "entryDate": "2022-01-27",
+          "appearancesOnChart": 34,
+          "consecutiveAppearancesOnChart": 27
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7LvDTuFCBv08xm6u1pOMK0",
+        "name": "TJ Monterde",
+        "shareUrl": "https://open.spotify.com/artist/7LvDTuFCBv08xm6u1pOMK0",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174b0fec8c3e75fbb259aa32f14",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 114,
+          "previousRank": 116,
+          "peakRank": 42,
+          "peakDate": "2022-04-07",
+          "entryRank": 79,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5K4W6rqBFWDnAN6FQUkS6x",
+        "name": "Kanye West",
+        "shareUrl": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174867008a971fae0f4d913f63a",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 115,
+          "previousRank": 107,
+          "peakRank": 91,
+          "peakDate": "2022-09-22",
+          "entryRank": 107,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2qNrJcE9LjzPdiXbrjkqFa",
+        "name": "Music Travel Love",
+        "shareUrl": "https://open.spotify.com/artist/2qNrJcE9LjzPdiXbrjkqFa",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051748ab8d8db534d284d7a5b3bbc",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 116,
+          "previousRank": 111,
+          "peakRank": 73,
+          "peakDate": "2022-03-10",
+          "entryRank": 85,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1Cs0zKBU1kc0i8ypK3B9ai",
+        "name": "David Guetta",
+        "shareUrl": "https://open.spotify.com/artist/1Cs0zKBU1kc0i8ypK3B9ai",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517475348e1aade2645ad9c58829",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 117,
+          "previousRank": 113,
+          "peakRank": 108,
+          "peakDate": "2022-09-29",
+          "entryRank": 195,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 31,
+          "consecutiveAppearancesOnChart": 7
+        }
+      },
+      {
+        "type": "artist",
+        "id": "70NcAr4ZtA3FAqU16iQZSb",
+        "name": "dhruv",
+        "shareUrl": "https://open.spotify.com/artist/70NcAr4ZtA3FAqU16iQZSb",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051749d9fb46b69bfb485f8872d02",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 118,
+          "previousRank": 132,
+          "peakRank": 39,
+          "peakDate": "2021-10-21",
+          "entryRank": 39,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1zNqDE7qDGCsyzJwohVaoX",
+        "name": "Anne-Marie",
+        "shareUrl": "https://open.spotify.com/artist/1zNqDE7qDGCsyzJwohVaoX",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051740f625b6df41bdd56196351bf",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 119,
+          "previousRank": 133,
+          "peakRank": 98,
+          "peakDate": "2021-10-21",
+          "entryRank": 98,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3e7awlrlDSwF3iM0WBjGMp",
+        "name": "Little Mix",
+        "shareUrl": "https://open.spotify.com/artist/3e7awlrlDSwF3iM0WBjGMp",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 120,
+          "previousRank": 114,
+          "peakRank": 50,
+          "peakDate": "2021-11-18",
+          "entryRank": 70,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5kjFzBMHeoAx9xksFSwfUW",
+        "name": "yuji",
+        "shareUrl": "https://open.spotify.com/artist/5kjFzBMHeoAx9xksFSwfUW",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174cd7e1ae525e71504b14d8231",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 121,
+          "previousRank": 121,
+          "peakRank": 121,
+          "peakDate": "2022-10-13",
+          "entryRank": 176,
+          "entryDate": "2022-09-22",
+          "appearancesOnChart": 5,
+          "consecutiveAppearancesOnChart": 5
+        }
+      },
+      {
+        "type": "artist",
+        "id": "54nGORfHS6Uldjlr4QeN7g",
+        "name": "putri dahlia",
+        "shareUrl": "https://open.spotify.com/artist/54nGORfHS6Uldjlr4QeN7g",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174798735ec849ec783c68085fb",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 122,
+          "previousRank": 122,
+          "peakRank": 122,
+          "peakDate": "2022-10-13",
+          "entryRank": 177,
+          "entryDate": "2022-09-22",
+          "appearancesOnChart": 5,
+          "consecutiveAppearancesOnChart": 5
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4nDoRrQiYLoBzwC5BhVJzF",
+        "name": "Camila Cabello",
+        "shareUrl": "https://open.spotify.com/artist/4nDoRrQiYLoBzwC5BhVJzF",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174ec05963eab63676a539fef13",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 123,
+          "previousRank": 119,
+          "peakRank": 38,
+          "peakDate": "2022-04-14",
+          "entryRank": 92,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "70ZTdbPEcEugBNay4MvxfL",
+        "name": "Bread",
+        "shareUrl": "https://open.spotify.com/artist/70ZTdbPEcEugBNay4MvxfL",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/488e4b5c7b46a7cd2b84550556382301e23e36ea",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 124,
+          "previousRank": 125,
+          "peakRank": 116,
+          "peakDate": "2022-07-21",
+          "entryRank": 151,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "30mZI7Hw2MhoarTVYxfyZM",
+        "name": "Unique Salonga",
+        "shareUrl": "https://open.spotify.com/artist/30mZI7Hw2MhoarTVYxfyZM",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051749a5d7dd531447605445cfe7a",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 125,
+          "previousRank": 130,
+          "peakRank": 125,
+          "peakDate": "2022-10-20",
+          "entryRank": 159,
+          "entryDate": "2022-05-12",
+          "appearancesOnChart": 24,
+          "consecutiveAppearancesOnChart": 24
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2AfmfGFbe0A0WsTYm0SDTx",
+        "name": "(G)I-DLE",
+        "shareUrl": "https://open.spotify.com/artist/2AfmfGFbe0A0WsTYm0SDTx",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174196f5af772aeb1bdd3a6be65",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 126,
+          "previousRank": -1,
+          "peakRank": 79,
+          "peakDate": "2022-03-31",
+          "entryRank": 151,
+          "entryDate": "2022-03-17",
+          "appearancesOnChart": 22,
+          "consecutiveAppearancesOnChart": 1
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0jarApAsbmiCkYhz0590mE",
+        "name": "Freestyle",
+        "shareUrl": "https://open.spotify.com/artist/0jarApAsbmiCkYhz0590mE",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e02a84bf088e58c4765c7b318aa",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 127,
+          "previousRank": 129,
+          "peakRank": 108,
+          "peakDate": "2022-07-14",
+          "entryRank": 192,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 28,
+          "consecutiveAppearancesOnChart": 25
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3HqSLMAZ3g3d5poNaI7GOU",
+        "name": "IU",
+        "shareUrl": "https://open.spotify.com/artist/3HqSLMAZ3g3d5poNaI7GOU",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174006ff3c0136a71bfb9928d34",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 128,
+          "previousRank": 118,
+          "peakRank": 41,
+          "peakDate": "2021-10-21",
+          "entryRank": 41,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5y8tKLUfMvliMe8IKamR32",
+        "name": "d4vd",
+        "shareUrl": "https://open.spotify.com/artist/5y8tKLUfMvliMe8IKamR32",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517428c3ef75093c1926cfa82d66",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 129,
+          "previousRank": 161,
+          "peakRank": 129,
+          "peakDate": "2022-10-20",
+          "entryRank": 161,
+          "entryDate": "2022-10-13",
+          "appearancesOnChart": 2,
+          "consecutiveAppearancesOnChart": 2
+        }
+      },
+      {
+        "type": "artist",
+        "id": "23zg3TcAtWQy7J6upgbUnj",
+        "name": "Usher",
+        "shareUrl": "https://open.spotify.com/artist/23zg3TcAtWQy7J6upgbUnj",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051742e42d906f4f9f672359e7379",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 130,
+          "previousRank": 120,
+          "peakRank": 116,
+          "peakDate": "2022-07-07",
+          "entryRank": 136,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7zMVPOJPs5jgU8NorRxqJe",
+        "name": "Michael Learns To Rock",
+        "shareUrl": "https://open.spotify.com/artist/7zMVPOJPs5jgU8NorRxqJe",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517436c142243f2dd58b8544f673",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 131,
+          "previousRank": 136,
+          "peakRank": 131,
+          "peakDate": "2022-10-20",
+          "entryRank": 134,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2WzaAvm2bBCf4pEhyuDgCY",
+        "name": "Ruth B.",
+        "shareUrl": "https://open.spotify.com/artist/2WzaAvm2bBCf4pEhyuDgCY",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174c36cd1cebde513411c2e1504",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 132,
+          "previousRank": 123,
+          "peakRank": 57,
+          "peakDate": "2022-03-17",
+          "entryRank": 168,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4RA4PC3WHM9OHZLExirTcU",
+        "name": "APO Hiking Society",
+        "shareUrl": "https://open.spotify.com/artist/4RA4PC3WHM9OHZLExirTcU",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e02ced4497964aeed279f3b81ee",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 133,
+          "previousRank": 134,
+          "peakRank": 70,
+          "peakDate": "2022-03-03",
+          "entryRank": 100,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "62WbvkXqQGvXQvw74GU3kQ",
+        "name": "Morissette",
+        "shareUrl": "https://open.spotify.com/artist/62WbvkXqQGvXQvw74GU3kQ",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051749d9cf61ac22efdf73767c61f",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 134,
+          "previousRank": 147,
+          "peakRank": 134,
+          "peakDate": "2022-10-20",
+          "entryRank": 161,
+          "entryDate": "2022-09-22",
+          "appearancesOnChart": 5,
+          "consecutiveAppearancesOnChart": 5
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2h93pZq0e7k5yf4dywlkpM",
+        "name": "Frank Ocean",
+        "shareUrl": "https://open.spotify.com/artist/2h93pZq0e7k5yf4dywlkpM",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174fbc3faec4a370d8393bee7f1",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 135,
+          "previousRank": 126,
+          "peakRank": 123,
+          "peakDate": "2022-09-29",
+          "entryRank": 186,
+          "entryDate": "2022-01-20",
+          "appearancesOnChart": 39,
+          "consecutiveAppearancesOnChart": 15
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6aiCKnIN68hohzU3ZzNq48",
+        "name": "Sarah Geronimo",
+        "shareUrl": "https://open.spotify.com/artist/6aiCKnIN68hohzU3ZzNq48",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174f132c2529220ffb07452c642",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 136,
+          "previousRank": 115,
+          "peakRank": 115,
+          "peakDate": "2022-05-19",
+          "entryRank": 144,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "26dSoYclwsYLMAKD3tpOr4",
+        "name": "Britney Spears",
+        "shareUrl": "https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051744e7e6ded87a4e0f65b5afcec",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 137,
+          "previousRank": 127,
+          "peakRank": 122,
+          "peakDate": "2022-09-29",
+          "entryRank": 194,
+          "entryDate": "2021-11-04",
+          "appearancesOnChart": 45,
+          "consecutiveAppearancesOnChart": 8
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3PhoLpVuITZKcymswpck5b",
+        "name": "Elton John",
+        "shareUrl": "https://open.spotify.com/artist/3PhoLpVuITZKcymswpck5b",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051740a7388b95df960b5c0da8970",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 138,
+          "previousRank": 135,
+          "peakRank": 52,
+          "peakDate": "2021-12-30",
+          "entryRank": 138,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0p4nmQO2msCgU4IF37Wi3j",
+        "name": "Avril Lavigne",
+        "shareUrl": "https://open.spotify.com/artist/0p4nmQO2msCgU4IF37Wi3j",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174b0472fb072403737786ac79a",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 139,
+          "previousRank": 128,
+          "peakRank": 66,
+          "peakDate": "2022-03-03",
+          "entryRank": 153,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3wNylAjJX1PiCpMKx8Lrfp",
+        "name": "Regine Velasquez",
+        "shareUrl": "https://open.spotify.com/artist/3wNylAjJX1PiCpMKx8Lrfp",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/4efdb118b9fdce328ceb4292a150c0429d136a31",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 140,
+          "previousRank": 141,
+          "peakRank": 89,
+          "peakDate": "2022-05-19",
+          "entryRank": 131,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7HJDRQAfEcFiARVehhM6qD",
+        "name": "Gloc 9",
+        "shareUrl": "https://open.spotify.com/artist/7HJDRQAfEcFiARVehhM6qD",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174c427c3663058a0a1e7945d53",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 141,
+          "previousRank": 139,
+          "peakRank": 69,
+          "peakDate": "2022-03-31",
+          "entryRank": 109,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1z4g3DjTBBZKhvAroFlhOM",
+        "name": "Red Velvet",
+        "shareUrl": "https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051748a8415e72dedaa552259d0c1",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 142,
+          "previousRank": 124,
+          "peakRank": 18,
+          "peakDate": "2022-03-24",
+          "entryRank": 74,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "64M6ah0SkkRsnPGtGiRAbb",
+        "name": "Bebe Rexha",
+        "shareUrl": "https://open.spotify.com/artist/64M6ah0SkkRsnPGtGiRAbb",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174abfac786f093c4da55c99d4e",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 143,
+          "previousRank": 131,
+          "peakRank": 129,
+          "peakDate": "2022-09-29",
+          "entryRank": 165,
+          "entryDate": "2022-09-08",
+          "appearancesOnChart": 7,
+          "consecutiveAppearancesOnChart": 7
+        }
+      },
+      {
+        "type": "artist",
+        "id": "24fEOzlKhgSNLIcy9NdmwH",
+        "name": "James Reid",
+        "shareUrl": "https://open.spotify.com/artist/24fEOzlKhgSNLIcy9NdmwH",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051746d72944f9a971d77e8fca530",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 144,
+          "previousRank": -1,
+          "peakRank": 144,
+          "peakDate": "2022-10-20",
+          "entryRank": 144,
+          "entryDate": "2022-10-20",
+          "appearancesOnChart": 1,
+          "consecutiveAppearancesOnChart": 1
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2KC9Qb60EaY0kW4eH68vr3",
+        "name": "ITZY",
+        "shareUrl": "https://open.spotify.com/artist/2KC9Qb60EaY0kW4eH68vr3",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174aa28abbc6d04ccd22c8ae3b5",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 145,
+          "previousRank": 140,
+          "peakRank": 51,
+          "peakDate": "2022-07-21",
+          "entryRank": 52,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2U5mF0PZqGu6glnz55yY0y",
+        "name": "John Roa",
+        "shareUrl": "https://open.spotify.com/artist/2U5mF0PZqGu6glnz55yY0y",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517462be571f4002c1d76f299346",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 146,
+          "previousRank": 143,
+          "peakRank": 76,
+          "peakDate": "2022-05-05",
+          "entryRank": 91,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1z7b1Pr1rSlvWRzsW3HOrS",
+        "name": "Russ",
+        "shareUrl": "https://open.spotify.com/artist/1z7b1Pr1rSlvWRzsW3HOrS",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051743402677a3cc93be1a12e92c6",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 147,
+          "previousRank": 146,
+          "peakRank": 99,
+          "peakDate": "2021-11-18",
+          "entryRank": 122,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4MCBfE4596Uoi2O4DtmEMz",
+        "name": "Juice WRLD",
+        "shareUrl": "https://open.spotify.com/artist/4MCBfE4596Uoi2O4DtmEMz",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051741908e1a8b79abf71d5598944",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 148,
+          "previousRank": 188,
+          "peakRank": 40,
+          "peakDate": "2021-12-16",
+          "entryRank": 157,
+          "entryDate": "2021-11-18",
+          "appearancesOnChart": 46,
+          "consecutiveAppearancesOnChart": 7
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7qmpXeNz2ojlMl2EEfkeLs",
+        "name": "Nicky Youre",
+        "shareUrl": "https://open.spotify.com/artist/7qmpXeNz2ojlMl2EEfkeLs",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174e7826b3d5b44df17493b58ef",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 149,
+          "previousRank": 137,
+          "peakRank": 115,
+          "peakDate": "2022-09-15",
+          "entryRank": 188,
+          "entryDate": "2022-07-14",
+          "appearancesOnChart": 15,
+          "consecutiveAppearancesOnChart": 15
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6gcteR920pLEynlHzjSRYd",
+        "name": "Kiyo",
+        "shareUrl": "https://open.spotify.com/artist/6gcteR920pLEynlHzjSRYd",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051744e478fc0d0406083fcffa107",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 150,
+          "previousRank": 190,
+          "peakRank": 60,
+          "peakDate": "2022-02-10",
+          "entryRank": 154,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 43,
+          "consecutiveAppearancesOnChart": 2
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5rSXSAkZ67PYJSvpUpkOr7",
+        "name": "Backstreet Boys",
+        "shareUrl": "https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517463dc867958993e8458517d2b",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 151,
+          "previousRank": 151,
+          "peakRank": 143,
+          "peakDate": "2021-11-04",
+          "entryRank": 150,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6S2OmqARrzebs0tKUEyXyp",
+        "name": "Demi Lovato",
+        "shareUrl": "https://open.spotify.com/artist/6S2OmqARrzebs0tKUEyXyp",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051746659b1cb61936bd7bcb229a2",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 152,
+          "previousRank": 150,
+          "peakRank": 73,
+          "peakDate": "2022-03-24",
+          "entryRank": 110,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "46xBNx0j6cwY6sD9LgMTm1",
+        "name": "Rosa Linn",
+        "shareUrl": "https://open.spotify.com/artist/46xBNx0j6cwY6sD9LgMTm1",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517477cd31579fca84c5c60eb46c",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 153,
+          "previousRank": 149,
+          "peakRank": 113,
+          "peakDate": "2022-09-15",
+          "entryRank": 192,
+          "entryDate": "2022-08-11",
+          "appearancesOnChart": 11,
+          "consecutiveAppearancesOnChart": 11
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7CajNmpbOovFoOoasH2HaY",
+        "name": "Calvin Harris",
+        "shareUrl": "https://open.spotify.com/artist/7CajNmpbOovFoOoasH2HaY",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174578905d5539cff25568dc097",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 154,
+          "previousRank": 138,
+          "peakRank": 73,
+          "peakDate": "2022-08-11",
+          "entryRank": 199,
+          "entryDate": "2022-03-31",
+          "appearancesOnChart": 29,
+          "consecutiveAppearancesOnChart": 22
+        }
+      },
+      {
+        "type": "artist",
+        "id": "38PzLQE4GW8o7A18oGhi0x",
+        "name": "dazy",
+        "shareUrl": "https://open.spotify.com/artist/38PzLQE4GW8o7A18oGhi0x",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174b6a7d269c36ebe8eaa505969",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 155,
+          "previousRank": 144,
+          "peakRank": 119,
+          "peakDate": "2022-09-08",
+          "entryRank": 197,
+          "entryDate": "2022-07-14",
+          "appearancesOnChart": 15,
+          "consecutiveAppearancesOnChart": 15
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1EHAbA1GMYOfkh9ds9eNfS",
+        "name": "Jose Mari Chan",
+        "shareUrl": "https://open.spotify.com/artist/1EHAbA1GMYOfkh9ds9eNfS",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e023e9b192bf4a8e47b4e040a1e",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 156,
+          "previousRank": 148,
+          "peakRank": 50,
+          "peakDate": "2021-12-23",
+          "entryRank": 145,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 19,
+          "consecutiveAppearancesOnChart": 8
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1AhjOkOLkbHUfcHDSErXQs",
+        "name": "88rising",
+        "shareUrl": "https://open.spotify.com/artist/1AhjOkOLkbHUfcHDSErXQs",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051742f8dfdfeb85c3fc2d11b2ae2",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 157,
+          "previousRank": 145,
+          "peakRank": 70,
+          "peakDate": "2022-02-03",
+          "entryRank": 139,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1W7FNibLa0O0b572tB2w7t",
+        "name": "Pink Sweat$",
+        "shareUrl": "https://open.spotify.com/artist/1W7FNibLa0O0b572tB2w7t",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051742822fcd3337b030199b3861a",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 158,
+          "previousRank": 166,
+          "peakRank": 82,
+          "peakDate": "2021-10-28",
+          "entryRank": 90,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "name": "The Beatles",
+        "shareUrl": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 159,
+          "previousRank": 154,
+          "peakRank": 81,
+          "peakDate": "2021-10-21",
+          "entryRank": 81,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "77SW9BnxLY8rJ0RciFqkHh",
+        "name": "The Neighbourhood",
+        "shareUrl": "https://open.spotify.com/artist/77SW9BnxLY8rJ0RciFqkHh",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174df0b5ac84376a0a4b2166816",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 160,
+          "previousRank": 153,
+          "peakRank": 153,
+          "peakDate": "2022-10-13",
+          "entryRank": 200,
+          "entryDate": "2022-01-20",
+          "appearancesOnChart": 16,
+          "consecutiveAppearancesOnChart": 12
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1YlibpAvhJBbMZMBwN1KGv",
+        "name": "The Juans",
+        "shareUrl": "https://open.spotify.com/artist/1YlibpAvhJBbMZMBwN1KGv",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174000b62d28dc31543e08f3b3a",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 161,
+          "previousRank": 155,
+          "peakRank": 102,
+          "peakDate": "2022-03-24",
+          "entryRank": 115,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6SuhlH2L1NB53bBscBqAdu",
+        "name": "David Pomeranz",
+        "shareUrl": "https://open.spotify.com/artist/6SuhlH2L1NB53bBscBqAdu",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/636fc0cce7e70c595ebb949b2bf6022de9e7f333",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 162,
+          "previousRank": 162,
+          "peakRank": 109,
+          "peakDate": "2022-02-17",
+          "entryRank": 147,
+          "entryDate": "2022-02-03",
+          "appearancesOnChart": 38,
+          "consecutiveAppearancesOnChart": 38
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7gOdHgIoIKoe4i9Tta6qdD",
+        "name": "Jonas Brothers",
+        "shareUrl": "https://open.spotify.com/artist/7gOdHgIoIKoe4i9Tta6qdD",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174142120beb4014a7f8abd0cf0",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 163,
+          "previousRank": 175,
+          "peakRank": 156,
+          "peakDate": "2022-06-23",
+          "entryRank": 160,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 28,
+          "consecutiveAppearancesOnChart": 22
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6ZgBJRjJsK1iOJGKGZxEUv",
+        "name": "South Border",
+        "shareUrl": "https://open.spotify.com/artist/6ZgBJRjJsK1iOJGKGZxEUv",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e02e156398c260839472e470a4c",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 164,
+          "previousRank": 156,
+          "peakRank": 122,
+          "peakDate": "2022-06-23",
+          "entryRank": 181,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1dfeR4HaWDbWqFHLkxsg1d",
+        "name": "Queen",
+        "shareUrl": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/c06971e9ff81696699b829484e3be165f4e64368",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 165,
+          "previousRank": 170,
+          "peakRank": 133,
+          "peakDate": "2021-10-21",
+          "entryRank": 133,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6JL8zeS1NmiOftqZTRgdTz",
+        "name": "Meghan Trainor",
+        "shareUrl": "https://open.spotify.com/artist/6JL8zeS1NmiOftqZTRgdTz",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174f13fc3f245be672aa60a24af",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 166,
+          "previousRank": -1,
+          "peakRank": 56,
+          "peakDate": "2021-12-30",
+          "entryRank": 188,
+          "entryDate": "2021-11-11",
+          "appearancesOnChart": 27,
+          "consecutiveAppearancesOnChart": 1
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4HPuFCMUiNcV4f3ew0flbZ",
+        "name": "Alisson Shore",
+        "shareUrl": "https://open.spotify.com/artist/4HPuFCMUiNcV4f3ew0flbZ",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517448222210c19319f05bce4b77",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 167,
+          "previousRank": 176,
+          "peakRank": 69,
+          "peakDate": "2021-10-21",
+          "entryRank": 69,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1GxkXlMwML1oSg5eLPiAz3",
+        "name": "Michael Bublé",
+        "shareUrl": "https://open.spotify.com/artist/1GxkXlMwML1oSg5eLPiAz3",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174ef8cf61fea4923d2bde68200",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 168,
+          "previousRank": 169,
+          "peakRank": 30,
+          "peakDate": "2021-12-30",
+          "entryRank": 130,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 20,
+          "consecutiveAppearancesOnChart": 8
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1tXFYQZSAswt4JLB42lpye",
+        "name": "Sponge Cola",
+        "shareUrl": "https://open.spotify.com/artist/1tXFYQZSAswt4JLB42lpye",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051740d0e9122ba5ae90e74fa12f4",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 169,
+          "previousRank": 159,
+          "peakRank": 83,
+          "peakDate": "2022-04-07",
+          "entryRank": 132,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2iB7AJhJmkWkkehY9ccB0j",
+        "name": "Ex Battalion",
+        "shareUrl": "https://open.spotify.com/artist/2iB7AJhJmkWkkehY9ccB0j",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051746d52a379f9c5843a109d8f2a",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 170,
+          "previousRank": 165,
+          "peakRank": 94,
+          "peakDate": "2022-05-12",
+          "entryRank": 125,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "7jVv8c5Fj3E9VhNjxT4snq",
+        "name": "Lil Nas X",
+        "shareUrl": "https://open.spotify.com/artist/7jVv8c5Fj3E9VhNjxT4snq",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174d66f1e0c883f319443d68c45",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 171,
+          "previousRank": 157,
+          "peakRank": 29,
+          "peakDate": "2021-10-21",
+          "entryRank": 29,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 46,
+          "consecutiveAppearancesOnChart": 4
+        }
+      },
+      {
+        "type": "artist",
+        "id": "57LYzLEk2LcFghVwuWbcuS",
+        "name": "Summer Walker",
+        "shareUrl": "https://open.spotify.com/artist/57LYzLEk2LcFghVwuWbcuS",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051744714179bf23941c0aec4b474",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 172,
+          "previousRank": 196,
+          "peakRank": 150,
+          "peakDate": "2021-11-11",
+          "entryRank": 150,
+          "entryDate": "2021-11-11",
+          "appearancesOnChart": 7,
+          "consecutiveAppearancesOnChart": 2
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2JGLjTHV2t8u8wxmLaiFfe",
+        "name": "Don Moen",
+        "shareUrl": "https://open.spotify.com/artist/2JGLjTHV2t8u8wxmLaiFfe",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174762072f8cf6b2721ec90f68f",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 173,
+          "previousRank": 160,
+          "peakRank": 113,
+          "peakDate": "2022-04-21",
+          "entryRank": 121,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4GNC7GD6oZMSxPGyXy4MNB",
+        "name": "Lewis Capaldi",
+        "shareUrl": "https://open.spotify.com/artist/4GNC7GD6oZMSxPGyXy4MNB",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174ea7538654040e553a7b0fc28",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 174,
+          "previousRank": 167,
+          "peakRank": 152,
+          "peakDate": "2022-09-22",
+          "entryRank": 158,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 22,
+          "consecutiveAppearancesOnChart": 6
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4GvEc3ANtPPjt1ZJllr5Zl",
+        "name": "Bazzi",
+        "shareUrl": "https://open.spotify.com/artist/4GvEc3ANtPPjt1ZJllr5Zl",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517472a8e86c457085e7fdd3453f",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 175,
+          "previousRank": 164,
+          "peakRank": 146,
+          "peakDate": "2021-10-21",
+          "entryRank": 146,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4slXciON4jYY6mqE9LjSFx",
+        "name": "Bandang Lapis",
+        "shareUrl": "https://open.spotify.com/artist/4slXciON4jYY6mqE9LjSFx",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174228cafa52ee0ca4d925833e2",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 176,
+          "previousRank": 171,
+          "peakRank": 147,
+          "peakDate": "2021-12-16",
+          "entryRank": 178,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 47,
+          "consecutiveAppearancesOnChart": 25
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4Ly0KABsxlx4fNj63zJTrF",
+        "name": "Seafret",
+        "shareUrl": "https://open.spotify.com/artist/4Ly0KABsxlx4fNj63zJTrF",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174ed4611e7eb1e6acf103a4ab9",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 177,
+          "previousRank": 142,
+          "peakRank": 101,
+          "peakDate": "2022-07-21",
+          "entryRank": 192,
+          "entryDate": "2022-06-30",
+          "appearancesOnChart": 17,
+          "consecutiveAppearancesOnChart": 17
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6XpaIBNiVzIetEPCWDvAFP",
+        "name": "Whitney Houston",
+        "shareUrl": "https://open.spotify.com/artist/6XpaIBNiVzIetEPCWDvAFP",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174cd9f60ab57585bf3b77ecc51",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 178,
+          "previousRank": 168,
+          "peakRank": 151,
+          "peakDate": "2022-07-14",
+          "entryRank": 172,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6Xx1uQPrAF37dtVMKEmvx5",
+        "name": "Cueshé",
+        "shareUrl": "https://open.spotify.com/artist/6Xx1uQPrAF37dtVMKEmvx5",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616d00001e02db0d1e63a23b064f28194bd7",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 179,
+          "previousRank": 158,
+          "peakRank": 158,
+          "peakDate": "2022-10-13",
+          "entryRank": 198,
+          "entryDate": "2022-03-31",
+          "appearancesOnChart": 11,
+          "consecutiveAppearancesOnChart": 5
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4phGZZrJZRo4ElhRtViYdl",
+        "name": "Jason Mraz",
+        "shareUrl": "https://open.spotify.com/artist/4phGZZrJZRo4ElhRtViYdl",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174ce8d5be6690c6964069ab8e0",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 180,
+          "previousRank": 173,
+          "peakRank": 137,
+          "peakDate": "2021-10-21",
+          "entryRank": 137,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "09Xydf4dlkr29dH99DmsvQ",
+        "name": "Janine Teñoso",
+        "shareUrl": "https://open.spotify.com/artist/09Xydf4dlkr29dH99DmsvQ",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517427007efc625b8c61dfaf13a9",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 181,
+          "previousRank": 178,
+          "peakRank": 87,
+          "peakDate": "2021-10-21",
+          "entryRank": 87,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 50,
+          "consecutiveAppearancesOnChart": 29
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0vWCyXMrrvMlCcepuOJaGI",
+        "name": "Boys Like Girls",
+        "shareUrl": "https://open.spotify.com/artist/0vWCyXMrrvMlCcepuOJaGI",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517490e0ad6531660c3bf99618ac",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 182,
+          "previousRank": 182,
+          "peakRank": 182,
+          "peakDate": "2022-10-13",
+          "entryRank": 182,
+          "entryDate": "2022-10-13",
+          "appearancesOnChart": 2,
+          "consecutiveAppearancesOnChart": 2
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6XyY86QOPPrYVGvF9ch6wz",
+        "name": "Linkin Park",
+        "shareUrl": "https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517434e5aa6afc1ba147bfbb0677",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 183,
+          "previousRank": 183,
+          "peakRank": 176,
+          "peakDate": "2022-06-09",
+          "entryRank": 196,
+          "entryDate": "2021-11-18",
+          "appearancesOnChart": 25,
+          "consecutiveAppearancesOnChart": 14
+        }
+      },
+      {
+        "type": "artist",
+        "id": "1LZEQNv7sE11VDY3SdxQeN",
+        "name": "Bee Gees",
+        "shareUrl": "https://open.spotify.com/artist/1LZEQNv7sE11VDY3SdxQeN",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/1f363042bdd59e0f80cb7b9cac1b312f9389b019",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 184,
+          "previousRank": 181,
+          "peakRank": 146,
+          "peakDate": "2022-01-06",
+          "entryRank": 149,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4eKq7eArL96wSQjaaMg9Ic",
+        "name": "Munimuni",
+        "shareUrl": "https://open.spotify.com/artist/4eKq7eArL96wSQjaaMg9Ic",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174260a5822bcdfbd099deb8dad",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 185,
+          "previousRank": 174,
+          "peakRank": 126,
+          "peakDate": "2022-04-07",
+          "entryRank": 151,
+          "entryDate": "2022-01-13",
+          "appearancesOnChart": 34,
+          "consecutiveAppearancesOnChart": 32
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3l0CmX0FuQjFxr8SK7Vqag",
+        "name": "Clairo",
+        "shareUrl": "https://open.spotify.com/artist/3l0CmX0FuQjFxr8SK7Vqag",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174370f4e30deba6da178db36fe",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 186,
+          "previousRank": 172,
+          "peakRank": 172,
+          "peakDate": "2022-10-13",
+          "entryRank": 199,
+          "entryDate": "2021-10-28",
+          "appearancesOnChart": 5,
+          "consecutiveAppearancesOnChart": 4
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5YGY8feqx7naU7z4HrwZM6",
+        "name": "Miley Cyrus",
+        "shareUrl": "https://open.spotify.com/artist/5YGY8feqx7naU7z4HrwZM6",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517402651b19050d8bf64b18d40a",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 187,
+          "previousRank": 179,
+          "peakRank": 113,
+          "peakDate": "2021-11-18",
+          "entryRank": 118,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "0z4gvV4rjIZ9wHck67ucSV",
+        "name": "Akon",
+        "shareUrl": "https://open.spotify.com/artist/0z4gvV4rjIZ9wHck67ucSV",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051742eaca212e5583dfda30ebd4d",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 188,
+          "previousRank": 163,
+          "peakRank": 117,
+          "peakDate": "2022-09-22",
+          "entryRank": 123,
+          "entryDate": "2022-09-15",
+          "appearancesOnChart": 6,
+          "consecutiveAppearancesOnChart": 6
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3DiDSECUqqY1AuBP8qtaIa",
+        "name": "Alicia Keys",
+        "shareUrl": "https://open.spotify.com/artist/3DiDSECUqqY1AuBP8qtaIa",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174bf50e4c8ca06aa27f4ab0f7d",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 189,
+          "previousRank": 186,
+          "peakRank": 166,
+          "peakDate": "2021-10-21",
+          "entryRank": 166,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 35,
+          "consecutiveAppearancesOnChart": 5
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5oWOx0BBDSMoFB8JDrjQre",
+        "name": "Katharine McPhee",
+        "shareUrl": "https://open.spotify.com/artist/5oWOx0BBDSMoFB8JDrjQre",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051745dd4a01ad15eef100565b5e1",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 190,
+          "previousRank": 189,
+          "peakRank": 189,
+          "peakDate": "2022-10-13",
+          "entryRank": 189,
+          "entryDate": "2022-10-13",
+          "appearancesOnChart": 2,
+          "consecutiveAppearancesOnChart": 2
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2owtRYReKCG1n2AAS5AcpS",
+        "name": "Kenaniah",
+        "shareUrl": "https://open.spotify.com/artist/2owtRYReKCG1n2AAS5AcpS",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174aeb21925184fe7b67f81d0e8",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 191,
+          "previousRank": -1,
+          "peakRank": 191,
+          "peakDate": "2022-10-20",
+          "entryRank": 191,
+          "entryDate": "2022-10-20",
+          "appearancesOnChart": 1,
+          "consecutiveAppearancesOnChart": 1
+        }
+      },
+      {
+        "type": "artist",
+        "id": "56oDRnqbIiwx4mymNEv7dS",
+        "name": "Lizzo",
+        "shareUrl": "https://open.spotify.com/artist/56oDRnqbIiwx4mymNEv7dS",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051740d66b3670294bf801847dae2",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 192,
+          "previousRank": 184,
+          "peakRank": 68,
+          "peakDate": "2022-06-02",
+          "entryRank": 161,
+          "entryDate": "2022-05-12",
+          "appearancesOnChart": 24,
+          "consecutiveAppearancesOnChart": 24
+        }
+      },
+      {
+        "type": "artist",
+        "id": "74cb3MG0x0BOnYNW1uXYnM",
+        "name": "Hillsong UNITED",
+        "shareUrl": "https://open.spotify.com/artist/74cb3MG0x0BOnYNW1uXYnM",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517408b1ae876402b0a3c83d0030",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 193,
+          "previousRank": 187,
+          "peakRank": 126,
+          "peakDate": "2022-04-21",
+          "entryRank": 152,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 51,
+          "consecutiveAppearancesOnChart": 6
+        }
+      },
+      {
+        "type": "artist",
+        "id": "5ZsFI1h6hIdQRw2ti0hz81",
+        "name": "ZAYN",
+        "shareUrl": "https://open.spotify.com/artist/5ZsFI1h6hIdQRw2ti0hz81",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051749fbf7133dfc04d4cd44ccd36",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 194,
+          "previousRank": 192,
+          "peakRank": 129,
+          "peakDate": "2021-11-18",
+          "entryRank": 161,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "3jK9MiCrA42lLAdMGUZpwa",
+        "name": "Anderson .Paak",
+        "shareUrl": "https://open.spotify.com/artist/3jK9MiCrA42lLAdMGUZpwa",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517496287bd47570ff13f0c01496",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 195,
+          "previousRank": -1,
+          "peakRank": 18,
+          "peakDate": "2021-11-18",
+          "entryRank": 126,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 42,
+          "consecutiveAppearancesOnChart": 1
+        }
+      },
+      {
+        "type": "artist",
+        "id": "164Uj4eKjl6zTBKfJLFKKK",
+        "name": "JVKE",
+        "shareUrl": "https://open.spotify.com/artist/164Uj4eKjl6zTBKfJLFKKK",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab676161000051749a72fa882a4f81aecd85d1fd",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 196,
+          "previousRank": 180,
+          "peakRank": 152,
+          "peakDate": "2022-09-29",
+          "entryRank": 178,
+          "entryDate": "2022-09-08",
+          "appearancesOnChart": 7,
+          "consecutiveAppearancesOnChart": 7
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2EMAnMvWE2eb56ToJVfCWs",
+        "name": "Bryson Tiller",
+        "shareUrl": "https://open.spotify.com/artist/2EMAnMvWE2eb56ToJVfCWs",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174078fdd734b7f0aa782328428",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 197,
+          "previousRank": -1,
+          "peakRank": 197,
+          "peakDate": "2022-10-20",
+          "entryRank": 197,
+          "entryDate": "2022-10-20",
+          "appearancesOnChart": 1,
+          "consecutiveAppearancesOnChart": 1
+        }
+      },
+      {
+        "type": "artist",
+        "id": "6YVMFz59CuY7ngCxTxjpxE",
+        "name": "aespa",
+        "shareUrl": "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174848461f60f0f337dadbf396f",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 198,
+          "previousRank": 185,
+          "peakRank": 43,
+          "peakDate": "2022-07-14",
+          "entryRank": 54,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 50,
+          "consecutiveAppearancesOnChart": 21
+        }
+      },
+      {
+        "type": "artist",
+        "id": "2tIP7SsRs7vjIcLrU85W8J",
+        "name": "The Kid LAROI",
+        "shareUrl": "https://open.spotify.com/artist/2tIP7SsRs7vjIcLrU85W8J",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab6761610000517414ea93c3a87e3bb6d30f2566",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 199,
+          "previousRank": 197,
+          "peakRank": 32,
+          "peakDate": "2021-10-21",
+          "entryRank": 32,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 53,
+          "consecutiveAppearancesOnChart": 53
+        }
+      },
+      {
+        "type": "artist",
+        "id": "4tw2Lmn9tTPUv7Gy7mVPI4",
+        "name": "Kenny Rogers",
+        "shareUrl": "https://open.spotify.com/artist/4tw2Lmn9tTPUv7Gy7mVPI4",
+        "visuals": {
+          "avatar": [
+            {
+              "url": "https://i.scdn.co/image/ab67616100005174e6866cd9e8de1c0a22c012e0",
+              "width": null,
+              "height": null
+            }
+          ]
+        },
+        "chartData": {
+          "currentRank": 200,
+          "previousRank": 200,
+          "peakRank": 158,
+          "peakDate": "2021-10-28",
+          "entryRank": 159,
+          "entryDate": "2021-10-21",
+          "appearancesOnChart": 45,
+          "consecutiveAppearancesOnChart": 2
+        }
+      }
+    ]
+  }

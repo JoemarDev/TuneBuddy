@@ -1,0 +1,25 @@
+#app-loader {
+    animation-duration: 2.25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: rgb(13,13,13);
+    background: linear-gradient(90deg, rgba(13,13,13,1) 0%, rgba(43,43,43,1) 39%, rgba(43,43,43,1) 53%, rgba(13,13,13,1) 100%);
+    background-size: 4100px 104px;
+    position: relative;
+
+}
+
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    50% {
+        background-position: 468px 0
+    }
+    100%{
+        background-position: -468px 0
+    }
+}
+

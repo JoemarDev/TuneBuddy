@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import ArtistProfile from "./routes/artist-profile/artist-profile.component";
+import ArtistsLists from "./routes/artists-lists/artists-lists.component";
+import Home from "./routes/home/home";
+import AppSideBar from "./routes/sidebar/app-sidebar.component";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+	return (
+		<>	
+			<Routes>
+				<Route path="/" element={<AppSideBar/>}>
+					<Route index element={<Home/>}/>
+					<Route path={'/artists/*'} element={<ArtistsLists/>}/>
+					<Route path={'/artists/:artist_id'} element={<ArtistProfile />}/>
+				</Route>
+			</Routes>
+		</>
+	)
 }
 
 export default App;

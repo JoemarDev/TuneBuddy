@@ -1,0 +1,12 @@
+.app-menu-child {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    
+    .app-menu-icon{
+        font-size: 20px;
+        margin-right: 20px;
+
+    }
+}
