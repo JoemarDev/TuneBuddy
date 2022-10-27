@@ -9,7 +9,6 @@ import { SelectArtistsDataDetail, SelectArtistsLists, SelectIsArtistsLoading } f
 import { GetArtistsAsync } from '../../store/artists/artists.action';
 import { Link } from 'react-router-dom';
 const Home = () => {
-    console.log(process.env)
     const ArtistsDataDetail = useSelector(SelectArtistsDataDetail);
     const isArtistsLoading = useSelector(SelectIsArtistsLoading);
     const ArtistsLists = useSelector(SelectArtistsLists)
