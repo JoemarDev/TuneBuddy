@@ -21,6 +21,6 @@ export const ArtistsProfileReducer = (
         case ARTISTS_PROFILE_ACTION_TYPES.FETCH_ARTISTS_PROFILE_FAILED:
             return {...state , error : payload , isLoading : false}
         default :
-            return {...state}
+            return state
     }
 }

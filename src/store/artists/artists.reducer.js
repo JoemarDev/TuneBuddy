@@ -31,6 +31,6 @@ export const ArtistsReducer = (
         case ARTISTS_ACTION_TYPES.FETCH_ARTISTS_FAILED:
             return {...state , error : payload , isLoading : false}
         default : 
-            return {...state}
+            return state;
     }
 }

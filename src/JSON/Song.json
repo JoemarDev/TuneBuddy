@@ -1,0 +1,95 @@
+{
+    "status": true,
+    "youtubeVideo": {
+      "searchTerm": "Lego House Ed Sheeran",
+      "id": "ZlGPTwNRYtU",
+      "title": "Ed Sheeran - Lego House (Acoustic Boat Sessions)",
+      "channel": {
+        "id": "UC0C-w0YjGpqDXGB8IHb662A",
+        "name": "Ed Sheeran",
+        "isVerified": true,
+        "isVerifiedArtist": true
+      },
+      "audio": [
+        {
+          "url": "https://redirector.googlevideo.com/videoplayback?expire=1666975120&ei=L7FbY6H0JeaK_9EPw4qQ0Ac&ip=18.206.177.153&id=o-AFZJ88dYtW4CpCBxUIkVwYr0cdqtpFaRnS4DQqYuqyh8&itag=140&source=youtube&requiressl=yes&mh=lv&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5l6nr6&ms=au%2Conr&mv=m&mvi=4&pl=17&initcwndbps=670000&spc=yR2vp9hQmcNFLchuketwo2t7LtdLhNjdrdi_XI4Lgvg8&vprv=1&mime=audio%2Fmp4&ns=oIQZphHo7KiMFZb2XUI53mUI&gir=yes&clen=2918775&dur=180.302&lmt=1608509790282975&mt=1666953437&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5431432&n=J8oShbUBFYxExQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIhAJEinmoVLWaPPhw57SnVavR6DDaTl8e5fNyfTCycbRWyAh8US_YRTE22FsuQN-1DfkgyRMl77AvAS7sZgkm9Kxdt&sig=AOq0QJ8wRgIhAKSyjeNwZl8tEGQps05tW4x_f0Lb0j6aMn_dHzHsMU2RAiEA9Ni2uxyFLHrQHWqcZFGsZeGDZp0ZeFT7QXCSpNFjlTc%3D&range=0-",
+          "durationMs": 180302,
+          "durationText": "03:00",
+          "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+          "format": "m4a",
+          "lastModified": 1608509790282975,
+          "size": 2918775,
+          "sizeText": "2.8MB"
+        },
+        {
+          "url": "https://redirector.googlevideo.com/videoplayback?expire=1666975120&ei=L7FbY6H0JeaK_9EPw4qQ0Ac&ip=18.206.177.153&id=o-AFZJ88dYtW4CpCBxUIkVwYr0cdqtpFaRnS4DQqYuqyh8&itag=249&source=youtube&requiressl=yes&mh=lv&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5l6nr6&ms=au%2Conr&mv=m&mvi=4&pl=17&initcwndbps=670000&spc=yR2vp9hQmcNFLchuketwo2t7LtdLhNjdrdi_XI4Lgvg8&vprv=1&mime=audio%2Fwebm&ns=oIQZphHo7KiMFZb2XUI53mUI&gir=yes&clen=1048502&dur=180.261&lmt=1540550295875627&mt=1666953437&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5411222&n=J8oShbUBFYxExQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgWu8-ZdiE1DIDIUSUg_fjX6B7HzUTcleIB_Mie1eDb94CIFkqhyhMzBfp5PCSEG-nWeXdMaDAekq_2j5tK89GTzul&sig=AOq0QJ8wRgIhAMWrBSrtb1ZnwwhWp-JjGq4ovK89Dp1PWvswnC63aJImAiEAppGmKqwzoUOacBxs3ZAwOjbjgpMrfX8xxqyEwpTHnXg%3D&range=0-",
+          "durationMs": 180261,
+          "durationText": "03:00",
+          "mimeType": "audio/webm; codecs=\"opus\"",
+          "format": "weba",
+          "lastModified": 1540550295875627,
+          "size": 1048502,
+          "sizeText": "1MB"
+        },
+        {
+          "url": "https://redirector.googlevideo.com/videoplayback?expire=1666975120&ei=L7FbY6H0JeaK_9EPw4qQ0Ac&ip=18.206.177.153&id=o-AFZJ88dYtW4CpCBxUIkVwYr0cdqtpFaRnS4DQqYuqyh8&itag=250&source=youtube&requiressl=yes&mh=lv&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5l6nr6&ms=au%2Conr&mv=m&mvi=4&pl=17&initcwndbps=670000&spc=yR2vp9hQmcNFLchuketwo2t7LtdLhNjdrdi_XI4Lgvg8&vprv=1&mime=audio%2Fwebm&ns=oIQZphHo7KiMFZb2XUI53mUI&gir=yes&clen=1329153&dur=180.261&lmt=1540550295879021&mt=1666953437&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5411222&n=J8oShbUBFYxExQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgUmsgSlbX1_his4RvHJlqNn0DlXBm54xEV9dxoR_ksogCID2OYC4zmJId889ZdIG1GLlhtI87Gj2CgzeHQr0FH8eA&sig=AOq0QJ8wRQIgaWydtzw35tqEstt-W-5T3HU8k8f6OTWwimUAn45We1oCIQCZ0rieZNBkUJeyMweWHfBEZ1rieVDP4WNcM8muGZcoNA%3D%3D&range=0-",
+          "durationMs": 180261,
+          "durationText": "03:00",
+          "mimeType": "audio/webm; codecs=\"opus\"",
+          "format": "weba",
+          "lastModified": 1540550295879021,
+          "size": 1329153,
+          "sizeText": "1.3MB"
+        },
+        {
+          "url": "https://redirector.googlevideo.com/videoplayback?expire=1666975120&ei=L7FbY6H0JeaK_9EPw4qQ0Ac&ip=18.206.177.153&id=o-AFZJ88dYtW4CpCBxUIkVwYr0cdqtpFaRnS4DQqYuqyh8&itag=251&source=youtube&requiressl=yes&mh=lv&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5l6nr6&ms=au%2Conr&mv=m&mvi=4&pl=17&initcwndbps=670000&spc=yR2vp9hQmcNFLchuketwo2t7LtdLhNjdrdi_XI4Lgvg8&vprv=1&mime=audio%2Fwebm&ns=oIQZphHo7KiMFZb2XUI53mUI&gir=yes&clen=2463703&dur=180.261&lmt=1540550295887360&mt=1666953437&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5411222&n=J8oShbUBFYxExQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhALDvFLpCtjMEPiNA6r2XGLBzUtJv9dVonFFwuMfhhhJvAiEAq-RhQ9dRssujYnU_Z5mQJY7bcf60ApmkIgLTDYPRq38%3D&sig=AOq0QJ8wRgIhAIWvXmnDcUKqO1ECuOPCKgL36NzI5fjH5ndKGvVkwLnvAiEA-e9ag3Tca4_rasFpEEVczuMLj6bCnfyKx1FD9uXDHf8%3D&range=0-",
+          "durationMs": 180261,
+          "durationText": "03:00",
+          "mimeType": "audio/webm; codecs=\"opus\"",
+          "format": "weba",
+          "lastModified": 1540550295887360,
+          "size": 2463703,
+          "sizeText": "2.3MB"
+        }
+      ]
+    },
+    "spotifyTrack": {
+      "type": "track",
+      "id": "5ubHAQtKuFfiG4FXfLP804",
+      "name": "Lego House",
+      "shareUrl": "https://open.spotify.com/track/5ubHAQtKuFfiG4FXfLP804",
+      "durationMs": 185093,
+      "durationText": "03:05",
+      "artists": [
+        {
+          "type": "artist",
+          "id": "6eUKZXaKkcviH0Ku9w2n3V",
+          "name": "Ed Sheeran",
+          "shareUrl": "https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V"
+        }
+      ],
+      "album": {
+        "type": "album",
+        "id": "02pi98kE0nra0yBqCStzbC",
+        "name": "+",
+        "shareUrl": "https://open.spotify.com/album/02pi98kE0nra0yBqCStzbC",
+        "cover": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02ed139c2e0e3681cc2d35e256",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851ed139c2e0e3681cc2d35e256",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273ed139c2e0e3681cc2d35e256",
+            "width": 640,
+            "height": 640
+          }
+        ]
+      }
+    }
+  }
