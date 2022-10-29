@@ -1,0 +1,28 @@
+.player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .play-control {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background: #333;
+    }
+    
+    button {
+        height: 30px;
+        width: 30px;
+        background: transparent;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+
+        img {
+            width: 35px;
+        }
+
+    }
+}

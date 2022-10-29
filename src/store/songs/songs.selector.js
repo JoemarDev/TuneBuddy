@@ -5,10 +5,11 @@ const selectSongReducer = (state) => state.Song;
 export const SelectSongData = createSelector(
     [selectSongReducer],
     (SongSplice) => {
-        console.log(SongSplice);
-        return null;
+        return SongSplice['currentSong'];
     }
 )
+
+
 
 export const SelectSongName = createSelector(
     [selectSongReducer],
@@ -43,7 +44,6 @@ export const SelectSongArtist = createSelector(
     }
 )
 
-
 export const SelectSongID = createSelector(
     [selectSongReducer],
     (SongSplice) => {
@@ -55,17 +55,28 @@ export const SelectSongID = createSelector(
     }
 )
 
-
 export const SelectIsFetchingTrackLoading = createSelector(
     [selectSongReducer],
     (SongSplice) => SongSplice.trackLoading
 )
+
 
 export const SelectTrackAudio = createSelector(
     [selectSongReducer],
     (SongSplice) => {
         try {
             return SongSplice['trackDetail']['youtubeVideo']['audio'][0]['url'];
+        } catch (error) {
+            return null;
+        }
+    }
+)
+
+export const SelectTrackDuration = createSelector(
+    [selectSongReducer],
+    (SongSplice) => {
+        try {
+            return SongSplice['trackDetail']['youtubeVideo']['audio'][0]['durationMs'];
         } catch (error) {
             return null;
         }

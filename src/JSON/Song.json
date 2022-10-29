@@ -1,95 +1,481 @@
-{
-    "status": true,
-    "youtubeVideo": {
-      "searchTerm": "Lego House Ed Sheeran",
-      "id": "ZlGPTwNRYtU",
-      "title": "Ed Sheeran - Lego House (Acoustic Boat Sessions)",
+[{
+  "status": true,
+  "youtubeVideo": {
+      "searchTerm": "Praning Flow G",
+      "id": "SEcAPh0TFU8",
+      "title": "Flow G - Praning (Lyrics)",
       "channel": {
-        "id": "UC0C-w0YjGpqDXGB8IHb662A",
-        "name": "Ed Sheeran",
-        "isVerified": true,
-        "isVerifiedArtist": true
+          "id": "UCxqtfVRxELiVrQO1nNDxquA",
+          "name": "phm lyrics",
+          "isVerified": false,
+          "isVerifiedArtist": false
       },
       "audio": [
-        {
-          "url": "https://redirector.googlevideo.com/videoplayback?expire=1666975120&ei=L7FbY6H0JeaK_9EPw4qQ0Ac&ip=18.206.177.153&id=o-AFZJ88dYtW4CpCBxUIkVwYr0cdqtpFaRnS4DQqYuqyh8&itag=140&source=youtube&requiressl=yes&mh=lv&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5l6nr6&ms=au%2Conr&mv=m&mvi=4&pl=17&initcwndbps=670000&spc=yR2vp9hQmcNFLchuketwo2t7LtdLhNjdrdi_XI4Lgvg8&vprv=1&mime=audio%2Fmp4&ns=oIQZphHo7KiMFZb2XUI53mUI&gir=yes&clen=2918775&dur=180.302&lmt=1608509790282975&mt=1666953437&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5431432&n=J8oShbUBFYxExQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIhAJEinmoVLWaPPhw57SnVavR6DDaTl8e5fNyfTCycbRWyAh8US_YRTE22FsuQN-1DfkgyRMl77AvAS7sZgkm9Kxdt&sig=AOq0QJ8wRgIhAKSyjeNwZl8tEGQps05tW4x_f0Lb0j6aMn_dHzHsMU2RAiEA9Ni2uxyFLHrQHWqcZFGsZeGDZp0ZeFT7QXCSpNFjlTc%3D&range=0-",
-          "durationMs": 180302,
-          "durationText": "03:00",
-          "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
-          "format": "m4a",
-          "lastModified": 1608509790282975,
-          "size": 2918775,
-          "sizeText": "2.8MB"
-        },
-        {
-          "url": "https://redirector.googlevideo.com/videoplayback?expire=1666975120&ei=L7FbY6H0JeaK_9EPw4qQ0Ac&ip=18.206.177.153&id=o-AFZJ88dYtW4CpCBxUIkVwYr0cdqtpFaRnS4DQqYuqyh8&itag=249&source=youtube&requiressl=yes&mh=lv&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5l6nr6&ms=au%2Conr&mv=m&mvi=4&pl=17&initcwndbps=670000&spc=yR2vp9hQmcNFLchuketwo2t7LtdLhNjdrdi_XI4Lgvg8&vprv=1&mime=audio%2Fwebm&ns=oIQZphHo7KiMFZb2XUI53mUI&gir=yes&clen=1048502&dur=180.261&lmt=1540550295875627&mt=1666953437&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5411222&n=J8oShbUBFYxExQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgWu8-ZdiE1DIDIUSUg_fjX6B7HzUTcleIB_Mie1eDb94CIFkqhyhMzBfp5PCSEG-nWeXdMaDAekq_2j5tK89GTzul&sig=AOq0QJ8wRgIhAMWrBSrtb1ZnwwhWp-JjGq4ovK89Dp1PWvswnC63aJImAiEAppGmKqwzoUOacBxs3ZAwOjbjgpMrfX8xxqyEwpTHnXg%3D&range=0-",
-          "durationMs": 180261,
-          "durationText": "03:00",
-          "mimeType": "audio/webm; codecs=\"opus\"",
-          "format": "weba",
-          "lastModified": 1540550295875627,
-          "size": 1048502,
-          "sizeText": "1MB"
-        },
-        {
-          "url": "https://redirector.googlevideo.com/videoplayback?expire=1666975120&ei=L7FbY6H0JeaK_9EPw4qQ0Ac&ip=18.206.177.153&id=o-AFZJ88dYtW4CpCBxUIkVwYr0cdqtpFaRnS4DQqYuqyh8&itag=250&source=youtube&requiressl=yes&mh=lv&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5l6nr6&ms=au%2Conr&mv=m&mvi=4&pl=17&initcwndbps=670000&spc=yR2vp9hQmcNFLchuketwo2t7LtdLhNjdrdi_XI4Lgvg8&vprv=1&mime=audio%2Fwebm&ns=oIQZphHo7KiMFZb2XUI53mUI&gir=yes&clen=1329153&dur=180.261&lmt=1540550295879021&mt=1666953437&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5411222&n=J8oShbUBFYxExQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgUmsgSlbX1_his4RvHJlqNn0DlXBm54xEV9dxoR_ksogCID2OYC4zmJId889ZdIG1GLlhtI87Gj2CgzeHQr0FH8eA&sig=AOq0QJ8wRQIgaWydtzw35tqEstt-W-5T3HU8k8f6OTWwimUAn45We1oCIQCZ0rieZNBkUJeyMweWHfBEZ1rieVDP4WNcM8muGZcoNA%3D%3D&range=0-",
-          "durationMs": 180261,
-          "durationText": "03:00",
-          "mimeType": "audio/webm; codecs=\"opus\"",
-          "format": "weba",
-          "lastModified": 1540550295879021,
-          "size": 1329153,
-          "sizeText": "1.3MB"
-        },
-        {
-          "url": "https://redirector.googlevideo.com/videoplayback?expire=1666975120&ei=L7FbY6H0JeaK_9EPw4qQ0Ac&ip=18.206.177.153&id=o-AFZJ88dYtW4CpCBxUIkVwYr0cdqtpFaRnS4DQqYuqyh8&itag=251&source=youtube&requiressl=yes&mh=lv&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5l6nr6&ms=au%2Conr&mv=m&mvi=4&pl=17&initcwndbps=670000&spc=yR2vp9hQmcNFLchuketwo2t7LtdLhNjdrdi_XI4Lgvg8&vprv=1&mime=audio%2Fwebm&ns=oIQZphHo7KiMFZb2XUI53mUI&gir=yes&clen=2463703&dur=180.261&lmt=1540550295887360&mt=1666953437&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5411222&n=J8oShbUBFYxExQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhALDvFLpCtjMEPiNA6r2XGLBzUtJv9dVonFFwuMfhhhJvAiEAq-RhQ9dRssujYnU_Z5mQJY7bcf60ApmkIgLTDYPRq38%3D&sig=AOq0QJ8wRgIhAIWvXmnDcUKqO1ECuOPCKgL36NzI5fjH5ndKGvVkwLnvAiEA-e9ag3Tca4_rasFpEEVczuMLj6bCnfyKx1FD9uXDHf8%3D&range=0-",
-          "durationMs": 180261,
-          "durationText": "03:00",
-          "mimeType": "audio/webm; codecs=\"opus\"",
-          "format": "weba",
-          "lastModified": 1540550295887360,
-          "size": 2463703,
-          "sizeText": "2.3MB"
-        }
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667041742&ei=bbVcY7yaKMST2LYP5YOFuA4&ip=3.235.180.150&id=o-ANrq0SyReoLvhvkgu51MyAh_iNWBXtqHSGTREkDW6hLF&itag=140&source=youtube&requiressl=yes&mh=_N&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5sznzd&ms=au%2Conr&mv=m&mvi=3&pl=15&initcwndbps=685000&spc=yR2vpw9kW5uJ-8neDR7uhPGzOJDt5DEC9AnPKQ7JVXl-&vprv=1&mime=audio%2Fmp4&ns=4G5RfLKgeehiAfSp3OvESfUI&gir=yes&clen=3551122&dur=219.382&lmt=1647906137316405&mt=1667019908&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5432434&n=iCZLo6LYh3dLcA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgFZKQcEzLWarrEwX3csNB0UdfzsvS4k3NrHtVvEpbrlECIQDhlwtWzFAcQoL1AVhAbh1jojgVmnSo1kegGhXKO-xSKg%3D%3D&sig=AOq0QJ8wRQIgOWhZF495BSdN2kWuPQ2m79dcredm64tGeB-uvo7MMMcCIQDN0mTXQR-7W6NWivtENmYt2zzMAYT4FTi4CzPuxD799w%3D%3D&range=0-",
+              "durationMs": 219382,
+              "durationText": "03:39",
+              "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+              "format": "m4a",
+              "lastModified": 1647906137316405,
+              "size": 3551122,
+              "sizeText": "3.4MB"
+          },
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667041742&ei=bbVcY7yaKMST2LYP5YOFuA4&ip=3.235.180.150&id=o-ANrq0SyReoLvhvkgu51MyAh_iNWBXtqHSGTREkDW6hLF&itag=249&source=youtube&requiressl=yes&mh=_N&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5sznzd&ms=au%2Conr&mv=m&mvi=3&pl=15&initcwndbps=685000&spc=yR2vpw9kW5uJ-8neDR7uhPGzOJDt5DEC9AnPKQ7JVXl-&vprv=1&mime=audio%2Fwebm&ns=4G5RfLKgeehiAfSp3OvESfUI&gir=yes&clen=1481157&dur=219.361&lmt=1647906139641057&mt=1667019908&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5432434&n=iCZLo6LYh3dLcA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhANfEXJ-vs7KPS_X9erdlQGiiU3AYZPNkQvlcLUMOqpyXAiBTt0JD9DPjMYg11nr5NpHZJkEjz0mszqL4b64FmXJOuA%3D%3D&sig=AOq0QJ8wRgIhAP5nCb3OQ2B2rLabE-tpnt5m0q489i71C_pJjebHJHmiAiEAuRpp2TWh3Fq_c29BTB3jvaiTOxKXVBknax1nIC0__Rc%3D&range=0-",
+              "durationMs": 219361,
+              "durationText": "03:39",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1647906139641057,
+              "size": 1481157,
+              "sizeText": "1.4MB"
+          },
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667041742&ei=bbVcY7yaKMST2LYP5YOFuA4&ip=3.235.180.150&id=o-ANrq0SyReoLvhvkgu51MyAh_iNWBXtqHSGTREkDW6hLF&itag=250&source=youtube&requiressl=yes&mh=_N&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5sznzd&ms=au%2Conr&mv=m&mvi=3&pl=15&initcwndbps=685000&spc=yR2vpw9kW5uJ-8neDR7uhPGzOJDt5DEC9AnPKQ7JVXl-&vprv=1&mime=audio%2Fwebm&ns=4G5RfLKgeehiAfSp3OvESfUI&gir=yes&clen=1929310&dur=219.361&lmt=1647906133573028&mt=1667019908&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5432434&n=iCZLo6LYh3dLcA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgGtNLxF1Q4ZUObcpjCN_mu4BYlAYou1zsgpgWODqGeUECICWmklte7yWcQsG41Qr4Vdpm0vqs8xUOo6cSlgt7gdIv&sig=AOq0QJ8wRAIgVcMYsdHTv2zXACWpir_CNmk1Fro4LCjxv6lDpkIglg4CICx16ePXx0TvIsjiB2W8oKk9CybuPhPU6p13P0KLbhpa&range=0-",
+              "durationMs": 219361,
+              "durationText": "03:39",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1647906133573028,
+              "size": 1929310,
+              "sizeText": "1.8MB"
+          },
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667041742&ei=bbVcY7yaKMST2LYP5YOFuA4&ip=3.235.180.150&id=o-ANrq0SyReoLvhvkgu51MyAh_iNWBXtqHSGTREkDW6hLF&itag=251&source=youtube&requiressl=yes&mh=_N&mm=31%2C26&mn=sn-p5qlsnd6%2Csn-ab5sznzd&ms=au%2Conr&mv=m&mvi=3&pl=15&initcwndbps=685000&spc=yR2vpw9kW5uJ-8neDR7uhPGzOJDt5DEC9AnPKQ7JVXl-&vprv=1&mime=audio%2Fwebm&ns=4G5RfLKgeehiAfSp3OvESfUI&gir=yes&clen=3732556&dur=219.361&lmt=1647906134000269&mt=1667019908&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5432434&n=iCZLo6LYh3dLcA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgaYz9ypwcXLbFKBO8QcCTi55ZCNFzCoTYcSpAocJaudACIGfmzWXLPJEphGrvSlyeCj5kOpEg3cURKwexXwy3THk0&sig=AOq0QJ8wRgIhAKF5V57LsuHmEB2gismjsJ1QuB6i7AB3D5htpbKXP4ifAiEAxBAGhRpDoEgoObZCqn7Y0UZMuqPo66D09yxRmq6UhHQ%3D&range=0-",
+              "durationMs": 219361,
+              "durationText": "03:39",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1647906134000269,
+              "size": 3732556,
+              "sizeText": "3.6MB"
+          }
       ]
-    },
-    "spotifyTrack": {
+  },
+  "spotifyTrack": {
       "type": "track",
-      "id": "5ubHAQtKuFfiG4FXfLP804",
-      "name": "Lego House",
-      "shareUrl": "https://open.spotify.com/track/5ubHAQtKuFfiG4FXfLP804",
-      "durationMs": 185093,
-      "durationText": "03:05",
+      "id": "1UPVx1JTMLXSjQHVh0oHpW",
+      "name": "Praning",
+      "shareUrl": "https://open.spotify.com/track/1UPVx1JTMLXSjQHVh0oHpW",
+      "durationMs": 219877,
+      "durationText": "03:39",
+      "trackNumber": 1,
+      "playCount": 2863656,
       "artists": [
-        {
-          "type": "artist",
-          "id": "6eUKZXaKkcviH0Ku9w2n3V",
-          "name": "Ed Sheeran",
-          "shareUrl": "https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V"
-        }
+          {
+              "type": "artist",
+              "id": "3PDFGpPl4ienSn5Vwisfrh",
+              "name": "Flow G",
+              "shareUrl": "https://open.spotify.com/artist/3PDFGpPl4ienSn5Vwisfrh",
+              "visuals": {
+                  "avatar": [
+                      {
+                          "width": 640,
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab6761610000e5ebc3509b8472d6f4141b96fff9"
+                      },
+                      {
+                          "width": 160,
+                          "height": 160,
+                          "url": "https://i.scdn.co/image/ab6761610000f178c3509b8472d6f4141b96fff9"
+                      }
+                  ]
+              }
+          }
       ],
       "album": {
-        "type": "album",
-        "id": "02pi98kE0nra0yBqCStzbC",
-        "name": "+",
-        "shareUrl": "https://open.spotify.com/album/02pi98kE0nra0yBqCStzbC",
-        "cover": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02ed139c2e0e3681cc2d35e256",
-            "width": 300,
-            "height": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851ed139c2e0e3681cc2d35e256",
-            "width": 64,
-            "height": 64
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273ed139c2e0e3681cc2d35e256",
-            "width": 640,
-            "height": 640
-          }
-        ]
+          "type": "album",
+          "id": "3zmG6sXi7ZNcuJSxpP6aBR",
+          "shareUrl": "https://open.spotify.com/album/3zmG6sXi7ZNcuJSxpP6aBR",
+          "date": "2022-03-21T00:00:00Z",
+          "copyright": [
+              {
+                  "text": "2022 Ex Battalion",
+                  "type": "C"
+              },
+              {
+                  "text": "2022 Ex Battalion",
+                  "type": "P"
+              }
+          ],
+          "cover": [
+              {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02acd65d0c5f1eb67ce09b701e",
+                  "width": 300,
+                  "height": 300
+              },
+              {
+                  "url": "https://i.scdn.co/image/ab67616d00004851acd65d0c5f1eb67ce09b701e",
+                  "width": 64,
+                  "height": 64
+              },
+              {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273acd65d0c5f1eb67ce09b701e",
+                  "width": 640,
+                  "height": 640
+              }
+          ]
       }
-    }
   }
+},
+{
+  "status": true,
+  "youtubeVideo": {
+      "searchTerm": "Muli Ace Banzuelo",
+      "id": "hK1mnXrHayY",
+      "title": "Ace Banzuelo - Muli (Official Lyric Video)",
+      "channel": {
+          "id": "UCgi-dy7t9Bs2xHGc0pl2iuQ",
+          "name": "Ace Banzuelo",
+          "isVerified": true,
+          "isVerifiedArtist": true
+      },
+      "audio": [
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667059805&ei=_PtcY83TL4TDgwP0n5Bg&ip=3.235.180.150&id=o-AKEa1x74_rX77N5_kbrdAoQvJD-g2HK2SoiJQilYb1M8&itag=140&source=youtube&requiressl=yes&mh=Ic&mm=31%2C29&mn=sn-p5qddn7d%2Csn-p5qlsndd&ms=au%2Crdu&mv=m&mvi=4&pl=15&initcwndbps=701250&spc=yR2vp57D1TJngTLk4ogulO7sShGsldHqJtTmrg8zqNJr&vprv=1&mime=audio%2Fmp4&ns=x3IR1xpi30avm1QnnT01kqAI&gir=yes&clen=4695130&dur=290.063&lmt=1652891923033569&mt=1667037905&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=4532434&n=Orc1BEBQ9NpNug&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgemQphKWyqr8HxtVe7WaVCsR8LJCV6uK1sIhsHO6dz08CIGeWL9UeAAbNK1mBAZkRVb7BMVEGY-k9Kimvat9VoM6I&sig=AOq0QJ8wRQIgCMkDwDGlM9aJ34_TtVgk9LdxQX-VBYC18KtJjSev-7UCIQDbi1-6xTVCNXzvxRSWugRTBTb98jZIdiKABsDeYgIokg%3D%3D&range=0-",
+              "durationMs": 290063,
+              "durationText": "04:50",
+              "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+              "format": "m4a",
+              "lastModified": 1652891923033569,
+              "size": 4695130,
+              "sizeText": "4.5MB"
+          },
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667059805&ei=_PtcY83TL4TDgwP0n5Bg&ip=3.235.180.150&id=o-AKEa1x74_rX77N5_kbrdAoQvJD-g2HK2SoiJQilYb1M8&itag=249&source=youtube&requiressl=yes&mh=Ic&mm=31%2C29&mn=sn-p5qddn7d%2Csn-p5qlsndd&ms=au%2Crdu&mv=m&mvi=4&pl=15&initcwndbps=701250&spc=yR2vp57D1TJngTLk4ogulO7sShGsldHqJtTmrg8zqNJr&vprv=1&mime=audio%2Fwebm&ns=x3IR1xpi30avm1QnnT01kqAI&gir=yes&clen=1821503&dur=290.021&lmt=1652891863843449&mt=1667037905&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=4532434&n=Orc1BEBQ9NpNug&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgXJEOxvvW8XEIvQSSIM1229usm8Xbv6tAFYz7PTYw2GkCIE5ZgzS6hXGTgGYxQeiaZdFTzHfwbiPxmZSRy-xyBvyt&sig=AOq0QJ8wRgIhANNthO7-TcFIkYmHRjIzIZhO3ePXx3GKU0uvJNR9ek6WAiEA4Q-kqFzniJupVRBA1kw1WQ_JDXPoHntTaC6l9WgyofU%3D&range=0-",
+              "durationMs": 290021,
+              "durationText": "04:50",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1652891863843449,
+              "size": 1821503,
+              "sizeText": "1.7MB"
+          },
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667059805&ei=_PtcY83TL4TDgwP0n5Bg&ip=3.235.180.150&id=o-AKEa1x74_rX77N5_kbrdAoQvJD-g2HK2SoiJQilYb1M8&itag=250&source=youtube&requiressl=yes&mh=Ic&mm=31%2C29&mn=sn-p5qddn7d%2Csn-p5qlsndd&ms=au%2Crdu&mv=m&mvi=4&pl=15&initcwndbps=701250&spc=yR2vp57D1TJngTLk4ogulO7sShGsldHqJtTmrg8zqNJr&vprv=1&mime=audio%2Fwebm&ns=x3IR1xpi30avm1QnnT01kqAI&gir=yes&clen=2422268&dur=290.021&lmt=1652891867472922&mt=1667037905&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=4532434&n=Orc1BEBQ9NpNug&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhALqGoGfmTa_pvfSpAkfWwVrEoQLuUQe3yLotx4jmLxP1AiEAhrwt6TP4pUphImjiirExy0AK2r53mKUR5MvmATt5iUw%3D&sig=AOq0QJ8wRgIhAKi0z6DQ-yjvCRiyIIO16FEeWBM_p-MtYEadzUhNZdmmAiEAj0BeQaGowrqTfqim310VYpGfydrMpdvQuSVXWf6gRBE%3D&range=0-",
+              "durationMs": 290021,
+              "durationText": "04:50",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1652891867472922,
+              "size": 2422268,
+              "sizeText": "2.3MB"
+          },
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667059805&ei=_PtcY83TL4TDgwP0n5Bg&ip=3.235.180.150&id=o-AKEa1x74_rX77N5_kbrdAoQvJD-g2HK2SoiJQilYb1M8&itag=251&source=youtube&requiressl=yes&mh=Ic&mm=31%2C29&mn=sn-p5qddn7d%2Csn-p5qlsndd&ms=au%2Crdu&mv=m&mvi=4&pl=15&initcwndbps=701250&spc=yR2vp57D1TJngTLk4ogulO7sShGsldHqJtTmrg8zqNJr&vprv=1&mime=audio%2Fwebm&ns=x3IR1xpi30avm1QnnT01kqAI&gir=yes&clen=4800309&dur=290.021&lmt=1652891829144436&mt=1667037905&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=4532434&n=Orc1BEBQ9NpNug&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgWTJ2Sn84uXbQ1Qqg-4yGgjnUN9DqUOA_c-KIgLhUN6ICIEymbMMC2aOoB2GIpFbNDa0m_QkjIMBucSScJXmuQtws&sig=AOq0QJ8wRgIhALl78J-TYHvBnuSsv4gbvhz-mKsfVx5kUErU136S1BkpAiEA2LWT6VOv11rIqmLkTrjhOj_VAmvZdFGBWiGZeU4HJ5E%3D&range=0-",
+              "durationMs": 290021,
+              "durationText": "04:50",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1652891829144436,
+              "size": 4800309,
+              "sizeText": "4.6MB"
+          }
+      ]
+  },
+  "spotifyTrack": {
+      "type": "track",
+      "id": "1oYQtNQUxSODedcc5hPmp9",
+      "name": "Muli",
+      "shareUrl": "https://open.spotify.com/track/1oYQtNQUxSODedcc5hPmp9",
+      "durationMs": 290004,
+      "durationText": "04:50",
+      "trackNumber": 1,
+      "playCount": 49470007,
+      "artists": [
+          {
+              "type": "artist",
+              "id": "3f0X043zSojego7Qn4Yi6U",
+              "name": "Ace Banzuelo",
+              "shareUrl": "https://open.spotify.com/artist/3f0X043zSojego7Qn4Yi6U",
+              "visuals": {
+                  "avatar": [
+                      {
+                          "width": 640,
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab6761610000e5eb712967d1e4e69202f50d4504"
+                      },
+                      {
+                          "width": 160,
+                          "height": 160,
+                          "url": "https://i.scdn.co/image/ab6761610000f178712967d1e4e69202f50d4504"
+                      }
+                  ]
+              }
+          }
+      ],
+      "album": {
+          "type": "album",
+          "id": "3RKZKxaNLwRXw84ruc3f9F",
+          "shareUrl": "https://open.spotify.com/album/3RKZKxaNLwRXw84ruc3f9F",
+          "date": "2020-10-16T00:00:00Z",
+          "copyright": [
+              {
+                  "text": "(P) 2020 Sony Music Philippines Inc.",
+                  "type": "P"
+              }
+          ],
+          "cover": [
+              {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02ac41fa199339172e6618565c",
+                  "width": 300,
+                  "height": 300
+              },
+              {
+                  "url": "https://i.scdn.co/image/ab67616d00004851ac41fa199339172e6618565c",
+                  "width": 64,
+                  "height": 64
+              },
+              {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273ac41fa199339172e6618565c",
+                  "width": 640,
+                  "height": 640
+              }
+          ]
+      }
+  }
+},
+{
+  "status": true,
+  "youtubeVideo": {
+      "searchTerm": "Sandali Because",
+      "id": "GpkicOR8bIQ",
+      "title": "Because - Sandali (Audio)",
+      "channel": {
+          "id": "UCnb-iW07GwMXaL6rWVLsEbQ",
+          "name": "Because",
+          "isVerified": true,
+          "isVerifiedArtist": true
+      },
+      "audio": [
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667059858&ei=MvxcY-n2EoeY8wT2xYKYCA&ip=3.235.180.150&id=o-AI1UfuVzeMaUaL8NqsF_Hhs3T7dpR8whAnv3UXTxErSn&itag=140&source=youtube&requiressl=yes&mh=oN&mm=31%2C26&mn=sn-p5qlsndk%2Csn-vgqsrne6&ms=au%2Conr&mv=m&mvi=2&pl=15&initcwndbps=710000&spc=yR2vpy1NTESYtrQ81Li7WNzc17K8Ubda9Sb-Yq9_gSER&vprv=1&mime=audio%2Fmp4&ns=RXzvF9_kocU_V7vVAnk9dHQI&gir=yes&clen=4286318&dur=269.839&lmt=1541957853827188&mt=1667037905&fvip=5&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5432432&n=JhlSxGPHlj7TvA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgBN3NkVpDUNs8OQ03YhuTHJwoYgZ3RKQikaE8ZXiCBv0CIG2n2lI8nawdIuJJ0WwIr9eLzMu2iXGWxxp9T7LJe22T&sig=AOq0QJ8wRQIgcXXLjlYEX6O1fl8oGx4nGJGfpbYlQukg3YByE1vEaIECIQDVbT06E8fJEBzR0L0YFTW5r_yyAObQyvmA_ic9h5DvJA%3D%3D&range=0-",
+              "durationMs": 269839,
+              "durationText": "04:29",
+              "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+              "format": "m4a",
+              "lastModified": 1541957853827188,
+              "size": 4286318,
+              "sizeText": "4.1MB"
+          },
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667059858&ei=MvxcY-n2EoeY8wT2xYKYCA&ip=3.235.180.150&id=o-AI1UfuVzeMaUaL8NqsF_Hhs3T7dpR8whAnv3UXTxErSn&itag=249&source=youtube&requiressl=yes&mh=oN&mm=31%2C26&mn=sn-p5qlsndk%2Csn-vgqsrne6&ms=au%2Conr&mv=m&mvi=2&pl=15&initcwndbps=710000&spc=yR2vpy1NTESYtrQ81Li7WNzc17K8Ubda9Sb-Yq9_gSER&vprv=1&mime=audio%2Fwebm&ns=RXzvF9_kocU_V7vVAnk9dHQI&gir=yes&clen=2014501&dur=269.801&lmt=1541959229316396&mt=1667037905&fvip=5&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5411222&n=JhlSxGPHlj7TvA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAO-GtCoCvuWiEdRj55iOFl0RP3ncByz-wu08uSfCF13nAiEAiNyp7nd7EwQQAG8ylMMh8-4hFCVSwz0LnYEgm9UhRtA%3D&sig=AOq0QJ8wRQIhANZsrKlL-2qPcEXktfSekKYdG8Et1BuoLmr67glkVUBVAiAa8I-sLK_UpxB9x-qcoXymqFeoChp7BpIYrj13_lPjrA%3D%3D&range=0-",
+              "durationMs": 269801,
+              "durationText": "04:29",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1541959229316396,
+              "size": 2014501,
+              "sizeText": "1.9MB"
+          },
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667059858&ei=MvxcY-n2EoeY8wT2xYKYCA&ip=3.235.180.150&id=o-AI1UfuVzeMaUaL8NqsF_Hhs3T7dpR8whAnv3UXTxErSn&itag=250&source=youtube&requiressl=yes&mh=oN&mm=31%2C26&mn=sn-p5qlsndk%2Csn-vgqsrne6&ms=au%2Conr&mv=m&mvi=2&pl=15&initcwndbps=710000&spc=yR2vpy1NTESYtrQ81Li7WNzc17K8Ubda9Sb-Yq9_gSER&vprv=1&mime=audio%2Fwebm&ns=RXzvF9_kocU_V7vVAnk9dHQI&gir=yes&clen=2635626&dur=269.801&lmt=1541959231155214&mt=1667037905&fvip=5&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5411222&n=JhlSxGPHlj7TvA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAJU0TtD6ydfbD9n8lCbmuXs8B2e8q-ujLlqxBCqHnYA_AiEAur-OydWacCbjfoeL57NwyMcMA2qvT2b9605tC3v9_l0%3D&sig=AOq0QJ8wRAIgeb316hg0uJYGpwujv-sAPiE2jaMknwz-zc_Ptr7z_tYCIBkFPFEbQaFqSbOMHcd4U174bX8m-MvRCDIEacub4QDM&range=0-",
+              "durationMs": 269801,
+              "durationText": "04:29",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1541959231155214,
+              "size": 2635626,
+              "sizeText": "2.5MB"
+          },
+          {
+              "url": "https://redirector.googlevideo.com/videoplayback?expire=1667059858&ei=MvxcY-n2EoeY8wT2xYKYCA&ip=3.235.180.150&id=o-AI1UfuVzeMaUaL8NqsF_Hhs3T7dpR8whAnv3UXTxErSn&itag=251&source=youtube&requiressl=yes&mh=oN&mm=31%2C26&mn=sn-p5qlsndk%2Csn-vgqsrne6&ms=au%2Conr&mv=m&mvi=2&pl=15&initcwndbps=710000&spc=yR2vpy1NTESYtrQ81Li7WNzc17K8Ubda9Sb-Yq9_gSER&vprv=1&mime=audio%2Fwebm&ns=RXzvF9_kocU_V7vVAnk9dHQI&gir=yes&clen=5142491&dur=269.801&lmt=1541959228935368&mt=1667037905&fvip=5&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5411222&n=JhlSxGPHlj7TvA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAN6Xw9imXA6Sc6kBvhIlJrmSvyaCiBcUviJOqO9w_M_MAiEAoU2WU5bdHnqmAzMpzh9LmhtdczM8Cc6-5iS_2pliNMs%3D&sig=AOq0QJ8wRQIhANg9WToHy2YbrPdHUSHlRwC-odeSwBGRx-NdKJohjt9cAiBZVXuTjVc0on_C7TTWObYH8Q2KVqsaWFh-jB3XrhpIPA%3D%3D&range=0-",
+              "durationMs": 269801,
+              "durationText": "04:29",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1541959228935368,
+              "size": 5142491,
+              "sizeText": "4.9MB"
+          }
+      ]
+  },
+  "spotifyTrack": {
+      "type": "track",
+      "id": "00vWWGicEb7SX7HHgioyPR",
+      "name": "Sandali",
+      "shareUrl": "https://open.spotify.com/track/00vWWGicEb7SX7HHgioyPR",
+      "durationMs": 269217,
+      "durationText": "04:29",
+      "trackNumber": 5,
+      "playCount": 37555994,
+      "artists": [
+          {
+              "type": "artist",
+              "id": "0n4a5imdLBN24fIrBWoqrv",
+              "name": "Because",
+              "shareUrl": "https://open.spotify.com/artist/0n4a5imdLBN24fIrBWoqrv",
+              "visuals": {
+                  "avatar": [
+                      {
+                          "width": 640,
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab6761610000e5eb96a25370be756eb04844638e"
+                      },
+                      {
+                          "width": 160,
+                          "height": 160,
+                          "url": "https://i.scdn.co/image/ab6761610000f17896a25370be756eb04844638e"
+                      }
+                  ]
+              }
+          }
+      ],
+      "album": {
+          "type": "album",
+          "id": "5msykKilPDJYxD4vgg71hh",
+          "shareUrl": "https://open.spotify.com/album/5msykKilPDJYxD4vgg71hh",
+          "date": "2018-08-06T00:00:00Z",
+          "copyright": [
+              {
+                  "text": "2018 Viva Records Corporation",
+                  "type": "C"
+              },
+              {
+                  "text": "2018 Viva Records Corporation",
+                  "type": "P"
+              }
+          ],
+          "cover": [
+              {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02bd77a2bc318927581500f6ed",
+                  "width": 300,
+                  "height": 300
+              },
+              {
+                  "url": "https://i.scdn.co/image/ab67616d00004851bd77a2bc318927581500f6ed",
+                  "width": 64,
+                  "height": 64
+              },
+              {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273bd77a2bc318927581500f6ed",
+                  "width": 640,
+                  "height": 640
+              }
+          ]
+      }
+  }
+},
+{
+  "status": true,
+  "youtubeVideo": {
+      "searchTerm": "Pagsamo Arthur Nery",
+      "id": "pwmeukam7qE",
+      "title": "Pagsamo",
+      "channel": {
+          "id": "UC9-iawH76DyinVptLFS-8EA",
+          "name": "Arthur Nery - Topic",
+          "isVerified": false,
+          "isVerifiedArtist": false
+      },
+      "audio": [
+          {
+              "url": "https://ymd.dlod.link/?u=https%3A%2F%2Fredirector.googlevideo.com%2Fvideoplayback%3Fexpire%3D1667059890%26ei%3DUvxcY4i3ApW18wTn-JzwAg%26ip%3D3.235.180.150%26id%3Do-ABhswwjv0f-dbkYrViRqkWz6Fb9nvrbvtUK2rwWXEhRO%26itag%3D140%26source%3Dyoutube%26requiressl%3Dyes%26mh%3DFd%26mm%3D31%252C29%26mn%3Dsn-p5qs7nzy%252Csn-p5qlsndz%26ms%3Dau%252Crdu%26mv%3Dm%26mvi%3D3%26pl%3D15%26gcr%3Dus%26initcwndbps%3D698750%26spc%3DyR2vp5HrHcaElIRIOnNe6dhYYl3X4f_w5F5kktlLFMNd%26vprv%3D1%26mime%3Daudio%252Fmp4%26ns%3DRpMoZraSu1q7in_jASkZRf8I%26gir%3Dyes%26clen%3D4809486%26dur%3D297.001%26lmt%3D1642056381722844%26mt%3D1667037905%26fvip%3D1%26keepalive%3Dyes%26fexp%3D24001373%252C24007246%26c%3DWEB%26txp%3D2311224%26n%3D9iNYBpqKSevPhg%26sparams%3Dexpire%252Cei%252Cip%252Cid%252Citag%252Csource%252Crequiressl%252Cgcr%252Cspc%252Cvprv%252Cmime%252Cns%252Cgir%252Cclen%252Cdur%252Clmt%26lsparams%3Dmh%252Cmm%252Cmn%252Cms%252Cmv%252Cmvi%252Cpl%252Cinitcwndbps%26lsig%3DAG3C_xAwRQIhAM5FfLyov2bdOh-TwZAB9yH2IymSzLyDTS0U2TCnDG7QAiAJz5vi7EDn-GdF0_a8EI-8pQfh1x5Pa64Lo0mnLWvmig%253D%253D%26sig%3DAOq0QJ8wRAIgYFq5bw7oS7DAG0DUGy7ZmQ6rzhq2Z6Zn9lEJQ0XZCAUCICBP5b0uy4FuQTg8Q2FgU9krtVEq0cQkB272gToWsAB5%26range%3D0-&s=QwYHcFV5J3d9HFDRrwDxNoA6VxK_rJxfwdyVvMBtoOw",
+              "durationMs": 297001,
+              "durationText": "04:57",
+              "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+              "format": "m4a",
+              "lastModified": 1642056381722844,
+              "size": 4809486,
+              "sizeText": "4.6MB"
+          },
+          {
+              "url": "https://ymd.dlod.link/?u=https%3A%2F%2Fredirector.googlevideo.com%2Fvideoplayback%3Fexpire%3D1667059890%26ei%3DUvxcY4i3ApW18wTn-JzwAg%26ip%3D3.235.180.150%26id%3Do-ABhswwjv0f-dbkYrViRqkWz6Fb9nvrbvtUK2rwWXEhRO%26itag%3D249%26source%3Dyoutube%26requiressl%3Dyes%26mh%3DFd%26mm%3D31%252C29%26mn%3Dsn-p5qs7nzy%252Csn-p5qlsndz%26ms%3Dau%252Crdu%26mv%3Dm%26mvi%3D3%26pl%3D15%26gcr%3Dus%26initcwndbps%3D698750%26spc%3DyR2vp5HrHcaElIRIOnNe6dhYYl3X4f_w5F5kktlLFMNd%26vprv%3D1%26mime%3Daudio%252Fwebm%26ns%3DRpMoZraSu1q7in_jASkZRf8I%26gir%3Dyes%26clen%3D1892174%26dur%3D297.021%26lmt%3D1642056385592171%26mt%3D1667037905%26fvip%3D1%26keepalive%3Dyes%26fexp%3D24001373%252C24007246%26c%3DWEB%26txp%3D2311224%26n%3D9iNYBpqKSevPhg%26sparams%3Dexpire%252Cei%252Cip%252Cid%252Citag%252Csource%252Crequiressl%252Cgcr%252Cspc%252Cvprv%252Cmime%252Cns%252Cgir%252Cclen%252Cdur%252Clmt%26lsparams%3Dmh%252Cmm%252Cmn%252Cms%252Cmv%252Cmvi%252Cpl%252Cinitcwndbps%26lsig%3DAG3C_xAwRQIhAPsgl0XyCyLTT6KhReryzCxx1IbIyi9TcfcgM_qfq0rVAiBt-pWKUgSfJdLZx8hM0p92cpTXe2wRzYf9u-mYNOLtJw%253D%253D%26sig%3DAOq0QJ8wRQIgJRjpxC-RlgDATX9GRqz05CtTjyNbBQaaG6ArssoTblACIQD4LQ3n4EJ7q27w5rh5BRvO62_wxHt3eZQhM96lHsyfPQ%253D%253D%26range%3D0-&s=CgtmmVdJUUlx7N71KtWrT26aDjRB7_RVs4FT6b6d6nk",
+              "durationMs": 297021,
+              "durationText": "04:57",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1642056385592171,
+              "size": 1892174,
+              "sizeText": "1.8MB"
+          },
+          {
+              "url": "https://ymd.dlod.link/?u=https%3A%2F%2Fredirector.googlevideo.com%2Fvideoplayback%3Fexpire%3D1667059890%26ei%3DUvxcY4i3ApW18wTn-JzwAg%26ip%3D3.235.180.150%26id%3Do-ABhswwjv0f-dbkYrViRqkWz6Fb9nvrbvtUK2rwWXEhRO%26itag%3D250%26source%3Dyoutube%26requiressl%3Dyes%26mh%3DFd%26mm%3D31%252C29%26mn%3Dsn-p5qs7nzy%252Csn-p5qlsndz%26ms%3Dau%252Crdu%26mv%3Dm%26mvi%3D3%26pl%3D15%26gcr%3Dus%26initcwndbps%3D698750%26spc%3DyR2vp5HrHcaElIRIOnNe6dhYYl3X4f_w5F5kktlLFMNd%26vprv%3D1%26mime%3Daudio%252Fwebm%26ns%3DRpMoZraSu1q7in_jASkZRf8I%26gir%3Dyes%26clen%3D2504921%26dur%3D297.021%26lmt%3D1642056385588944%26mt%3D1667037905%26fvip%3D1%26keepalive%3Dyes%26fexp%3D24001373%252C24007246%26c%3DWEB%26txp%3D2311224%26n%3D9iNYBpqKSevPhg%26sparams%3Dexpire%252Cei%252Cip%252Cid%252Citag%252Csource%252Crequiressl%252Cgcr%252Cspc%252Cvprv%252Cmime%252Cns%252Cgir%252Cclen%252Cdur%252Clmt%26lsparams%3Dmh%252Cmm%252Cmn%252Cms%252Cmv%252Cmvi%252Cpl%252Cinitcwndbps%26lsig%3DAG3C_xAwRgIhAPe0SboIm8H7jDthqtFmryNttC5fig82yfYQjdQNdrAjAiEAmIyrbH2gJcjb_TS0coCdoDLApICUCDCX8oudgmPATsc%253D%26sig%3DAOq0QJ8wRgIhAM6YE90nNpP4v3zxIAaPB2xnOwLfBjndzd4IKENO8znKAiEA74LVCcoZjNB8yx733lDp_t8PnM5rUkzuCZsjBHcd0P4%253D%26range%3D0-&s=xH6HhZatXpC7o5CwTBrBjOtRbMuMI4OCv3YIaXtb02M",
+              "durationMs": 297021,
+              "durationText": "04:57",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1642056385588944,
+              "size": 2504921,
+              "sizeText": "2.4MB"
+          },
+          {
+              "url": "https://ymd.dlod.link/?u=https%3A%2F%2Fredirector.googlevideo.com%2Fvideoplayback%3Fexpire%3D1667059890%26ei%3DUvxcY4i3ApW18wTn-JzwAg%26ip%3D3.235.180.150%26id%3Do-ABhswwjv0f-dbkYrViRqkWz6Fb9nvrbvtUK2rwWXEhRO%26itag%3D251%26source%3Dyoutube%26requiressl%3Dyes%26mh%3DFd%26mm%3D31%252C29%26mn%3Dsn-p5qs7nzy%252Csn-p5qlsndz%26ms%3Dau%252Crdu%26mv%3Dm%26mvi%3D3%26pl%3D15%26gcr%3Dus%26initcwndbps%3D698750%26spc%3DyR2vp5HrHcaElIRIOnNe6dhYYl3X4f_w5F5kktlLFMNd%26vprv%3D1%26mime%3Daudio%252Fwebm%26ns%3DRpMoZraSu1q7in_jASkZRf8I%26gir%3Dyes%26clen%3D4933324%26dur%3D297.021%26lmt%3D1642056385592406%26mt%3D1667037905%26fvip%3D1%26keepalive%3Dyes%26fexp%3D24001373%252C24007246%26c%3DWEB%26txp%3D2311224%26n%3D9iNYBpqKSevPhg%26sparams%3Dexpire%252Cei%252Cip%252Cid%252Citag%252Csource%252Crequiressl%252Cgcr%252Cspc%252Cvprv%252Cmime%252Cns%252Cgir%252Cclen%252Cdur%252Clmt%26lsparams%3Dmh%252Cmm%252Cmn%252Cms%252Cmv%252Cmvi%252Cpl%252Cinitcwndbps%26lsig%3DAG3C_xAwRAIgRDofB1a_zvJU8acAF5k0EL8Iid5z_b2XSPd6thDM-IgCIBfeSzKW86XskXiCjwcl1RyRkn0Kl9ump0HLqhybmp3d%26sig%3DAOq0QJ8wRgIhAOHx2d1XwzDUimjq_JSImWwhNcGfErKeJ1lElsyysI0xAiEA4zmJGpxdEGln-eYGP4Hqy4pXg2Hv0Ej5zPpK69Pyxn8%253D%26range%3D0-&s=tIirKit4HY_KCuT0XNgKpjdE5tUypD4NB4KtGR5g9dg",
+              "durationMs": 297021,
+              "durationText": "04:57",
+              "mimeType": "audio/webm; codecs=\"opus\"",
+              "format": "weba",
+              "lastModified": 1642056385592406,
+              "size": 4933324,
+              "sizeText": "4.7MB"
+          }
+      ]
+  },
+  "spotifyTrack": {
+      "type": "track",
+      "id": "0WZqHCoOBXqgCCIsUZLC2a",
+      "name": "Pagsamo",
+      "shareUrl": "https://open.spotify.com/track/0WZqHCoOBXqgCCIsUZLC2a",
+      "durationMs": 297001,
+      "durationText": "04:57",
+      "trackNumber": 1,
+      "playCount": 114686925,
+      "artists": [
+          {
+              "type": "artist",
+              "id": "7uDdl5V5AETSFY7K3muu22",
+              "name": "Arthur Nery",
+              "shareUrl": "https://open.spotify.com/artist/7uDdl5V5AETSFY7K3muu22",
+              "visuals": {
+                  "avatar": [
+                      {
+                          "width": 640,
+                          "height": 640,
+                          "url": "https://i.scdn.co/image/ab6761610000e5eb038f41387967c6b2d038bb78"
+                      },
+                      {
+                          "width": 160,
+                          "height": 160,
+                          "url": "https://i.scdn.co/image/ab6761610000f178038f41387967c6b2d038bb78"
+                      }
+                  ]
+              }
+          }
+      ],
+      "album": {
+          "type": "album",
+          "id": "668hRB0T4LU6a7HVspAMKy",
+          "shareUrl": "https://open.spotify.com/album/668hRB0T4LU6a7HVspAMKy",
+          "date": "2021-10-01T00:00:00Z",
+          "copyright": [
+              {
+                  "text": "2021 Viva Records",
+                  "type": "C"
+              },
+              {
+                  "text": "2021 Viva Records",
+                  "type": "P"
+              }
+          ],
+          "cover": [
+              {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02b6273cb5c9922514ede1ba91",
+                  "width": 300,
+                  "height": 300
+              },
+              {
+                  "url": "https://i.scdn.co/image/ab67616d00004851b6273cb5c9922514ede1ba91",
+                  "width": 64,
+                  "height": 64
+              },
+              {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273b6273cb5c9922514ede1ba91",
+                  "width": 640,
+                  "height": 640
+              }
+          ]
+      }
+  }
+}
+]

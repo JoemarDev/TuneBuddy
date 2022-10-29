@@ -8,7 +8,7 @@ import logger from 'redux-logger';
 const persistConfig = {
     key : 'root',
     storage,
-    whitelist : ['Song'],
+    whitelist : ['Song', 'Player'],
 }
 
 
@@ -21,3 +21,7 @@ const composedEnhancer = compose(applyMiddleware(...middlewares));
 export const store = createStore(persistedReducer , {} , composedEnhancer);
 
 export const persistor = persistStore(store);
+
+// store.subscribe(() => {
+//     console.log(store.getState().Song['trackDetail']);
+// })
