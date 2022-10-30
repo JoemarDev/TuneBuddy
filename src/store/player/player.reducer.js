@@ -1,8 +1,9 @@
 import { PLAYER_ACTION_TYPES } from "./player.types";
 const PLAYER_INITIAL_STATE = {
     playerLastPosition : 0,
-    isPlayerPlaying : false,
+    isPlayerPlaying : true,
     isPlayerOnLoop : false,
+    isPlayerError : false,
 }
 
 export const PlayerReducer = (
@@ -23,6 +24,10 @@ export const PlayerReducer = (
         
         case PLAYER_ACTION_TYPES.SET_PLAYER_TO_LOOP:
             return {...state , isPlayerOnLoop: payload}
+
+        case PLAYER_ACTION_TYPES.SET_PLAYER_ERROR:
+                return {...state , isPlayerError: payload}
+
         default : return state;
     }
 }

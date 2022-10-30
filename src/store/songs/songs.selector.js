@@ -82,3 +82,13 @@ export const SelectTrackDuration = createSelector(
         }
     }
 )
+
+export const SelectQueueDetails = createSelector(
+    [selectSongReducer],
+    (SongSplice) => {
+        return {'tracksQueue' : SongSplice['TracksQueue'] , 'activeQueue' : SongSplice['CurrentActiveQueue']};
+
+    }
+)
+
+

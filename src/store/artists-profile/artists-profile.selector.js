@@ -19,10 +19,19 @@ export const SelectArtistsVisualsBanner = createSelector(
             return artistsProfileSlice['currentArtist']['visuals']['header'][0]['url'];
         } catch (error) {
             return null;
-        }
-            
+        }   
     }
+)
 
+export const SelectArtistVisualAvatar = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => {
+        try {
+            return artistsProfileSlice['currentArtist']['visuals']['avatar'][0]['url'];
+        } catch (error) {
+            return null;
+        }   
+    }
 )
 
 export const SelectArtistsName = createSelector(
@@ -59,3 +68,21 @@ export const SelectArtistsTopTracks = createSelector(
         }
     }
 )
+
+export const SelectArtistCachedProfile = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => artistsProfileSlice['cachedArtistProfile']
+)
+
+export const SelectArtistsBiography = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => {
+        try {
+            const artists = artistsProfileSlice['currentArtist'];
+            return artists['biography'];
+        } catch (error) {
+            return null;
+        }
+    }
+)
+

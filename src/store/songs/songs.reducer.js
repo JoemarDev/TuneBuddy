@@ -3,6 +3,8 @@ import { SONGS_ACTION_TYPES } from "./songs.types";
 const SONGS_INITIAL_STATE = {
     currentSong : [],
     trackDetail : [],
+    TracksQueue : [],
+    CurrentActiveQueue : 0,
     isTrackPlay : false,
     trackLoading : false,
     trackError : false,
@@ -27,7 +29,13 @@ export const SongsReducer = (
 
         case SONGS_ACTION_TYPES.FETCH_TRACK_DETAIL_FAILED:
             return {...state, trackLoading : false , error : payload}
+        
+        case SONGS_ACTION_TYPES.SET_QUEUE_LISTS:
+            return {...state , TracksQueue : payload}
             
+        case SONGS_ACTION_TYPES.SET_CURRENT_QUEUE:
+            return {...state , CurrentActiveQueue : payload}
+
         default : return state;
     }
 }

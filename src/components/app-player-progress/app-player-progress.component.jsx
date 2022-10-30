@@ -3,17 +3,43 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { PausePlayerTrack, PlayPlayerTrack, SetPlayerLastPosition } from "../../store/player/player.action";
 import { SelectIsPlayerOnLoop } from "../../store/player/player.selector";
-import { SelectTrackDuration } from "../../store/songs/songs.selector";
+import { fetchTrackAsync, fetchTrackDetailSuccess, SetCurrentActiveQueue, SetCurrentSong } from "../../store/songs/songs.action";
+import {  SelectQueueDetails, SelectTrackDuration } from "../../store/songs/songs.selector";
+import { SelectCachedSongs } from '../../store/songs-temp/songs-temp.selector';
 import { ConvertMilliSecond , ConvertMsToReadableFormat, ConvertTrackDurationToRedableFormat } from "../../utils/basic/basic.utils";
 import './app-player-progress.styles.scss'
 const AppPlayerProgress = ({track}) => {
 
     const trackDuration = useSelector(SelectTrackDuration);
     const PlayerIsLoop = useSelector(SelectIsPlayerOnLoop);
-
+    const CachedSongs = useSelector(SelectCachedSongs);
+    const {tracksQueue , activeQueue} = useSelector(SelectQueueDetails)
     const [percentage , setPercetage] = useState(0);
 
     const dispatch = useDispatch();
+
+    
+    const PlayNextTrack = () => {
+
+        const NextIndex = activeQueue + 1;
+
+        if(NextIndex >= tracksQueue.length) {
+            dispatch(PausePlayerTrack());
+            return dispatch(SetPlayerLastPosition(0));
+        }
+
+        const NextTrack = tracksQueue[NextIndex];
+        dispatch(SetCurrentSong(NextTrack));
+        dispatch(SetCurrentActiveQueue(NextIndex));
+        dispatch(SetPlayerLastPosition(0));
+        
+                
+        const CheckedSongs = CachedSongs.filter((i) => i.trackID === NextTrack.id); 
+        if(CheckedSongs.length > 0) return dispatch(fetchTrackDetailSuccess(CheckedSongs[0]));
+        dispatch(fetchTrackAsync(NextTrack.id));
+
+    }
+
 
     useEffect(() => {
         if(track == null) return;
@@ -25,14 +51,13 @@ const AppPlayerProgress = ({track}) => {
         });
 
         track.addEventListener('ended' , (e) => {
+            setPercetage(0);
             if(PlayerIsLoop) {
                 track.currentTime = 0;
                 track.play();
                 return dispatch(SetPlayerLastPosition(0));
             }
-        
-            dispatch(PausePlayerTrack());
-            dispatch(SetPlayerLastPosition(0));
+            PlayNextTrack();
         });
 
     },[track]);
@@ -47,9 +72,6 @@ const AppPlayerProgress = ({track}) => {
 
         track.pause();
         track.currentTime = newPosition;
-        
-        
-            
     }
     
     const ResumeTrackPlayer = () => {

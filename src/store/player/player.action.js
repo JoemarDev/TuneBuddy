@@ -13,3 +13,8 @@ export const SetPlayerOnLoop = (isLoop) => (dispatch) =>
 export const SetPlayerLastPosition = (player_position) => (dispatch) => {
     return dispatch(createAction(PLAYER_ACTION_TYPES.SET_PLAYER_TO_LAST_POSITION , player_position))
 }
+
+export const IsPlayerHaveError = (isError) => (dispatch) => {
+    console.log(isError);
+    return dispatch(createAction(PLAYER_ACTION_TYPES.SET_PLAYER_ERROR , isError));
+}

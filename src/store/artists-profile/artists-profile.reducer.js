@@ -2,6 +2,7 @@ import { ARTISTS_PROFILE_ACTION_TYPES } from "./artists-profile.types";
 
 const ARTISTS_PROFILE_INITIAL_STATE = {
     currentArtist : [],
+    cachedArtistProfile : [],
     isLoading : false,
     error : null,
 }
@@ -20,6 +21,8 @@ export const ArtistsProfileReducer = (
             return {...state , currentArtist : payload, isLoading : false} 
         case ARTISTS_PROFILE_ACTION_TYPES.FETCH_ARTISTS_PROFILE_FAILED:
             return {...state , error : payload , isLoading : false}
+        case ARTISTS_PROFILE_ACTION_TYPES.CACHED_ARTISTS_PROFILE:
+            return {...state , cachedArtistProfile : [...state.cachedArtistProfile , payload]}
         default :
             return state
     }

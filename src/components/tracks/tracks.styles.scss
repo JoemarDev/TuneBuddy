@@ -1,0 +1,11 @@
+.track-container  {
+    &:hover {
+        .default {
+            display: none;
+        }
+
+        .play-icon {
+            display: block;
+        }
+    }
+}

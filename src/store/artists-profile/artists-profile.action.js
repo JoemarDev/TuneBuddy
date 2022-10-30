@@ -13,12 +13,16 @@ export const GetArtistProfileSuccess = (ArtistProfile) =>
 export const GetArtistProfileFailed = (error) => 
     createAction(ARTISTS_PROFILE_ACTION_TYPES.FETCH_ARTISTS_PROFILE_FAILED , error);
 
+export const CacheArtistsProfile = (profile) => dispatch => 
+    dispatch(createAction(ARTISTS_PROFILE_ACTION_TYPES.CACHED_ARTISTS_PROFILE, profile))
+
 
 export const GetArtistProfileAsync = (artistID) => async (dispatch) => {
     dispatch(fetchArtistProfileStart());
+
     try {
-        
         const ArtistProfile = await GetArtistsProfileData(artistID);
+        dispatch(CacheArtistsProfile(ArtistProfile));
         dispatch(GetArtistProfileSuccess(ArtistProfile));
     } catch (error) {
         dispatch(GetArtistProfileFailed(error)); 

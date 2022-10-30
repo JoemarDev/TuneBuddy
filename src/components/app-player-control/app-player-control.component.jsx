@@ -1,9 +1,11 @@
 import { Fragment, useEffect , useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { PausePlayerTrack , PlayPlayerTrack, SetPlayerLastPosition, SetPlayerOnLoop } from '../../store/player/player.action';
+import { IsPlayerHaveError, PausePlayerTrack , PlayPlayerTrack, SetPlayerLastPosition, SetPlayerOnLoop } from '../../store/player/player.action';
 import { SelectIsPlayerOnLoop, SelectLastPlayerPosition, SelectTrackPlayerStatus } from '../../store/player/player.selector';
 
-import { SelectIsFetchingTrackLoading, SelectTrackAudio  } from '../../store/songs/songs.selector';
+import { fetchTrackAsync, fetchTrackDetailSuccess, SetCurrentActiveQueue, SetCurrentSong } from '../../store/songs/songs.action';
+import { SelectCachedSongs } from '../../store/songs-temp/songs-temp.selector';
+import {SelectIsFetchingTrackLoading, SelectQueueDetails, SelectTrackAudio  } from '../../store/songs/songs.selector';
 import AppPlayerProgress from '../app-player-progress/app-player-progress.component';
 import Spinner from '../spinner/spinner.component';
 import './app-player-control.styles.scss';
@@ -17,16 +19,29 @@ const AppPlayerControl = () => {
     const PlayerTrackStatus = useSelector(SelectTrackPlayerStatus)
     const PlayerLastPosition = useSelector(SelectLastPlayerPosition);
     const PlayerIsLoop = useSelector(SelectIsPlayerOnLoop)
-
+    const CachedSongs = useSelector(SelectCachedSongs);
     const Track = useSelector(SelectTrackAudio);
+
+
+    const {tracksQueue , activeQueue} = useSelector(SelectQueueDetails);
     const isNewTrackLoading = useSelector(SelectIsFetchingTrackLoading);
 
-    
+    // Pause the Player if new song has been selected
     useEffect(() => {
         if(isNewTrackLoading)  return musicTrackState.pause();
     },[isNewTrackLoading]);
 
+    // Listen Globally If Pause And Play Dispatch 
+    useEffect(() => {
+        if(musicTrackState === null) return;
+        const PlayerPlayAndPausehandler = () => {
+            return PlayerTrackStatus ? musicTrackState.play() : musicTrackState.pause()
+        }
+        PlayerPlayAndPausehandler();
+    },[PlayerTrackStatus]);
+
     
+    // Change the Track in the player if changes
     useEffect(() => {
 
         if(!Track) return;
@@ -36,28 +51,41 @@ const AppPlayerControl = () => {
         MusicTrack.currentTime = PlayerLastPosition;
         setMusicTrackState(MusicTrack);
 
+        dispatch(IsPlayerHaveError(false));
+
         if(PlayerTrackStatus === false) return;
         InitPlayer(MusicTrack);
 
     },[Track]);
 
+    // Save the last position of the song played before closing the app
     window.onbeforeunload = function(e) {
         dispatch(SetPlayerLastPosition(musicTrackState.currentTime));
         return undefined;
     };
 
     const InitPlayer = (player) => {
-        
         player.play()
         .then(() =>  {
-            musicTrackState.loop = PlayerIsLoop;
+            player.loop = PlayerIsLoop;
             dispatch(PlayPlayerTrack());
-        }).catch(() => dispatch(PausePlayerTrack()));
+            dispatch(IsPlayerHaveError(false));
+        }).catch((err) => {
+            if(err.code === 9) dispatch(IsPlayerHaveError(true));
+            dispatch(PausePlayerTrack())
+        });
     }
 
     const PlayMusic = () => {
-        dispatch(PlayPlayerTrack());
-        musicTrackState.play();
+        musicTrackState.play()
+        .then(() => {
+            dispatch(PlayPlayerTrack()); 
+            dispatch(IsPlayerHaveError(false))
+        })
+        .catch((err) => {
+            if(err.code === 9) return dispatch(IsPlayerHaveError(true));
+            dispatch(PausePlayerTrack());
+        }) 
     }
 
     const PauseMusic = () => {
@@ -69,13 +97,49 @@ const AppPlayerControl = () => {
         dispatch(SetPlayerOnLoop(!PlayerIsLoop));
         musicTrackState.loop = !PlayerIsLoop;
     }
+   
+    const PlayNextTrack = () => {
+        if(isNewTrackLoading) return;
+        let NextIndex = activeQueue + 1;
+
+        if(NextIndex >= tracksQueue.length) NextIndex = 0;
+
+        const NextTrack = tracksQueue[NextIndex];
+        
+        DispatchSelectedTrack(NextTrack , NextIndex);
+    }
+
+    const PlayPrevTrack = () => {
+        if(isNewTrackLoading) return;
+
+        let NextIndex = activeQueue - 1;
+
+        if(NextIndex < 0) return musicTrackState.currentTime = 0;
+
+        const NextTrack = tracksQueue[NextIndex];
+
+        DispatchSelectedTrack(NextTrack , NextIndex);
+    }
+
+    const DispatchSelectedTrack = (NextTrack,NextIndex) => {
+
+
+        dispatch(SetCurrentSong(NextTrack));
+        dispatch(SetCurrentActiveQueue(NextIndex));
+        dispatch(SetPlayerLastPosition(0));
+        dispatch(PlayPlayerTrack()); 
+        
+        const CheckedSongs = CachedSongs.filter((i) => i.trackID === NextTrack.id); 
+        if(CheckedSongs.length > 0) return dispatch(fetchTrackDetailSuccess(CheckedSongs[0]));
+        dispatch(fetchTrackAsync(NextTrack.id));
+    }
 
 
     return (
         <>
             <div className='player-controls'>
-                <button className='back-control'>
-                    <img src={`${process.env.PUBLIC_URL}/images/icons/player/back.svg`} alt="" />
+                <button className='back-control' onClick={PlayPrevTrack}>
+                    <img src={`${process.env.PUBLIC_URL}/images/icons/player/back.svg`} alt="back" />
                 </button>
                
                 {isNewTrackLoading &&  
@@ -88,22 +152,22 @@ const AppPlayerControl = () => {
                     <Fragment>
                         {PlayerTrackStatus ? 
                             <button className='play-control' onClick={PauseMusic}>
-                                <img src={`${process.env.PUBLIC_URL}/images/icons/player/pause.svg`} alt="" />
+                                <img src={`${process.env.PUBLIC_URL}/images/icons/player/pause.svg`} alt="pause" />
                             </button>
                             :
                             <button className='play-control' onClick={PlayMusic}>
-                                <img src={`${process.env.PUBLIC_URL}/images/icons/player/play.svg`} alt="" />
+                                <img src={`${process.env.PUBLIC_URL}/images/icons/player/play.svg`} alt="play" />
                             </button>
                         }
                     </Fragment>
                 }
             
-                <button className='next-control'>
-                    <img src={`${process.env.PUBLIC_URL}/images/icons/player/next.svg`} alt="" />
+                <button className='next-control' onClick={PlayNextTrack}>
+                    <img src={`${process.env.PUBLIC_URL}/images/icons/player/next.svg`} alt="next" />
                 </button>
             </div>
 
-            <AppPlayerProgress track={musicTrackState}/>
+            <AppPlayerProgress track={musicTrackState} />
 
             <div className="player-controls ml-auto">
                 <button className='next-control' onClick={LoopPlayer}>

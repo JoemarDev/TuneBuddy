@@ -16,3 +16,8 @@ export const SelectLastPlayerPosition = createSelector(
     [PlayerSelector],
     (playerSlice) => playerSlice.playerLastPosition
 )
+
+export const SelectIsPlayerHaveError = createSelector(
+    [PlayerSelector],
+    (playerSlice) => playerSlice.isPlayerError
+)

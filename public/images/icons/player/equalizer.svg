@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(241, 242, 243, 0); display: block;" width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+<g transform="rotate(180 50 50)"><rect x="7" y="12.5" width="11" height="40" fill="#2ca6b7">
+  <animate attributeName="height" calcMode="spline" values="50;75;10;50" times="0;0.33;0.66;1" dur="1.4925373134328357s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" begin="-0.6396588486140724s"></animate>
+</rect><rect x="19.5" y="12.5" width="11" height="40" fill="#2ca6b7">
+  <animate attributeName="height" calcMode="spline" values="50;75;10;50" times="0;0.33;0.66;1" dur="1.4925373134328357s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" begin="-0.8528784648187633s"></animate>
+</rect><rect x="32" y="12.5" width="11" height="40" fill="#2ca6b7">
+  <animate attributeName="height" calcMode="spline" values="50;75;10;50" times="0;0.33;0.66;1" dur="1.4925373134328357s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" begin="-0.42643923240938164s"></animate>
+</rect><rect x="44.5" y="12.5" width="11" height="40" fill="#2ca6b7">
+  <animate attributeName="height" calcMode="spline" values="50;75;10;50" times="0;0.33;0.66;1" dur="1.4925373134328357s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" begin="-1.0660980810234542s"></animate>
+</rect><rect x="57" y="12.5" width="11" height="40" fill="#2ca6b7">
+  <animate attributeName="height" calcMode="spline" values="50;75;10;50" times="0;0.33;0.66;1" dur="1.4925373134328357s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" begin="-0.21321961620469082s"></animate>
+</rect><rect x="69.5" y="12.5" width="11" height="40" fill="#2ca6b7">
+  <animate attributeName="height" calcMode="spline" values="50;75;10;50" times="0;0.33;0.66;1" dur="1.4925373134328357s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" begin="-1.2793176972281448s"></animate>
+</rect><rect x="82" y="12.5" width="11" height="40" fill="#2ca6b7">
+  <animate attributeName="height" calcMode="spline" values="50;75;10;50" times="0;0.33;0.66;1" dur="1.4925373134328357s" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" repeatCount="indefinite" begin="0s"></animate>
+</rect></g>
+</svg>
