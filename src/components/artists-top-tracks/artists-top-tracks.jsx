@@ -34,7 +34,7 @@ const ArtistsTopTracks = () => {
     }
 
     return (
-        <div className='px-10'>
+        <div className='px-10 mb-10'>
             <h3 className='text-3xl font-bold' >Popular Tracks</h3>
             <div className='track-lists pt-5'>
                 {TopTracks.map((item,index) => {

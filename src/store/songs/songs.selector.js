@@ -9,6 +9,18 @@ export const SelectSongData = createSelector(
     }
 )
 
+export const CurrentTrackArtistsID = createSelector(
+    [selectSongReducer],
+    (SongSplice) => {
+        try {
+            return SongSplice['currentSong']['artists'];
+        } catch (error) {
+            return null;
+        }
+       
+    }
+)
+
 
 
 export const SelectSongName = createSelector(
@@ -33,16 +45,7 @@ export const SelectSongImage = createSelector(
     }
 )
 
-export const SelectSongArtist = createSelector(
-    [selectSongReducer],
-    (SongSplice) => {
-        try {
-            return SongSplice['currentSong']['artists'][0];    
-        } catch (error) {
-            return [];
-        }
-    }
-)
+
 
 export const SelectSongID = createSelector(
     [selectSongReducer],

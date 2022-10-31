@@ -74,6 +74,7 @@ export const SelectArtistCachedProfile = createSelector(
     (artistsProfileSlice) => artistsProfileSlice['cachedArtistProfile']
 )
 
+
 export const SelectArtistsBiography = createSelector(
     [selectArtistsProfile],
     (artistsProfileSlice) => {
@@ -86,3 +87,100 @@ export const SelectArtistsBiography = createSelector(
     }
 )
 
+
+export const SelectArtistsAlbum = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => {
+        try {
+            const artists = artistsProfileSlice['currentArtist'];
+            return artists['discography']['albums']['items'];
+        } catch (error) {
+            return [];
+        }
+    }
+)
+
+
+export const SelectArtistsSingles = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => {
+        try {
+            const artists = artistsProfileSlice['currentArtist'];
+            return artists['discography']['singles']['items'];
+        } catch (error) {
+            return [];
+        }
+    }
+)
+
+export const SelectArtistsCompilations = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => {
+        try {
+            const artists = artistsProfileSlice['currentArtist'];
+            return artists['discography']['compilations']['items'];
+        } catch (error) {
+            return [];
+        }
+    }
+)
+
+export const SelectArtistsFeaturing = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => {
+        try {
+            const artists = artistsProfileSlice['currentArtist'];
+            return artists['relatedContent']['featuring']['items'];
+        } catch (error) {
+            return [];
+        }
+    }
+)
+
+export const SelectRelatedArtists = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => {
+        try {
+            const artists = artistsProfileSlice['currentArtist'];
+            return artists['relatedContent']['relatedArtists']['items'];
+        } catch (error) {
+            return [];
+        }
+    }
+)
+
+export const SelectArtistsAppearOn = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => {
+        try {
+            const artists = artistsProfileSlice['currentArtist'];
+            return artists['relatedContent']['appearsOn']['items'];
+        } catch (error) {
+            return [];
+        }
+    }
+)
+
+export const SelectArtistsPlaylists = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => {
+        try {
+            const artists = artistsProfileSlice['currentArtist'];
+            return artists['playlists']['items'];
+        } catch (error) {
+            return [];
+        }
+    }
+)
+
+export const SelectArtistsDiscoveredOn = createSelector(
+    [selectArtistsProfile],
+    (artistsProfileSlice) => {
+        try {
+            const artists = artistsProfileSlice['currentArtist'];
+            return artists['relatedContent']['discoveredOn']['items'];
+        } catch (error) {
+            return [];
+        }
+    }
+)

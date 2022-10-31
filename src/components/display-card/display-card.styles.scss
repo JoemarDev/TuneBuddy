@@ -1,0 +1,44 @@
+.display-card {
+    width: 100%;
+    position: relative;
+
+    .play-icon {
+        color: #2ca6b7;
+        background: #000;
+        border-radius: 100%;
+    }
+    .display-card-overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgb(8,8,8);
+        background: linear-gradient(0deg, rgb(0, 0, 0) 12%, rgba(13, 13, 13, 0) 100%);
+        display: flex;
+        align-items: flex-end;
+
+        .relative {
+            display: flex;
+            align-items: center;
+
+            .left {
+                margin-right: 20px;
+            }
+        }
+    }
+
+
+    .display-image {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+.rounded-img-display-card img {
+    border-radius: 100%;
+    border:1px solid #2ca6b7;
+}
