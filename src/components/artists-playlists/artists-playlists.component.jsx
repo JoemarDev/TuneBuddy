@@ -1,11 +1,13 @@
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { SelectArtistsPlaylists } from "../../store/artists-profile/artists-profile.selector";
 import DisplayCard from "../display-card/display-card.component";
 
 const ArtistsPlaylists = () => {
 
     const ArtistsPlaylists = useSelector(SelectArtistsPlaylists);
-    
+    const navigate = useNavigate();
+
     if(ArtistsPlaylists.length === 0) return;
     return (
         <div className="px-10 discography-wrapper mb-10">
@@ -18,9 +20,10 @@ const ArtistsPlaylists = () => {
                         cc={'h-60'} 
                         name={item.name} 
                         image={item.images.length !== 0 && item.images[0][0]['url']} 
-                        type={'Playlist'} />)}
+                        type={'Playlist'} 
+                        onClick={() => navigate(`/${item.type}/${item.id}`)}/>)
+                    }
             </div>
-
         </div>
     )
 }

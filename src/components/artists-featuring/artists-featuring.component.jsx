@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { SelectArtistsFeaturing, SelectArtistsName } from "../../store/artists-profile/artists-profile.selector";
 import DisplayCard from "../display-card/display-card.component";
 
@@ -6,7 +7,8 @@ const ArtistsFeaturing = () => {
 
     const ArtistName = useSelector(SelectArtistsName);
     const ArtistFeatured = useSelector(SelectArtistsFeaturing);
-
+    const navigate = useNavigate();
+    
     if(ArtistFeatured.length === 0) return;
 
     return (
@@ -20,7 +22,9 @@ const ArtistsFeaturing = () => {
                         cc={'h-60 '} 
                         name={item.name} 
                         image={item.images.length !== 0 && item.images[0][0]['url']} 
-                        type={item.description || 'By Tunebuddy'} />)}
+                        type={item.description || 'By Tunebuddy'} 
+                        onClick={() => navigate(`/${item.type}/${item.id}`)}/>)
+                }
             </div>
 
         </div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { SelectArtistsAlbum, SelectArtistsCompilations, SelectArtistsSingles, SelectArtistsTopTracks } from "../../store/artists-profile/artists-profile.selector";
 import DisplayCard from "../display-card/display-card.component";
 
@@ -9,8 +10,10 @@ const ArtistsDiscography = () => {
     const ArtistSingles = useSelector(SelectArtistsSingles);
     const ArtistTopTracks = useSelector(SelectArtistsTopTracks);
     const ArtistCompilation = useSelector(SelectArtistsCompilations);
-    
+
     const [selected , setSelected] = useState(1);
+
+    const navigate = useNavigate();
 
     return (
         <div className="px-10 discography-wrapper mb-10">
@@ -40,25 +43,56 @@ const ArtistsDiscography = () => {
             </div>
             {selected === 1 && 
                 <div class="grid grid-cols-6 gap-4 mt-5 ">
-                    {ArtistTopTracks.map((item,index) => index < 6 && <DisplayCard key={index} cc={'h-60'} name={item.name} image={item.album['cover']['0']['url']} type={'Track'} />)}
+                    {ArtistTopTracks.map((item,index) => index < 6 
+                        && <DisplayCard 
+                            key={index} 
+                            cc={'h-60'} 
+                            name={item.name} 
+                            image={item.album['cover']['0']['url']} 
+                            type={item.type} 
+                            onClick={() => navigate(`/${item.type}/${item.id}`)}/>)
+                    }
                 </div>
             }
 
             {selected === 2 && 
                 <div class="grid grid-cols-6 gap-4 mt-5 ">
-                    {ArtistAlbum.map((item,index) => index < 6 && <DisplayCard key={index} cc={'h-60'} name={item.name} image={item.cover[0]['url']} type={'Album'} />)}
+                    {ArtistAlbum.map((item,index) => index < 6 
+                        && <DisplayCard 
+                            key={index} cc={'h-60'} 
+                            name={item.name} 
+                            image={item.cover[0]['url']} 
+                            type={item.type} 
+                            onClick={() => navigate(`/${item.type}/${item.id}`)}/>)
+                    }
                 </div>
             }
 
             {selected === 3 && 
                 <div class="grid grid-cols-6 gap-4 mt-5 ">
-                    {ArtistSingles.map((item,index) => index < 6 && <DisplayCard key={index} cc={'h-60'} name={item.name} image={item.cover[0]['url']} type={'Single'} />)}
+                    {ArtistSingles.map((item,index) => index < 6 
+                        && <DisplayCard 
+                            key={index} 
+                            cc={'h-60'} 
+                            name={item.name} 
+                            image={item.cover[0]['url']} 
+                            type={item.type} 
+                            onClick={() => navigate(`/${item.type}/${item.id}`)}/>)
+                    }
                 </div>
             }
 
             {selected === 4 && 
                 <div class="grid grid-cols-6 gap-4 mt-5 ">
-                    {ArtistCompilation.map((item,index) => index < 6 && <DisplayCard key={index} cc={'h-60'} name={item.name} image={item.cover[0]['url']} type={'Album'} />)}
+                    {ArtistCompilation.map((item,index) => index < 6 
+                        && <DisplayCard 
+                            key={index} 
+                            cc={'h-60'} 
+                            name={item.name} 
+                            image={item.cover[0]['url']} 
+                            type={item.type} 
+                            onClick={() => navigate(`/${item.type}/${item.id}`)}/>)
+                    }
                 </div>
             }
 
