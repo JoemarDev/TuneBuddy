@@ -1,4 +1,6 @@
 import { PLAYLIST_ACTION_TYPES } from "./playlist.types";
+
+
 const PLAYLIST_INITITAL_STATE = {
     currentPlaylist : [],
     cachedPlaylists: [],
@@ -6,10 +8,11 @@ const PLAYLIST_INITITAL_STATE = {
     isError : false,
 }
 
-export const PlaylistReducer =(
+export const PlaylistReducer = (
     state = PLAYLIST_INITITAL_STATE,
     action = {}
 ) => {
+
     const {type , payload} = action;
 
     switch(type) {

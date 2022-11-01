@@ -34,7 +34,6 @@ const ArtistProfile = () => {
 
     useEffect(() => {
 
-       
         
         if(!artist_id) return;
 

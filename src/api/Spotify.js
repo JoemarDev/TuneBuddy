@@ -12,7 +12,7 @@ export const GetHomeAPI =  async () => {
     // return await fetch('https://spotify-scraper.p.rapidapi.com/v1/home', API_OPTIONS)
 	// .then(response => response.json())
 	// .then(response => response)
-	// .catch(err => console.error(err));
+	// .catch(err =>  err);
 }
 
 export const GetHomeGenres = async () => {
@@ -24,7 +24,7 @@ export const GetTopArtists = async () => {
 	// return await fetch('https://spotify-scraper.p.rapidapi.com/v1/chart/artists/top?region=PH', API_OPTIONS)
 	// .then(response => response.json())
 	// .then(response => response)
-	// .catch(err => console.error(err));
+	// .catch(err =>  err);
 }
 
 export const GetArtistsProfileData = async(artist_id) => {
@@ -32,7 +32,7 @@ export const GetArtistsProfileData = async(artist_id) => {
 	return await fetch(`https://spotify-scraper.p.rapidapi.com/v1/artist/overview?artistId=${artist_id}`, API_OPTIONS)
 	.then(response => response.json())
 	.then(response => response)
-	.catch(err => console.error(err));
+	.catch(err =>  err);
 }
 
 export const GetSongData = async(song_id) => {
@@ -52,5 +52,45 @@ export const DownloadTrack = async(trackID) => {
 	return await fetch(`https://spotify-scraper.p.rapidapi.com/v1/track/download?track=${trackID}`, API_OPTIONS)
 	.then(response => response.json())
 	.then(response => response)
-	.catch(err => console.error(err));
+	.catch(err =>  err);
+}
+
+export const GetAlbumMetaData = async(album_id) =>{
+
+	return  fetch(`https://spotify-scraper.p.rapidapi.com/v1/album/metadata?albumId=${album_id}`, API_OPTIONS)
+	.then(response => response.json())
+	.then(response => response)
+	.catch(err =>  err);
+}
+
+
+export const GetAlbumTracksData = async(album_id) =>{
+
+	return  fetch(`https://spotify-scraper.p.rapidapi.com/v1/album/tracks?albumId=${album_id}`, API_OPTIONS)
+	.then(response => response.json())
+	.then(response => response)
+	.catch(err =>  err);
+}
+
+
+export const GetPlaylistMetaData = async(playlist_id) => {
+	return  fetch(`https://spotify-scraper.p.rapidapi.com/v1/playlist/metadata?playlistId=${playlist_id}`, API_OPTIONS)
+	.then(response => response.json())
+	.then(response => response)
+	.catch(err =>  err);
+}
+
+
+export const GetPlaylistTracksData = async(playlist_id) => {
+	return  fetch(`https://spotify-scraper.p.rapidapi.com/v1/playlist/contents?playlistId=${playlist_id}`, API_OPTIONS)
+	.then(response => response.json())
+	.then(response => response)
+	.catch(err =>  err);
+}
+
+export const GetTracksMetaData = async(track_id) => {
+	return  fetch(`https://spotify-scraper.p.rapidapi.com/v1/track/metadata?trackId=${track_id}`, API_OPTIONS)
+	.then(response => response.json())
+	.then(response => response)
+	.catch(err =>  err);
 }

@@ -1,3 +1,4 @@
+import { GetAlbumMetaData, GetAlbumTracksData } from "../../api/Spotify";
 import { createAction } from "../../utils/reducers/reducer.utils";
 import { ALBUM_ACTION_TYPES } from "./album.types";
 
@@ -18,10 +19,17 @@ export const fetchAlbumAsync = (album_id) => async(dispatch) => {
     dispatch(fetchAlbumStart());
 
     try {
-        const AlbumRes = await [];
 
-        dispatch(fetchAlbumStart(AlbumRes));
+        const AlbumMetaData = await GetAlbumMetaData(album_id);
+
+        const AlbumTracks = await GetAlbumTracksData(album_id);
+
+        const AlbumRes = {AlbumMetaData,AlbumTracks};
+        
+        dispatch(fetchAlbumSuccess(AlbumRes));
+
         dispatch(cacheAlbum(AlbumRes));
+
     } catch (error) {
         dispatch(fetchAlbumFailed(error));
     }

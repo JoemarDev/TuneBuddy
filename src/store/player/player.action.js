@@ -15,6 +15,5 @@ export const SetPlayerLastPosition = (player_position) => (dispatch) => {
 }
 
 export const IsPlayerHaveError = (isError) => (dispatch) => {
-    console.log(isError);
     return dispatch(createAction(PLAYER_ACTION_TYPES.SET_PLAYER_ERROR , isError));
 }
