@@ -3,9 +3,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { IsPlayerHaveError, PausePlayerTrack , PlayPlayerTrack, SetPlayerLastPosition, SetPlayerOnLoop } from '../../store/player/player.action';
 import { SelectIsPlayerOnLoop, SelectLastPlayerPosition, SelectTrackPlayerStatus } from '../../store/player/player.selector';
 
-import { fetchTrackAsync, fetchTrackDetailSuccess, SetCurrentActiveQueue, SetCurrentSong } from '../../store/songs/songs.action';
+import { fetchTrackAsync, fetchTrackDetailSuccess, SetCurrentActiveQueue, SetCurrentSong, SetFetchSongRetry } from '../../store/songs/songs.action';
 import { SelectCachedSongs } from '../../store/songs-temp/songs-temp.selector';
-import {SelectIsFetchingTrackLoading, SelectQueueDetails, SelectTrackAudio  } from '../../store/songs/songs.selector';
+import {SelectIsFetchingTrackLoading, SelectQueueDetails, SelectSongData, SelectSongFetchRetry, SelectTrackAudio  } from '../../store/songs/songs.selector';
 import AppPlayerProgress from '../app-player-progress/app-player-progress.component';
 import Spinner from '../spinner/spinner.component';
 import './app-player-control.styles.scss';
@@ -17,12 +17,13 @@ const AppPlayerControl = () => {
 
     const [musicTrackState , setMusicTrackState] = useState(null);
 
+    const SongFetchRetry = useSelector(SelectSongFetchRetry);
+    const GetCurrentSong = useSelector(SelectSongData);
     const PlayerTrackStatus = useSelector(SelectTrackPlayerStatus)
     const PlayerLastPosition = useSelector(SelectLastPlayerPosition);
     const PlayerIsLoop = useSelector(SelectIsPlayerOnLoop)
     const CachedSongs = useSelector(SelectCachedSongs);
     const Track = useSelector(SelectTrackAudio);
-
 
     const {tracksQueue , activeQueue} = useSelector(SelectQueueDetails);
     const isNewTrackLoading = useSelector(SelectIsFetchingTrackLoading);
@@ -78,13 +79,23 @@ const AppPlayerControl = () => {
     }
 
     const PlayMusic = () => {
+      
         musicTrackState.play()
         .then(() => {
             dispatch(PlayPlayerTrack()); 
             dispatch(IsPlayerHaveError(false))
         })
         .catch((err) => {
-            if(err.code === 9) return dispatch(IsPlayerHaveError(true));
+           
+            if(err.code === 9) {
+                if(SongFetchRetry === 0) {
+                    dispatch(SetFetchSongRetry(1));
+                    dispatch(fetchTrackAsync(GetCurrentSong.id));
+                    return;
+                }
+
+                return dispatch(IsPlayerHaveError(true));
+            }
             dispatch(PausePlayerTrack());
         }) 
     }

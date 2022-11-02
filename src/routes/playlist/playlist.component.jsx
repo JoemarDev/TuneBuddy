@@ -3,8 +3,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import DisplayBanner from "../../components/display-banner/display-banner.component";
 import DisplayBannerPlaceHolder from "../../components/display-banner/display-banner.placeholder";
+import DisplayTrack from "../../components/display-tracks/display-tracks.component";
 import { fetchPlaylistAsync, fetchPlaylistSuccess } from "../../store/playlist/playlist.action";
-import { SelectIsPlaylistLoading, SelectPlaylistCached, SelectPlaylistImage, SelectPlaylistTitle } from "../../store/playlist/playlist.selector";
+import { SelectIsPlaylistLoading, SelectPlaylistCached, SelectPlaylistImage, SelectPlaylistTitle, SelectPlaylistTracks } from "../../store/playlist/playlist.selector";
 
 const Playlist = () => {
     const {playlists_id} = useParams();
@@ -18,6 +19,8 @@ const Playlist = () => {
     const PlaylistImage = useSelector(SelectPlaylistImage);
 
     const IsPlaylistLoading = useSelector(SelectIsPlaylistLoading);
+
+    const PlaylistTracks = useSelector(SelectPlaylistTracks);
 
     useEffect(() => {
      
@@ -49,6 +52,11 @@ const Playlist = () => {
                     title={PlaylistTitle}
                     type={'PLAYLIST'}/>
             }
+
+            {!IsPlaylistLoading 
+                && <DisplayTrack tracks={PlaylistTracks} defaultImage={PlaylistImage} tracksType={'playlist'}/> }
+           
+
         </Fragment>
 
     )

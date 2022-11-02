@@ -3,8 +3,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import DisplayBanner from "../../components/display-banner/display-banner.component";
 import DisplayBannerPlaceHolder from "../../components/display-banner/display-banner.placeholder";
+import DisplayTrack from "../../components/display-tracks/display-tracks.component";
 import { fetchAlbumAsync, fetchAlbumSuccess } from "../../store/album/album.action";
-import { SelectAlbumArtist, SelectAlbumArtistImage, SelectAlbumImage, SelectAlbumsCached, SelectAlbumTitle, SelectAlbumTracksLength, SelectIsAlbumLoading } from "../../store/album/album.selector";
+import { SelectAlbumArtist, SelectAlbumArtistImage, SelectAlbumImage, SelectAlbumsCached, SelectAlbumTitle, SelectAlbumTracks, SelectAlbumTracksLength, SelectIsAlbumLoading } from "../../store/album/album.selector";
 
 const Album = () => {
     
@@ -26,6 +27,8 @@ const Album = () => {
 
     const dispatch = useDispatch();
 
+    const AlbumTracks = useSelector(SelectAlbumTracks);
+
     useEffect(() => {
         if(!album_id) return;
         
@@ -45,7 +48,7 @@ const Album = () => {
 
     return (
         <Fragment>
-           {IsAlbumLoading && <DisplayBannerPlaceHolder/>}
+            {IsAlbumLoading && <DisplayBannerPlaceHolder/>}
             {!IsAlbumLoading && 
                 <DisplayBanner 
                     image={AlbumImage} 
@@ -55,6 +58,9 @@ const Album = () => {
                     artist_image={AlbumArtistImage}
                     song_count={AlbumTracksLength}/>
             }
+            {!IsAlbumLoading 
+                && <DisplayTrack tracks={AlbumTracks} defaultImage={AlbumImage}/> }
+           
         </Fragment>
     )
 }

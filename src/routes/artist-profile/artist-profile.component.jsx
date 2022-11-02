@@ -57,9 +57,9 @@ const ArtistProfile = () => {
 
     return (
             <div className='artist-container relative' ref={ContainerRef}> 
+
                 {isLoading && <ArtistsProfileBannerPlaceholder />}
                 {isLoading && <ArtistsTopTracksPlaceHolder />}
-
                 {!isLoading && <ArtistsProfileBanner />}
                 {!isLoading && <ArtistsTopTracks />}
                 {!isLoading && <ArtistsDiscography />}

@@ -6,14 +6,23 @@ import { SelectSongID } from '../../store/songs/songs.selector';
 import { ConvertWithComma } from '../../utils/basic/basic.utils';
 import './tracks.styles.scss';
 
-const Tracks = ({track , trackNo , isArtist = true , setSong}) => {
-
+const Tracks = ({
+    track , 
+    trackNo , 
+    isArtist = true , 
+    setSong,
+    tracksType}) => {
+    
     const dispatch = useDispatch();
-
-    const {name , album , durationText , playCount , id} = track;
 
     const CurrentSong = useSelector(SelectSongID);
     const IsPlayerPlaying = useSelector(SelectTrackPlayerStatus);
+
+
+    if(!track) return;
+
+    const {name , album , durationText , playCount , id , artists} = track;
+    
 
     const PausePlayer = () => {
         dispatch(PausePlayerTrack());
@@ -23,7 +32,7 @@ const Tracks = ({track , trackNo , isArtist = true , setSong}) => {
         <div className={`
             track-container 
             hover:bg-zinc-800 
-            py-3 px-5 w-2/3 
+            py-3 px-5 w-full 
             mt-1 
             rounded 
             flex items-center 
@@ -58,10 +67,20 @@ const Tracks = ({track , trackNo , isArtist = true , setSong}) => {
             </p>
 
             <div className='flex items-center w-2/4'>
-                <img className='w-10 mr-5' src={album.cover[0]['url']} alt="" />
+                {album &&    <img className='w-10 mr-5' src={album.cover[0]['url']} alt="" />}
+             
                 <div>
                     <p>{name}</p>
-                    {isArtist &&  <p className='text-sm text-slate-500'>{name}</p>}
+                    <div className='flex'>
+                        {artists &&  artists.map((item,index) => <p className='text-sm text-slate-500 mr-2' key={index}>{item.name}</p>)}
+                       
+                        {tracksType === 'playlist' && 
+                            <Fragment>
+                               {album && album.artists.map((item,index) => <p className='text-sm text-slate-500 mr-2' key={index}>{item.name}</p>)}
+                            </Fragment>
+                        }
+                     
+                    </div>
                 </div>
             </div>
             <p className='ml-auto w-52 text-center'>{ConvertWithComma(playCount)}</p>

@@ -21,8 +21,13 @@ export const SetCurrentActiveQueue = (index) => (dispatch) =>
 
 export const SetQueueLists = (tracksArray) => (dispatch) =>
     dispatch(createAction(SONGS_ACTION_TYPES.SET_QUEUE_LISTS , tracksArray));
-    
 
+export const SetFetchSongRetry = (retry) => (dispatch) =>
+    dispatch(createAction(SONGS_ACTION_TYPES.SET_FETCH_SONG_RETRY , retry));
+
+export const SetSongDefaultImage = (img) => (dispatch) => 
+    dispatch(createAction(SONGS_ACTION_TYPES.SET_SONG_DEFAULT_IMAGE , img));
+    
 export const fetchTrackAsync = (trackID) => async(dispatch) => {
     dispatch(fetchTrackDetailStart());
 

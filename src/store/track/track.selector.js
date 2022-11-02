@@ -16,7 +16,7 @@ export const SelectTrackImage = createSelector(
     [TrackSelector],
     (trackSplice) =>  {
         try {
-            return trackSplice['currentTrack']['album']['cover'][0]['url'];
+            return trackSplice['currentTrack']['TrackResult']['album']['cover'][0]['url'];
         } catch (error) {
             return null;
         }
@@ -27,7 +27,7 @@ export const SelectTrackTitle = createSelector(
     [TrackSelector],
     (trackSplice) =>  {
         try {
-            return trackSplice['currentTrack']['name'];
+            return trackSplice['currentTrack']['TrackResult']['name'];
         } catch (error) {
             return null;
         }
@@ -38,7 +38,7 @@ export const SelectTrackArtists = createSelector(
     [TrackSelector],
     (trackSplice) =>  {
         try {
-            return trackSplice['currentTrack']['artists'][0]['name'];
+            return trackSplice['currentTrack']['TrackResult']['artists'][0]['name'];
         } catch (error) {
             return null;
         }
@@ -49,7 +49,7 @@ export const SelectTrackArtistImage = createSelector(
     [TrackSelector],
     (trackSplice) =>  {
         try {
-            return trackSplice['currentTrack']['artists'][0]['visuals']['avatar'][0]['url'];
+            return trackSplice['currentTrack']['TrackResult']['artists'][0]['visuals']['avatar'][0]['url'];
         } catch (error) {
             return   process.env.PUBLIC_URL+'/images/black.webp';
         }

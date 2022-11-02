@@ -2,6 +2,12 @@ import { createSelector } from "reselect";
 
 const selectSongReducer = (state) => state.Song;
 
+
+export const SelectSongFetchRetry = createSelector(
+    [selectSongReducer],
+    (SongSplice) => SongSplice['retryCount']
+)
+
 export const SelectSongData = createSelector(
     [selectSongReducer],
     (SongSplice) => {
@@ -12,16 +18,31 @@ export const SelectSongData = createSelector(
 export const CurrentTrackArtistsID = createSelector(
     [selectSongReducer],
     (SongSplice) => {
+       
         try {
-            return SongSplice['currentSong']['artists'];
+            if(SongSplice['currentSong']['artists'] != undefined) {
+                return SongSplice['currentSong']['artists'];
+            } else {
+                return SongSplice['currentSong']['album']['artists'];
+            }
+           
         } catch (error) {
-            return null;
+            return [];
         }
        
     }
 )
 
-
+export const SelectSongTrackID = createSelector(
+    [selectSongReducer],
+    (SongSplice) => {
+        try {
+            return SongSplice['currentSong']['id'];
+        } catch (error) {
+            return null;
+        }
+    }
+)
 
 export const SelectSongName = createSelector(
     [selectSongReducer],
@@ -84,6 +105,7 @@ export const SelectTrackDuration = createSelector(
             return null;
         }
     }
+
 )
 
 export const SelectQueueDetails = createSelector(
@@ -94,4 +116,15 @@ export const SelectQueueDetails = createSelector(
     }
 )
 
+export const SelectSongDefaultImage = createSelector(
+    [selectSongReducer],
+    (SongSplice) => {
+        try {
+            return SongSplice['songDefaultImage'];
+        } catch (error) {
+            return process.env.PUBLIC_URL+'/images/black.webp';
+        }
 
+
+    }
+)

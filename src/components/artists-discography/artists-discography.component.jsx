@@ -4,7 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { SelectArtistsAlbum, SelectArtistsCompilations, SelectArtistsSingles, SelectArtistsTopTracks } from "../../store/artists-profile/artists-profile.selector";
 import DisplayCard from "../display-card/display-card.component";
 
-const ArtistsDiscography = () => {
+const ArtistsDiscography = ({config , cc}) => {
+
 
     const ArtistAlbum = useSelector(SelectArtistsAlbum);
     const ArtistSingles = useSelector(SelectArtistsSingles);
@@ -16,8 +17,14 @@ const ArtistsDiscography = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="px-10 discography-wrapper mb-10">
-            <h3 className="text-3xl font-bold mb-5">Discography</h3>
+        <div className={`px-10 discography-wrapper mb-10 ${cc}`}>
+            <div className="flex items-center justify-between">
+                <h3 className="text-3xl font-bold mb-5">Discography</h3>
+                {config !== 'all' 
+                    && <h3 className="text-lg text-slate-400 font-bold mb-5 cursor-pointer" onClick={() => navigate('discography/all')}>SEE ALL</h3>
+                }
+            </div>
+            
             <div>
                 <ul className="flex mb-5">
                     {ArtistTopTracks.length > 0 && 
@@ -43,14 +50,19 @@ const ArtistsDiscography = () => {
             </div>
             {selected === 1 && 
                 <div class="grid grid-cols-6 gap-4 mt-5 ">
-                    {ArtistTopTracks.map((item,index) => index < 6 
-                        && <DisplayCard 
+                    {ArtistTopTracks.map((item,index) => {
+                        if(config !== 'all') {
+                            if(index > 5) return null; 
+                        }
+                    
+                        return <DisplayCard 
                             key={index} 
                             cc={'h-60'} 
                             name={item.name} 
                             image={item.album['cover']['0']['url']} 
                             type={item.type} 
-                            onClick={() => navigate(`/${item.type}/${item.id}`)}/>)
+                            onClick={() => navigate(`/album/${item.album.id}`)}/>
+                    })
                     }
                 </div>
             }

@@ -20,7 +20,7 @@ const DisplayBanner = ({
             </div>
             <div className="relative mb-5">
                 <label className="font-bold">{type}</label>
-                {title &&  <h2 className={`${title.length > 70 ? 'text-3xl' : 'text-6xl'} font-black mb-5`}>{title}</h2>}
+                {title &&  <h2 className={`${title.length > 70 ? 'text-3xl' : 'text-4xl'} font-black mb-5`}>{title}</h2>}
                
                 {description &&  <p className="text-slate-400 mb-3">{description}</p>}
                

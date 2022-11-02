@@ -94,3 +94,10 @@ export const GetTracksMetaData = async(track_id) => {
 	.then(response => response)
 	.catch(err =>  err);
 }
+
+export const GetTracksLyrics = async(track_id) => {
+	return  fetch(`https://spotify-scraper.p.rapidapi.com/v1/track/lyrics?trackId=${track_id}`, API_OPTIONS)
+	.then(response => response.json())
+	.then(response => response)
+	.catch(err =>  err);
+}

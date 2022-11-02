@@ -73,3 +73,15 @@ export const SelectAlbumImage = createSelector(
         }
     }
  )
+
+ export const SelectAlbumTracks = createSelector(
+    [SelectAlbumData],
+    (AlbumSlice) => {
+
+        try {
+            return AlbumSlice['currentAlbum']['AlbumTracks']['tracks']['items'];
+        } catch (error) {
+            return [];
+        }
+    }
+ )

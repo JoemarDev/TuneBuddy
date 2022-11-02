@@ -34,11 +34,20 @@ export const SelectPlaylistTitle = createSelector(
     [PlaylistSelector],
     (PlaylistSlice) => {
         try {
-            console.log(PlaylistSlice)
             return PlaylistSlice['currentPlaylist']['PlaylistMetaData']['name'];
         } catch (error) {
             return null;
         }
-        
+    }
+)
+
+export const SelectPlaylistTracks = createSelector(
+    [PlaylistSelector],
+    (PlaylistSlice) => {
+        try {
+            return PlaylistSlice['currentPlaylist']['PlaylistTracks']['contents']['items'];
+        } catch (error) {
+            return [];
+        }
     }
 )

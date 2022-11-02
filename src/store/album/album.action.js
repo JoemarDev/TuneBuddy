@@ -31,6 +31,7 @@ export const fetchAlbumAsync = (album_id) => async(dispatch) => {
         dispatch(cacheAlbum(AlbumRes));
 
     } catch (error) {
+        console.log(error);
         dispatch(fetchAlbumFailed(error));
     }
 }
