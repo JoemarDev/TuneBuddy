@@ -10,9 +10,10 @@ import AppPlayerProgress from '../app-player-progress/app-player-progress.compon
 import Spinner from '../spinner/spinner.component';
 import './app-player-control.styles.scss';
 import AppPlayerVolume from '../app-player-volume/app-player-volume.component';
+import { useNavigate } from 'react-router-dom';
 
 const AppPlayerControl = () => {
-
+    
     const dispatch = useDispatch();
 
     const [musicTrackState , setMusicTrackState] = useState(null);
@@ -28,6 +29,7 @@ const AppPlayerControl = () => {
     const {tracksQueue , activeQueue} = useSelector(SelectQueueDetails);
     const isNewTrackLoading = useSelector(SelectIsFetchingTrackLoading);
 
+    const navigate = useNavigate();
     // Pause the Player if new song has been selected
     useEffect(() => {
         if(isNewTrackLoading)  return musicTrackState.pause();
@@ -183,6 +185,11 @@ const AppPlayerControl = () => {
 
             <div className="player-controls ml-auto">
                 <AppPlayerVolume player={musicTrackState}/>
+                <button className='next-control' onClick={() => navigate('/queue')}>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill={'#fff'} preserveAspectRatio="xMidYMin meet" viewBox="-6 -7 25 25">
+                        <path d="M15 15H1v-1.5h14V15zm0-4.5H1V9h14v1.5zm-14-7A2.5 2.5 0 013.5 1h9a2.5 2.5 0 010 5h-9A2.5 2.5 0 011 3.5zm2.5-1a1 1 0 000 2h9a1 1 0 100-2h-9z"></path>
+                    </svg>
+                </button>
                 <button className='next-control' onClick={LoopPlayer}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill={PlayerIsLoop ? '#2ca6b7' : '#fff'} preserveAspectRatio="xMidYMin meet" viewBox="-6 -7 25 25">
                         <path d="M0 4.75A3.75 3.75 0 013.75 1h8.5A3.75 3.75 0 0116 4.75v5a3.75 3.75 0 01-3.75 3.75H9.81l1.018 1.018a.75.75 0 11-1.06 1.06L6.939 12.75l2.829-2.828a.75.75 0 111.06 1.06L9.811 12h2.439a2.25 2.25 0 002.25-2.25v-5a2.25 2.25 0 00-2.25-2.25h-8.5A2.25 2.25 0 001.5 4.75v5A2.25 2.25 0 003.75 12H5v1.5H3.75A3.75 3.75 0 010 9.75v-5z"></path>

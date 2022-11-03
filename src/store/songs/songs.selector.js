@@ -124,7 +124,5 @@ export const SelectSongDefaultImage = createSelector(
         } catch (error) {
             return process.env.PUBLIC_URL+'/images/black.webp';
         }
-
-
     }
 )

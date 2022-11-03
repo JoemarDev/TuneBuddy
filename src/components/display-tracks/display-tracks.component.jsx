@@ -11,7 +11,7 @@ import {
  } from "../../store/songs/songs.action";
 import Tracks from "../tracks/tracks.component";
 
-const DisplayTrack = ({tracks , defaultImage , tracksType}) => {
+const DisplayTrack = ({tracks , defaultImage , tracksType , cc}) => {
 
     const dispatch = useDispatch();
 
@@ -37,9 +37,9 @@ const DisplayTrack = ({tracks , defaultImage , tracksType}) => {
 
 
     return (
-        <div className="w-full px-16">
+        <div className={`w-full px-16 ${cc}`}>
             {tracks.map((item,index) => (
-                <Tracks key={index} trackNo={index + 1} track={item}  setSong={() => SetSong(index)} tracksType={tracksType}/>
+                <Tracks key={index} trackNo={(tracksType == 'queue' ? (index + 1) : index) + 1} track={item}  setSong={() => SetSong(index)} tracksType={tracksType}/>
             ))}
         </div>
 
