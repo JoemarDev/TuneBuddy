@@ -1,38 +1,44 @@
 import './home.styles.scss';
-import { useEffect } from 'react';
+import { Fragment, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { fetchHomeMetaDataAsync } from '../../store/home/home.action';
+import { SelectHomeMetaData, SelectIsHomeLoading } from '../../store/home/home.selector';
 
-import ArtistsPreviewLists from '../../components/artists-preview-lists/artists-preview-lists.component';
+import HomeDisplay from '../../components/home-display/home-display.component';
 import AppLoader from '../../components/app-loader/app-loader.component';
 
-import { SelectArtistsDataDetail, SelectArtistsLists, SelectIsArtistsLoading } from '../../store/artists/artists.selector';
-import { GetArtistsAsync } from '../../store/artists/artists.action';
-import { Link } from 'react-router-dom';
+
 const Home = () => {
-    const ArtistsDataDetail = useSelector(SelectArtistsDataDetail);
-    const isArtistsLoading = useSelector(SelectIsArtistsLoading);
-    const ArtistsLists = useSelector(SelectArtistsLists)
-    const  dispatch = useDispatch();
+    
+    const dispatch = useDispatch();
+    
+    const HomeMetaData = useSelector(SelectHomeMetaData());
+    const IsHomeLoading = useSelector(SelectIsHomeLoading());
 
     useEffect(() => {
-        if(ArtistsLists.length !== 0) return;
-        dispatch(GetArtistsAsync());
-    },[]);
+        if(HomeMetaData.length > 0) return;
 
- 
+        const GetHomeMetaData = async() => {
+            dispatch(fetchHomeMetaDataAsync());
+        }
+
+        GetHomeMetaData();
+
+    },[]);
 
     return (
         <div className='p-16'>
-            <div className='top-artists'>
-                <div className='flex justify-between items-center mb-10'>
-                    {isArtistsLoading 
-                        ? <AppLoader className="w-72 h-9  rounded-md"/>
-                        : <h2 className='text-2xl font-medium '>{ArtistsDataDetail.title}</h2>
-                    }
-                    <Link to={'/artists'}>View All</Link>
-                </div>
-                <ArtistsPreviewLists />
-            </div>
+            {IsHomeLoading && <AppLoader className="w-72 h-9 mb-10 rounded-md"/>}
+            {IsHomeLoading && [0,0,0,0,0].map((i,x) =>  <AppLoader key={x} className="w-full h-80 rounded-3xl mb-10"/> )}
+
+            {!IsHomeLoading && 
+                <Fragment>
+                    {HomeMetaData.map((item,index) => {
+                        const {name , contents} = item;
+                        return <HomeDisplay name={name} contents={contents} key={index}/> 
+                    })}
+                </Fragment>
+            }
         </div>
     )
 }

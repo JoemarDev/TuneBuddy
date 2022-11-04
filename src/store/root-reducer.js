@@ -7,6 +7,8 @@ import { SongsTempReducer } from "./songs-temp/songs-temp.reducer";
 import { AlbumReducer } from "./album/album.reducer";
 import { PlaylistReducer } from "./playlist/playlist.reducer";
 import { TrackReducer } from "./track/track.reducer";
+import { HomeReducer } from "./home/home.reducer";
+import { GenreReducer } from "./genre/genre.reducer";
 
 export const rootReducer = combineReducers({
     ArtistsData : ArtistsReducer,
@@ -17,4 +19,6 @@ export const rootReducer = combineReducers({
     Album : AlbumReducer,
     Playlist : PlaylistReducer,
     Track : TrackReducer,
+    Home : HomeReducer,
+    Genre : GenreReducer
 });

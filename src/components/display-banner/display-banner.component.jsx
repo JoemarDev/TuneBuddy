@@ -10,14 +10,15 @@ const DisplayBanner = ({
     image = null,
 }) => {
 
-
+console.log(image)
   
     return (
         <div className="w-full p-16 flex items-end">
-            <div className="relative w-64 mr-10">
-                {image && <img className="w-full border-2 border-solid border-slate-900" src={image} alt={title} />}
-                
-            </div>
+            {image &&
+                <div className="relative w-64 mr-10">
+                    <img className="w-full border-2 border-solid border-slate-900" src={image} alt={title} />
+                </div>
+            }
             <div className="relative mb-5">
                 <label className="font-bold">{type}</label>
                 {title &&  <h2 className={`${title.length > 70 ? 'text-3xl' : 'text-4xl'} font-black mb-5`}>{title}</h2>}

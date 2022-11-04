@@ -8,9 +8,11 @@ import ArtistsRelated from "./components/artists-related/artists-related.compone
 import Album from "./routes/album/album.component";
 import ArtistProfile from "./routes/artist-profile/artist-profile.component";
 import ArtistsLists from "./routes/artists-lists/artists-lists.component";
+import Genre from "./routes/genre/genre.component";
 import Home from "./routes/home/home";
 import Playlist from "./routes/playlist/playlist.component";
 import Queue from "./routes/queue/queue.component";
+import Search from "./routes/search/search.component";
 import AppSideBar from "./routes/sidebar/app-sidebar.component";
 import Track from "./routes/track/track.component";
 
@@ -32,6 +34,8 @@ const App = () => {
 					<Route path={'/track/:track_id'} element={<Track />}/>
 					<Route path={'/playlist/:playlists_id'} element={<Playlist />}/>
 					<Route path={'/queue'} element={<Queue/>}/>
+					<Route path={'/search'} element={<Search/>}/>
+					<Route path={'/genre/:genre_id'} element={<Genre/>}/>
 				</Route>
 			</Routes>
 		</>
