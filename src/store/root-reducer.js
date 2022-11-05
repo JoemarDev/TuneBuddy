@@ -9,6 +9,7 @@ import { PlaylistReducer } from "./playlist/playlist.reducer";
 import { TrackReducer } from "./track/track.reducer";
 import { HomeReducer } from "./home/home.reducer";
 import { GenreReducer } from "./genre/genre.reducer";
+import { SearchReducer } from "./search/search.reducer";
 
 export const rootReducer = combineReducers({
     ArtistsData : ArtistsReducer,
@@ -20,5 +21,6 @@ export const rootReducer = combineReducers({
     Playlist : PlaylistReducer,
     Track : TrackReducer,
     Home : HomeReducer,
-    Genre : GenreReducer
+    Genre : GenreReducer,
+    Search : SearchReducer,
 });

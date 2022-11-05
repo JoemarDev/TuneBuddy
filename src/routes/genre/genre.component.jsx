@@ -10,16 +10,15 @@ const Genre = () => {
     
     const {genre_id} = useParams();
     const dispatch = useDispatch();
-    const CachedGenre = useSelector(selectGenreCached());
-    const IsGenreLoading = useSelector(selectIsGenreIsLoading());
-    const GenreLists = useSelector(selectCurrentGenreItems());
-    const GenreName = useSelector(selectCurrentGenreName());
+    const CachedGenre = useSelector(selectGenreCached);
+    const IsGenreLoading = useSelector(selectIsGenreIsLoading);
+    const GenreLists = useSelector(selectCurrentGenreItems);
+    const GenreName = useSelector(selectCurrentGenreName);
 
     const navigate = useNavigate();
 
+    console.log(CachedGenre)
     useEffect(() => {
-
-      
 
         const GetGenreMetaData = async() => {
 
@@ -50,7 +49,7 @@ const Genre = () => {
                     {GenreLists.map((item,index) => (
                         <Fragment>
                             <h3 className="text-3xl font-normal mb-10">{item.name}</h3>
-                            <div className="grid grid-cols-5 gap-4 mt-5 mb-20">
+                            <div className="grid grid-cols-6 gap-4 mt-5 mb-20">
                                 {item['contents']['items'].map((i,x) => {
                                     const {type , name , images , cover , id} = i;
 

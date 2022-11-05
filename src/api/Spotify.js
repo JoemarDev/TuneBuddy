@@ -109,3 +109,25 @@ export const GetGenreMetaData = async(genre_id) => {
 	.then(response => response)
 	.catch(err =>  err);
 }
+
+export const GetSearchMetaData = async(word) => {
+	return  fetch(`https://spotify-scraper.p.rapidapi.com/v1/search?term=${word}&type=all`, API_OPTIONS)
+	.then(response => response.json())
+	.then(response => response)
+	.catch(err =>  err);
+}
+
+export const BrowseNextTracksQueue = async(artists_id) => {
+	return  fetch(`https://spotify-scraper.p.rapidapi.com/v1/artist/playlists?artistId=${artists_id}&type=featuring`, API_OPTIONS)
+	.then(response => response.json())
+	.then(response => {
+		const getNextTrackLists = async() => {
+			let NextTracks = response['playlists']['items'][0]['id'];
+			let TracksLists =  await GetPlaylistTracksData(NextTracks);
+			return TracksLists['contents']['items'];
+		}
+		
+		return getNextTrackLists();
+	})
+	.catch(err =>  err);
+}

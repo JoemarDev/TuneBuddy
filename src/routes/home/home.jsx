@@ -5,7 +5,7 @@ import { fetchHomeMetaDataAsync } from '../../store/home/home.action';
 import { SelectHomeMetaData, SelectIsHomeLoading } from '../../store/home/home.selector';
 
 import HomeDisplay from '../../components/home-display/home-display.component';
-import AppLoader from '../../components/app-loader/app-loader.component';
+import HomeDisplayPlaceholder from '../../components/home-display/home-display.placeholder';
 
 
 const Home = () => {
@@ -28,9 +28,8 @@ const Home = () => {
 
     return (
         <div className='p-16'>
-            {IsHomeLoading && <AppLoader className="w-72 h-9 mb-10 rounded-md"/>}
-            {IsHomeLoading && [0,0,0,0,0].map((i,x) =>  <AppLoader key={x} className="w-full h-80 rounded-3xl mb-10"/> )}
-
+            {IsHomeLoading &&  <HomeDisplayPlaceholder />}
+    
             {!IsHomeLoading && 
                 <Fragment>
                     {HomeMetaData.map((item,index) => {

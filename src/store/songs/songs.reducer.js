@@ -43,7 +43,10 @@ export const SongsReducer = (
         
         case SONGS_ACTION_TYPES.SET_SONG_DEFAULT_IMAGE:
             return {...state , songDefaultImage:  payload}
-            
+
+        case SONGS_ACTION_TYPES.GET_NEW_TRACK_QUEUE:
+            return {...state , TracksQueue: payload}
+
         default : return state;
     }
 }

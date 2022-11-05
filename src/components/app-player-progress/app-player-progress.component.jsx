@@ -1,10 +1,10 @@
 import { Fragment, useState } from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { PausePlayerTrack, PlayPlayerTrack, SetPlayerLastPosition } from "../../store/player/player.action";
+import { PlayPlayerTrack, SetPlayerLastPosition } from "../../store/player/player.action";
 import { SelectIsPlayerOnLoop } from "../../store/player/player.selector";
-import { fetchTrackAsync, fetchTrackDetailSuccess, SetCurrentActiveQueue, SetCurrentSong } from "../../store/songs/songs.action";
-import {  SelectQueueDetails, SelectTrackDuration } from "../../store/songs/songs.selector";
+import { fetchTrackAsync, fetchTrackDetailSuccess, GetNewTracksQueue, SetCurrentActiveQueue, SetCurrentSong } from "../../store/songs/songs.action";
+import {   SelectQueueDetails, SelectTrackDuration } from "../../store/songs/songs.selector";
 import { SelectCachedSongs } from '../../store/songs-temp/songs-temp.selector';
 import { ConvertMilliSecond , ConvertMsToReadableFormat, ConvertTrackDurationToRedableFormat } from "../../utils/basic/basic.utils";
 import './app-player-progress.styles.scss'
@@ -18,14 +18,26 @@ const AppPlayerProgress = ({track}) => {
 
     const dispatch = useDispatch();
 
-    
-    const PlayNextTrack = () => {
+    const GenerateNewQueue = async() => {
+        let RefArtists = null;
+
+        if(tracksQueue[activeQueue]['artists']) {
+            RefArtists = tracksQueue[activeQueue]['artists'][0]['id']
+        } else if(tracksQueue[activeQueue]['album']) {
+            RefArtists = tracksQueue[activeQueue]['album']['artists'][0]['id']
+        }
+
+        await dispatch(GetNewTracksQueue(RefArtists));
+
+        return dispatch(SetPlayerLastPosition(0));
+
+    }
+    const PlayNextTrack = async() => {
 
         const NextIndex = activeQueue + 1;
 
         if(NextIndex >= tracksQueue.length) {
-            dispatch(PausePlayerTrack());
-            return dispatch(SetPlayerLastPosition(0));
+           return GenerateNewQueue();
         }
 
         const NextTrack = tracksQueue[NextIndex];

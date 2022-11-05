@@ -1,6 +1,6 @@
 import { SONGS_ACTION_TYPES } from "./songs.types";
 import { createAction } from "../../utils/reducers/reducer.utils";
-import { DownloadTrack } from "../../api/Spotify";
+import { BrowseNextTracksQueue, DownloadTrack } from "../../api/Spotify";
 import { SetPlayerLastPosition } from "../player/player.action";
 import { CachedSong } from "../songs-temp/songs-temp.actions";
 
@@ -27,7 +27,20 @@ export const SetFetchSongRetry = (retry) => (dispatch) =>
 
 export const SetSongDefaultImage = (img) => (dispatch) => 
     dispatch(createAction(SONGS_ACTION_TYPES.SET_SONG_DEFAULT_IMAGE , img));
-    
+
+export const GetNewTracksQueue = (artists_id) => async(dispatch) => {
+    try {
+        const NextTrackQueue = await  BrowseNextTracksQueue(artists_id);
+        dispatch(createAction(SONGS_ACTION_TYPES.GET_NEW_TRACK_QUEUE , NextTrackQueue));
+        dispatch(SetCurrentActiveQueue(1));
+        dispatch(SetCurrentSong(NextTrackQueue[1]));
+        dispatch(fetchTrackAsync(NextTrackQueue[1].id));
+    } catch (error) {
+        console.log(error);
+    }
+   
+  
+}
 export const fetchTrackAsync = (trackID) => async(dispatch) => {
     dispatch(fetchTrackDetailStart());
 

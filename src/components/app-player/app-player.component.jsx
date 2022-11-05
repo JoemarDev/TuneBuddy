@@ -23,13 +23,16 @@ const AppPlayer = () => {
             <div className='track-details text-white flex items-center w-1/4'>
                 <img className='track-image w-16 mr-5' src={SongImage !== null ? SongImage :  SongDefaultImage} alt={SongName} />
                 <div className='track-info'>
-                    <label className='block text-lg font-bold cursor-pointer' >{SongName} </label>
-                    <div className='flex'>
-                        {CurrentAritstsLists.map((item,index) => (
-                            <label className='block font-light text-sm hover:underline cursor-pointer' onClick={() => goToArtistsProfile(item.id)}>
-                                {index !== 0 ? ',' : ''} {item.name} 
-                            </label>
-                        ))}
+                    <label className='block text-lg font-bold cursor-pointer w-full' >{SongName} </label>
+
+                    <div class="relative flex overflow-x-hidden w-72">
+                        <div className={`${CurrentAritstsLists.length > 2 ? 'animate-marquee' : ''} whitespace-nowrap`}>
+                            {CurrentAritstsLists.map((item,index) => (
+                                <label className=' font-light text-sm hover:underline cursor-pointer whitespace-nowrap' onClick={() => goToArtistsProfile(item.id)}>
+                                    {index !== 0 ? ',' : ''} {item.name} 
+                                </label>
+                            ))}
+                        </div>
                     </div>
                     
                 </div>

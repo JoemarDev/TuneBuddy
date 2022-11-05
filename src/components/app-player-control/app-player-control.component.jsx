@@ -3,14 +3,14 @@ import { useDispatch, useSelector } from 'react-redux';
 import { IsPlayerHaveError, PausePlayerTrack , PlayPlayerTrack, SetPlayerLastPosition, SetPlayerOnLoop } from '../../store/player/player.action';
 import { SelectIsPlayerOnLoop, SelectLastPlayerPosition, SelectTrackPlayerStatus } from '../../store/player/player.selector';
 
-import { fetchTrackAsync, fetchTrackDetailSuccess, SetCurrentActiveQueue, SetCurrentSong, SetFetchSongRetry } from '../../store/songs/songs.action';
+import { fetchTrackAsync, fetchTrackDetailSuccess, GetNewTracksQueue, SetCurrentActiveQueue, SetCurrentSong, SetFetchSongRetry } from '../../store/songs/songs.action';
 import { SelectCachedSongs } from '../../store/songs-temp/songs-temp.selector';
 import {SelectIsFetchingTrackLoading, SelectQueueDetails, SelectSongData, SelectSongFetchRetry, SelectTrackAudio  } from '../../store/songs/songs.selector';
 import AppPlayerProgress from '../app-player-progress/app-player-progress.component';
 import Spinner from '../spinner/spinner.component';
 import './app-player-control.styles.scss';
 import AppPlayerVolume from '../app-player-volume/app-player-volume.component';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const AppPlayerControl = () => {
     
@@ -30,6 +30,8 @@ const AppPlayerControl = () => {
     const isNewTrackLoading = useSelector(SelectIsFetchingTrackLoading);
 
     const navigate = useNavigate();
+    const location = useLocation();
+
     // Pause the Player if new song has been selected
     useEffect(() => {
         if(isNewTrackLoading)  return musicTrackState.pause();
@@ -112,11 +114,32 @@ const AppPlayerControl = () => {
         musicTrackState.loop = !PlayerIsLoop;
     }
    
-    const PlayNextTrack = () => {
+
+    const GenerateNewQueue = async() => {
+        let RefArtists = null;
+
+        if(tracksQueue[activeQueue]['artists']) {
+            RefArtists = tracksQueue[activeQueue]['artists'][0]['id']
+        } else if(tracksQueue[activeQueue]['album']) {
+            RefArtists = tracksQueue[activeQueue]['album']['artists'][0]['id']
+        }
+
+        await dispatch(GetNewTracksQueue(RefArtists));
+
+        return dispatch(SetPlayerLastPosition(0));
+
+    }
+
+
+    const PlayNextTrack = async () => {
+
         if(isNewTrackLoading) return;
+
         let NextIndex = activeQueue + 1;
 
-        if(NextIndex >= tracksQueue.length) NextIndex = 0;
+        if(NextIndex >= tracksQueue.length) {
+            return GenerateNewQueue();
+        }
 
         const NextTrack = tracksQueue[NextIndex];
         
@@ -185,8 +208,11 @@ const AppPlayerControl = () => {
 
             <div className="player-controls ml-auto">
                 <AppPlayerVolume player={musicTrackState}/>
-                <button className='next-control' onClick={() => navigate('/queue')}>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill={'#fff'} preserveAspectRatio="xMidYMin meet" viewBox="-6 -7 25 25">
+                <button className='next-control' onClick={() => {
+                    if(location.pathname === '/queue') return navigate(-1);
+                    navigate('/queue')
+                }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill={location.pathname === '/queue' ? '#2ca6b7' : '#fff'} preserveAspectRatio="xMidYMin meet" viewBox="-6 -7 25 25">
                         <path d="M15 15H1v-1.5h14V15zm0-4.5H1V9h14v1.5zm-14-7A2.5 2.5 0 013.5 1h9a2.5 2.5 0 010 5h-9A2.5 2.5 0 011 3.5zm2.5-1a1 1 0 000 2h9a1 1 0 100-2h-9z"></path>
                     </svg>
                 </button>

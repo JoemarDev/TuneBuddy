@@ -18,6 +18,7 @@ const HomeDisplay = ({name , contents}) => {
                     if(cover !== undefined)  DisplayImage = cover[0]['url'];
 
                     return <DisplayCard 
+                        key={x}
                         type={type} 
                         name={name} 
                         image={DisplayImage} 

@@ -72,11 +72,11 @@ const Tracks = ({
                 <div>
                     <p>{name}</p>
                     <div className='flex'>
-                        {artists &&  artists.map((item,index) => <p className='text-sm text-slate-500 mr-2' key={index}>{item.name}</p>)}
+                        {artists &&  artists.map((item,index) => <p className='text-sm text-slate-500 mr-2 whitespace-nowrap' key={index}>{item.name}</p>)}
                        
                         {tracksType === 'playlist' && 
                             <Fragment>
-                               {album && album.artists.map((item,index) => <p className='text-sm text-slate-500 mr-2' key={index}>{item.name}</p>)}
+                               {album && album.artists.map((item,index) => <p className='text-sm text-slate-500 mr-2 whitespace-nowrap' key={index}>{item.name}</p>)}
                             </Fragment>
                         }
                      

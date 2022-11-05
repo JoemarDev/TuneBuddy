@@ -5,7 +5,10 @@ const ArtistsCard = ({artist}) => {
 
     const {visuals , name , id} = artist;
 
-    const ArtistsImage = visuals['avatar'][0]['url'];
+    let ArtistsImage = process.env.PUBLIC_URL+'/images/black.webp';
+    if( visuals['avatar'] !== undefined) {
+        ArtistsImage = visuals['avatar'][0]['url'];
+    }
 
     const navigate = useNavigate();
 
@@ -27,7 +30,7 @@ const ArtistsCard = ({artist}) => {
                 </div>
             </div>
 
-            <img className='artist-image' src={ArtistsImage} alt={name} />
+            <img className='artist-image ' src={ArtistsImage} alt={name} />
         </div>
     )
 }

@@ -11,7 +11,6 @@ const ArtistsDiscography = ({config , cc}) => {
     const ArtistSingles = useSelector(SelectArtistsSingles);
     const ArtistTopTracks = useSelector(SelectArtistsTopTracks);
     const ArtistCompilation = useSelector(SelectArtistsCompilations);
-
     const [selected , setSelected] = useState(1);
 
     const navigate = useNavigate();
