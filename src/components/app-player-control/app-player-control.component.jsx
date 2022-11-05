@@ -34,6 +34,7 @@ const AppPlayerControl = () => {
 
     // Pause the Player if new song has been selected
     useEffect(() => {
+        if(musicTrackState === null) return;
         if(isNewTrackLoading)  return musicTrackState.pause();
     },[isNewTrackLoading]);
 
