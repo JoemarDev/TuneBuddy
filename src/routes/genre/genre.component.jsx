@@ -17,7 +17,6 @@ const Genre = () => {
 
     const navigate = useNavigate();
 
-    console.log(CachedGenre)
     useEffect(() => {
 
         const GetGenreMetaData = async() => {

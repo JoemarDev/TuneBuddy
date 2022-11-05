@@ -10,7 +10,6 @@ const DisplayBanner = ({
     image = null,
 }) => {
 
-console.log(image)
   
     return (
         <div className="w-full p-16 flex items-end">
