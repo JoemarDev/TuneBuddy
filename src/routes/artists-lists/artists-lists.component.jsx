@@ -24,7 +24,7 @@ const ArtistsLists = () => {
                 ? <AppLoader className="w-72 h-9 mb-10 rounded-md"/>
                 : <h2 className='text-2xl font-medium mb-10'>{ArtistsDataDetail.title}</h2>
             }
-            <div className='artists-lists grid gap-4 mt-5 grid-cols-5 gap-4 mt-5 max-2xl:grid-cols-3 max-md:grid-cols-2 '>
+            <div className='artists-lists grid gap-4 mt-5 grid-cols-5  max-2xl:grid-cols-3 max-md:grid-cols-2 '>
                 {isLoading 
                 && [0,0,0,0,0,0,0,0,0,0,0,0].map((i,x) =>  <AppLoader key={x} className="w-full h-80 rounded-3xl mb-10"/> )}
                 {ArtistsLists.map((item,index) => <ArtistsCard artist={item} key={index}/>)}
