@@ -30,7 +30,7 @@ const Search = () => {
             
             <div className="search-input">
                 <SearchInput />
-
+            
                 {IsSearchLoading && <SearchResultPlaceholder />}
                 {!IsSearchLoading && 
                     <Fragment>

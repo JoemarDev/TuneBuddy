@@ -37,7 +37,7 @@ const DisplayTrack = ({tracks , defaultImage , tracksType , cc}) => {
 
 
     return (
-        <div className={`w-full px-16 ${cc}`}>
+        <div className={`w-full px-16 max-lg:p-5 max-lg:pt-0 ${cc}`}>
             {tracks.map((item,index) => (
                 <Tracks key={index} trackNo={(tracksType == 'queue' ? (index + 1) : index) + 1} track={item}  setSong={() => SetSong(index)} tracksType={tracksType}/>
             ))}

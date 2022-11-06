@@ -14,6 +14,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 const AppPlayerControl = () => {
     
+    const [ToogleMConfig , setToogleMConfig] = useState(false);
     const dispatch = useDispatch();
 
     const [musicTrackState , setMusicTrackState] = useState(null);
@@ -203,11 +204,17 @@ const AppPlayerControl = () => {
                 <button className='next-control' onClick={PlayNextTrack}>
                     <img src={`${process.env.PUBLIC_URL}/images/icons/player/next.svg`} alt="next" />
                 </button>
+                <button className='next-control' onClick={() => setToogleMConfig(!ToogleMConfig)}>
+                    <span class="material-symbols-outlined text-white ">
+                        more_vert
+                    </span>
+                </button>
             </div>
 
             <AppPlayerProgress track={musicTrackState} />
+            
+            <div className={`player-controls flex items-center ml-auto player-config max-lg:hidden ${ToogleMConfig ? 'active-mobile-config' : ''}`}>
 
-            <div className="player-controls flex items-center ml-auto max-lg:hidden">
                 <AppPlayerVolume player={musicTrackState}/>
                 <button className='next-control' onClick={() => {
                     if(location.pathname === '/queue') return navigate(-1);

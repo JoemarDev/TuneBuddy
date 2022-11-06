@@ -30,11 +30,11 @@ const AppMenu = () => {
                 className={`app-menu-child ${location.pathname === '/artists' ? 'text-gray-200' : ''}`}
             />
 
-            <label className="text-sm app-menu-title text-slate-400 my-5 block">Up Next</label>
+            {/* <label className="text-sm app-menu-title text-slate-400 my-5 block">Up Next</label>
 
             <AppMenuChild name={'Recently Played'} icon={<span className="material-symbols-outlined">timeline</span>} className={'app-menu-child'}/>
             <AppMenuChild name={'Favorite Tracks'} icon={<span className="material-symbols-outlined">favorite</span>} className={'app-menu-child'}/>
-            <AppMenuChild name={'Charts'}  icon={<span className="material-symbols-outlined">equalizer</span>} className={'app-menu-child'}/>
+            <AppMenuChild name={'Charts'}  icon={<span className="material-symbols-outlined">equalizer</span>} className={'app-menu-child'}/> */}
 
           
         </div>

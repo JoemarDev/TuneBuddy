@@ -17,7 +17,7 @@ const AppPlayer = () => {
 
     const goToArtistsProfile = (artist_id) => navigate(`/artists/${artist_id}`);
     return (
-        <div className='app-player px-10 flex  items-center'>
+        <div className='app-player px-10 flex  items-center max-md:px-2'>
             {IsPlayerError && <AppPlayerError />}
             
             <div className='track-details text-white flex items-center w-1/4 mr-auto'>

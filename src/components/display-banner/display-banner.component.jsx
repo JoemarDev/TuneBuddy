@@ -12,9 +12,9 @@ const DisplayBanner = ({
 
   
     return (
-        <div className="w-full p-16 flex items-end">
+        <div className="w-full p-16 flex items-end max-lg:p-5 max-lg:block">
             {image &&
-                <div className="relative w-64 mr-10">
+                <div className="relative w-64 mr-10 max-lg:mb-10">
                     <img className="w-full border-2 border-solid border-slate-900" src={image} alt={title} />
                 </div>
             }

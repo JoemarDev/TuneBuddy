@@ -23,3 +23,26 @@
 
     }
 }
+
+.player-config {
+    @media only screen and (max-width: 1024px) {
+        & {
+            position: fixed;
+            height: 85px;
+            min-width: 150px;
+            right: 45px;
+            background: #121212;
+            bottom: 10px;
+            justify-content: flex-end;
+            padding: 0px 10px;
+
+            .volume-slider {
+                display: block!important;
+            }
+        }
+    }
+}
+
+.active-mobile-config {
+    display: flex;
+}
