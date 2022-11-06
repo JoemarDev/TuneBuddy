@@ -25,7 +25,7 @@ const Search = () => {
     },[]);
 
     return (
-        <div className='p-16 max-lg:px-5'>
+        <div className='p-16 max-lg:p-5'>
          
             
             <div className="search-input">
