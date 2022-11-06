@@ -14,7 +14,7 @@ const ArtistsRelated =  ({config , cc}) => {
     if(RelatedArtists.length === 0) return;
 
     return (
-        <div className={`px-10 discography-wrapper mb-10 ${cc}`}>
+        <div className={`px-10 discography-wrapper mb-10 max-lg:px-5 ${cc}`}>
 
             <div className="flex items-center justify-between">
                 <h3 className="text-3xl font-bold mb-10">Fans also like</h3>
@@ -22,7 +22,7 @@ const ArtistsRelated =  ({config , cc}) => {
                     && <h3 className="text-lg text-slate-400 font-bold mb-5 cursor-pointer" onClick={() => navigate('related-artists/all')}>SEE ALL</h3>
                 }
             </div>
-            <div class="grid grid-cols-6 gap-4 mt-5">
+            <div class="grid grid-cols-6 gap-4 mt-5 max-2xl:grid-cols-3 max-md:grid-cols-2">
                 {RelatedArtists.map((item,index) => {
                     if(config !== 'all') {
                         if(index > 5) return null; 

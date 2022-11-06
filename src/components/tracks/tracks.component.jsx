@@ -37,6 +37,7 @@ const Tracks = ({
             rounded 
             flex items-center 
             cursor-pointer 
+            max-md:px-0
             ${CurrentSong == id ? 'app-color-blue font-semibold' : 'text-white'}
 
         `} onDoubleClick={setSong}>
@@ -66,25 +67,25 @@ const Tracks = ({
                
             </p>
 
-            <div className='flex items-center w-2/4'>
+            <div className='flex items-center w-2/4 max-md:w-full'>
                 {album &&    <img className='w-10 mr-5' src={album.cover[0]['url']} alt="" />}
              
                 <div>
                     <p>{name}</p>
                     <div className='flex'>
-                        {artists &&  artists.map((item,index) => <p className='text-sm text-slate-500 mr-2 whitespace-nowrap' key={index}>{item.name}</p>)}
+                        {artists &&  artists.map((item,index) => <p className='text-sm text-slate-500 mr-2 whitespace-nowrap ' key={index}>{item.name}</p>)}
                        
                         {tracksType === 'playlist' && 
                             <Fragment>
-                               {album && album.artists.map((item,index) => <p className='text-sm text-slate-500 mr-2 whitespace-nowrap' key={index}>{item.name}</p>)}
+                               {album && album.artists.map((item,index) => <p className='text-sm text-slate-500 mr-2 whitespace-nowrap ' key={index}>{item.name}</p>)}
                             </Fragment>
                         }
                      
                     </div>
                 </div>
             </div>
-            <p className='ml-auto w-52 text-center'>{ConvertWithComma(playCount)}</p>
-            <p className='ml-auto'>{durationText}</p>
+            <p className='ml-auto w-52 text-center max-lg:hidden'>{ConvertWithComma(playCount)}</p>
+            <p className='ml-auto max-md:hidden'>{durationText}</p>
         </div>
     )
 }

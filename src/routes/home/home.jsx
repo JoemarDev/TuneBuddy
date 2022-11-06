@@ -27,7 +27,7 @@ const Home = () => {
     },[]);
 
     return (
-        <div className='p-16'>
+        <div className='p-16 max-lg:p-5'>
             {IsHomeLoading &&  <HomeDisplayPlaceholder />}
     
             {!IsHomeLoading && 

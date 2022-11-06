@@ -7,7 +7,7 @@ const HomeDisplay = ({name , contents}) => {
     return (
         <div >
             <h3 className="text-3xl font-normal mb-10">{name}</h3>
-            <div className="grid grid-cols-5 gap-4 mt-5">
+            <div className="grid grid-cols-5 gap-4 mt-5 max-2xl:grid-cols-3 max-md:grid-cols-2 ">
                 {contents.items.map((i,x) => {
                     const {type , name , images , cover , id} = i;
 

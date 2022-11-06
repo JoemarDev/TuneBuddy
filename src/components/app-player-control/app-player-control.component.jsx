@@ -175,7 +175,7 @@ const AppPlayerControl = () => {
 
     return (
         <>
-            <div className='player-controls'>
+            <div className='player-controls flex items-center'>
                 <button className='back-control' onClick={PlayPrevTrack}>
                     <img src={`${process.env.PUBLIC_URL}/images/icons/player/back.svg`} alt="back" />
                 </button>
@@ -207,7 +207,7 @@ const AppPlayerControl = () => {
 
             <AppPlayerProgress track={musicTrackState} />
 
-            <div className="player-controls ml-auto">
+            <div className="player-controls flex items-center ml-auto max-lg:hidden">
                 <AppPlayerVolume player={musicTrackState}/>
                 <button className='next-control' onClick={() => {
                     if(location.pathname === '/queue') return navigate(-1);

@@ -18,9 +18,9 @@ const ArtistsCard = ({artist}) => {
 
     return (
         <div className="artist-card rounded-3xl mb-10" onClick={GoToArtistProfile}>
-            <div className='artist-card-overlay'>
-                <div className='relative'>
-                    <div className='left'>
+            <div className='artist-card-overlay '>
+                <div className='relative '>
+                    <div className='left max-xl:hidden'>
                     <span className="material-symbols-outlined text-6xl play-icon">play_circle</span>
                     </div>
                     <div className='right'>

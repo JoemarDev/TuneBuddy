@@ -9,7 +9,7 @@ const SearchResult = () => {
 
     return (
         <Fragment>
-            <div className="flex mb-10">
+            <div className="flex mb-10 max-xl:block">
                 <SearchTopResult />
                 <SearchTrackLists />
             </div>

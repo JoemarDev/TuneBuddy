@@ -93,10 +93,10 @@ const AppPlayerProgress = ({track}) => {
 
     return (
         <Fragment>
-            <label className="text-gray-200 mr-5 text-sm">
+            <label className="text-gray-200 mr-5 text-sm max-lg:hidden">
                 {ConvertTrackDurationToRedableFormat(track?.currentTime)}
             </label>
-            <div className="track-progress-bar-wrapper w-1/3">
+            <div className="track-progress-bar-wrapper w-1/3 max-lg:fixed">
                 <input
                     onChange={TrackProgressPositionUpdate}
                     onMouseUp={ResumeTrackPlayer}
@@ -109,7 +109,7 @@ const AppPlayerProgress = ({track}) => {
                     value={percentage} max="100"
                 />
             </div>
-            <label className="text-gray-200 ml-5 text-sm">
+            <label className="text-gray-200 ml-5 text-sm  max-lg:hidden">
                 {ConvertMsToReadableFormat(trackDuration)}
             </label>
         </Fragment>

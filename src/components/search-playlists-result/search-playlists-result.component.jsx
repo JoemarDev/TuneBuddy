@@ -12,7 +12,7 @@ const SearchPlaylistsResult = () => {
     return (
         <div className="w-full px-2">
             <h2 className="text-xl font-bold mb-5">Playlists</h2>
-            <div className="grid grid-cols-5 gap-4 mt-5">
+            <div className="grid grid-cols-5 gap-4 mt-5 max-2xl:grid-cols-3 max-md:grid-cols-2">
                 {PlaylistsResult.map((item,index) => {
                     let DefaultImage = null;
                     

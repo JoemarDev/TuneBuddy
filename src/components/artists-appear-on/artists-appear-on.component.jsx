@@ -8,7 +8,7 @@ const ArtistsAppearOn = ({config , cc}) => {
     const ArtistAppearOn = useSelector(SelectArtistsAppearOn);
     const navigate = useNavigate();
     return (
-        <div className={`px-10 discography-wrapper mb-10 ${cc}`}>
+        <div className={`px-10 max-lg:px-5 discography-wrapper mb-10 ${cc}`}>
 
             <div className="flex items-center justify-between">
                 <h3 className="text-3xl font-bold mb-10">Appears on</h3>
@@ -17,7 +17,7 @@ const ArtistsAppearOn = ({config , cc}) => {
                 }
             </div>
 
-            <div class="grid grid-cols-6 gap-4 mt-5 ">
+            <div class="grid grid-cols-6 gap-4 mt-5 max-2xl:grid-cols-3 max-md:grid-cols-2">
                 {ArtistAppearOn.map((item,index) => index < 6 
                     && <DisplayCard 
                         key={index}

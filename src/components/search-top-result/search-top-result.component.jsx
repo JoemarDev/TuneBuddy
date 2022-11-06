@@ -30,7 +30,7 @@ const SearchTopResult = () => {
 
 
     return (
-        <div className="top-results  w-1/4 px-2 cursor-pointer" onClick={SetSong}>
+        <div className="top-results  w-1/4 px-2 cursor-pointer max-md:w-full max-xl:w-96 max-xl:mb-10" onClick={SetSong}>
             <h2 className="text-xl font-bold mb-5">Top Result</h2>
             <div className="p-5 bg-zinc-900 rounded-lg">
                 <img className="w-36 mb-5" src={TopResultImage} alt="" />

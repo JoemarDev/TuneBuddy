@@ -10,12 +10,12 @@ const AppSideBar = () => {
     const Track = useSelector(SelectTrackAudio);
  
     return (
-        <div className="app-wrapper bg-white dark:bg-black ">
-            <div className='app-sidebar'>
+        <div className="app-wrapper bg-white dark:bg-black pl-72 max-lg:pl-0">
+            <div className='app-sidebar max-lg:hidden w-72'>
                 <AppBrand />
                 <AppMenu />
             </div>
-            <div className='app-content text-gray-200 pb-20'>
+            <div className='app-content text-gray-200 pb-20 '>
                 <Outlet />
             </div>
             {Track !== null && <AppPlayer />}

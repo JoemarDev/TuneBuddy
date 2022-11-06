@@ -25,7 +25,7 @@ const Search = () => {
     },[]);
 
     return (
-        <div className='p-16'>
+        <div className='p-16 max-lg:px-5'>
          
             
             <div className="search-input">
@@ -39,8 +39,8 @@ const Search = () => {
                 }
                 {!currentSearch && 
                     <Fragment>
-                        <label className="mb-5 font-normal block text-2xl">Browse All</label>
-                            <div className="grid grid-cols-5 gap-4 mt-5">
+                        <label className="mb-5 font-normal block text-2xl ">Browse All</label>
+                            <div className="grid grid-cols-5 gap-4 mt-5 max-2xl:grid-cols-3 max-md:grid-cols-2">
                                 {GenreLists.map((item,index) => (
                                     <DisplayGenreCard key={index} name={item.name} onClick={() => navigate('/genre/'+item.key)}/>
                                 ))}
