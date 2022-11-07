@@ -44,11 +44,11 @@ const Genre = () => {
             }
 
             {!IsGenreLoading &&  
-                <div className="p-10">
+                <div className="p-10 max-lg:px-5">
                     {GenreLists.map((item,index) => (
                         <Fragment>
-                            <h3 className="text-3xl font-normal mb-10">{item.name}</h3>
-                            <div className="grid grid-cols-6 gap-4 mt-5 mb-20">
+                            <h3 className="text-3xl font-normal mb-10  ">{item.name}</h3>
+                            <div className="grid grid-cols-6 gap-4 mt-5 mb-20 max-2xl:grid-cols-3 max-md:grid-cols-2">
                                 {item['contents']['items'].map((i,x) => {
                                     const {type , name , images , cover , id} = i;
 

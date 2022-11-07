@@ -37,12 +37,12 @@ const Tracks = ({
             rounded 
             flex items-center 
             cursor-pointer 
-            max-md:px-0
+            max-md:px-4
             ${CurrentSong == id ? 'app-color-blue font-semibold' : 'text-white'}
 
-        `} onDoubleClick={setSong} onTouchStart={setSong}>
+        `} onClick={setSong} >
 
-            <p className='mr-5 cursor-pointer w-5 text-center ' >
+            <p className='mr-5 cursor-pointer w-5 text-center' >
                 {IsPlayerPlaying 
                     ? 
                     <Fragment>

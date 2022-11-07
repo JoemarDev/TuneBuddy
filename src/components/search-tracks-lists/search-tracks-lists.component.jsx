@@ -28,7 +28,7 @@ const SearchTrackLists = () => {
 
     return (
         <>
-         <div className="song-results w-3/4 px-2">
+         <div className="song-results w-3/4 px-2 max-lg:w-full">
             <h2 className="text-xl font-bold mb-5">Songs</h2>
             {SearchTracksLists.map((item, index) => (
                 <Tracks 

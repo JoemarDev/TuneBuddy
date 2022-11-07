@@ -18,7 +18,7 @@ const AppSideBar = () => {
             <div className='app-content text-gray-200 pb-20 relative'>
                 <div className='hidden max-lg:block sticky top-0 z-10 bg-black border-b-2 border-stone-900'>
                     <div className='flex px-5 items-center'>
-                        <img className='w-32 mr-auto' src={`${process.env.PUBLIC_URL}/images/logo/logo.svg`} alt="app-logo" />
+                        <img onClick={() => navigate('/')} className='w-32 mr-auto' src={`${process.env.PUBLIC_URL}/images/logo/logo.svg`} alt="app-logo" />
                         <button onClick={() => navigate('/search')} className='flex items-center px-4 py-5 bg-black'><span className="text-stone-500 material-symbols-outlined">search</span></button>
                         <button onClick={() => navigate('/')} className='flex items-center px-4 py-5 bg-black'><span className="text-stone-500 material-symbols-outlined">home</span></button>
                         <button onClick={() => navigate('/artists')} className='flex items-center px-4 py-5 bg-black'><span className="text-stone-500 material-symbols-outlined">group</span></button>

@@ -12,10 +12,10 @@ const Queue = () => {
 
     console.log(GetSongDefaultImage)
     return (
-        <div className={`px-10 py-10 discography-wrapper mb-10`}>
+        <div className={`px-10 py-10 discography-wrapper mb-10 max-md:px-5`}>
             <h3 className="text-3xl font-bold mb-10">Queue</h3>
 
-            <div className="now-playing-block mb-10">
+            <div className="now-playing-block mb-10 max-lg:mb-5">
                 <label className="font-bold">Now Playing</label>
             </div>
             
