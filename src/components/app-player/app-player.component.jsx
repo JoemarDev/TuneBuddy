@@ -20,7 +20,7 @@ const AppPlayer = () => {
         <div className='app-player px-10 flex  items-center max-md:px-2'>
             {IsPlayerError && <AppPlayerError />}
             
-            <div className='track-details text-white flex items-center w-1/4 mr-auto'>
+            <div className='track-details text-white flex items-center w-1/4 max-lg:mr-auto'>
                 <img className='track-image w-16 mr-5 max-sm:hidden' src={SongImage !== null ? SongImage :  SongDefaultImage} alt={SongName} />
                 <div className='track-info'>
                     <label className='block text-lg font-bold cursor-pointer w-full' >{SongName} </label>
