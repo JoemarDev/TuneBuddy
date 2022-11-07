@@ -40,7 +40,7 @@ const Tracks = ({
             max-md:px-0
             ${CurrentSong == id ? 'app-color-blue font-semibold' : 'text-white'}
 
-        `} onDoubleClick={setSong}>
+        `} onDoubleClick={setSong} onTouchStart={setSong}>
 
             <p className='mr-5 cursor-pointer w-5 text-center ' >
                 {IsPlayerPlaying 
