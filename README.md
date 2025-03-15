@@ -1,3 +1,5 @@
+Warning : I stop maintaining this project, so it might not working anymore
+
 # TuneBud
 
 A Website Build With React , where you can listen music for free.
